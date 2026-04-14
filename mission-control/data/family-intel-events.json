@@ -1,0 +1,134 @@
+[
+  {
+    "id": "demo-001",
+    "timestamp": "2026-04-12T02:14:00.000Z",
+    "source": "pihole",
+    "sourceDetail": "dns-blocked",
+    "person": "liam",
+    "device": "192.168.1.110",
+    "category": "network",
+    "severity": "warning",
+    "title": "Blocked: TikTok",
+    "description": "Liam's device attempted to reach tiktok.com — blocked by Pi-hole list",
+    "domain": "tiktok.com",
+    "metadata": {
+      "queryType": "A",
+      "status": "BLOCKED_GRAVITY",
+      "clientName": "liams-ipad",
+      "count": 3
+    }
+  },
+  {
+    "id": "demo-002",
+    "timestamp": "2026-04-12T01:52:00.000Z",
+    "source": "pihole",
+    "sourceDetail": "dns-query",
+    "person": "liam",
+    "device": "192.168.1.110",
+    "category": "network",
+    "severity": "info",
+    "title": "Gaming: Roblox",
+    "description": "Liam's iPad is connecting to Roblox",
+    "domain": "roblox.com",
+    "metadata": {
+      "queryType": "A",
+      "status": "FORWARDED",
+      "clientName": "liams-ipad",
+      "domainCategory": "gaming",
+      "count": 12
+    }
+  },
+  {
+    "id": "demo-003",
+    "timestamp": "2026-04-12T01:30:00.000Z",
+    "source": "pihole",
+    "sourceDetail": "dns-query",
+    "person": "clara",
+    "device": "192.168.1.111",
+    "category": "network",
+    "severity": "info",
+    "title": "Streaming: YouTube",
+    "description": "Clara's device is streaming YouTube",
+    "domain": "youtube.com",
+    "metadata": {
+      "queryType": "A",
+      "status": "FORWARDED",
+      "clientName": "claras-ipad",
+      "domainCategory": "streaming",
+      "count": 8
+    }
+  },
+  {
+    "id": "demo-004",
+    "timestamp": "2026-04-12T00:15:00.000Z",
+    "source": "google",
+    "sourceDetail": "google-calendar",
+    "person": "mike",
+    "category": "calendar",
+    "severity": "info",
+    "title": "Calendar updated: Job Interview",
+    "description": "Mike's Google Calendar: event 'Phone Screen — Acme Corp' was created",
+    "metadata": {
+      "calendarId": "primary",
+      "eventSummary": "Phone Screen — Acme Corp",
+      "changeType": "created",
+      "account": "mike"
+    }
+  },
+  {
+    "id": "demo-005",
+    "timestamp": "2026-04-11T23:44:00.000Z",
+    "source": "pihole",
+    "sourceDetail": "dns-blocked",
+    "person": "liam",
+    "device": "192.168.1.110",
+    "category": "network",
+    "severity": "warning",
+    "title": "Blocked: Discord",
+    "description": "Liam's iPad tried to reach discord.com — blocked by parental rule",
+    "domain": "discord.com",
+    "metadata": {
+      "queryType": "A",
+      "status": "BLOCKED_GRAVITY",
+      "clientName": "liams-ipad",
+      "count": 1
+    }
+  },
+  {
+    "id": "demo-006",
+    "timestamp": "2026-04-11T22:10:00.000Z",
+    "source": "pihole",
+    "sourceDetail": "dns-query",
+    "person": "mike",
+    "device": "192.168.1.100",
+    "category": "network",
+    "severity": "info",
+    "title": "Gaming: Xbox Live",
+    "description": "Mike's PC connected to Xbox Live",
+    "domain": "xboxlive.com",
+    "metadata": {
+      "queryType": "A",
+      "status": "FORWARDED",
+      "clientName": "mikes-pc",
+      "domainCategory": "gaming",
+      "count": 5
+    }
+  },
+  {
+    "id": "demo-007",
+    "timestamp": "2026-04-11T21:00:00.000Z",
+    "source": "google",
+    "sourceDetail": "google-calendar",
+    "person": "erin",
+    "category": "calendar",
+    "severity": "info",
+    "title": "Calendar updated: Clara pickup",
+    "description": "Erin's Google Calendar: event 'Pick up Clara — soccer practice' was updated",
+    "metadata": {
+      "calendarId": "primary",
+      "eventSummary": "Pick up Clara — soccer practice",
+      "changeType": "updated",
+      "account": "erin"
+    }
+  }
+]

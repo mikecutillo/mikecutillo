@@ -1,0 +1,962 @@
+[
+  {
+    "id": "ch_mntvv1gik1vwq",
+    "text": "test",
+    "firstComment": "",
+    "platform": "linkedin",
+    "scheduledAt": "2026-04-18T13:00:00.000Z",
+    "status": "scheduled",
+    "source": "buffer",
+    "personaId": "persona-charlie",
+    "createdAt": "2026-04-11T05:17:19.266Z",
+    "updatedAt": "2026-04-11T05:17:20.236Z",
+    "publishedAt": null,
+    "metrics": {
+      "likes": 0,
+      "comments": 0,
+      "impressions": 0
+    },
+    "sync": {
+      "bufferUpdateId": "69d9d95f3a4890ca51686179",
+      "bufferProfileHandle": "charlie",
+      "makeWebhookUsed": false,
+      "downstreamStatus": "scheduled",
+      "lastSyncedAt": "2026-04-11T05:17:20.236Z",
+      "lastAttemptAt": "2026-04-11T05:17:19.708Z",
+      "error": null
+    }
+  },
+  {
+    "id": "ch_mndwjsufmdv5f",
+    "text": "Charlie direct Buffer API immediate test from Mission Control.",
+    "firstComment": "",
+    "platform": "linkedin",
+    "scheduledAt": "2026-03-31T00:38:29.000Z",
+    "status": "published",
+    "source": "buffer",
+    "personaId": null,
+    "createdAt": "2026-03-31T00:52:15.687Z",
+    "updatedAt": "2026-03-31T00:52:53.199Z",
+    "publishedAt": "2026-03-31T00:38:29.000Z",
+    "metrics": {
+      "likes": 0,
+      "comments": 0,
+      "impressions": 0
+    },
+    "sync": {
+      "bufferUpdateId": "69cb1785c1cd349780090c45",
+      "bufferProfileHandle": "charles-sacco-cfp®-63258766",
+      "makeWebhookUsed": false,
+      "downstreamStatus": "sent",
+      "lastSyncedAt": "2026-03-31T00:52:53.199Z",
+      "lastAttemptAt": "2026-03-31T00:52:15.687Z",
+      "error": null
+    }
+  },
+  {
+    "id": "ch_mndwjsufplk7y",
+    "text": "multiple with scheduled",
+    "firstComment": "",
+    "platform": "linkedin",
+    "scheduledAt": "2026-03-31T00:28:02.000Z",
+    "status": "published",
+    "source": "buffer",
+    "personaId": null,
+    "createdAt": "2026-03-31T00:52:15.687Z",
+    "updatedAt": "2026-03-31T00:52:53.199Z",
+    "publishedAt": "2026-03-31T00:28:02.000Z",
+    "metrics": {
+      "likes": 0,
+      "comments": 0,
+      "impressions": 0
+    },
+    "sync": {
+      "bufferUpdateId": "69cb0702ca12fb8f53082657",
+      "bufferProfileHandle": "charles-sacco-cfp®-63258766",
+      "makeWebhookUsed": false,
+      "downstreamStatus": "sent",
+      "lastSyncedAt": "2026-03-31T00:52:53.199Z",
+      "lastAttemptAt": "2026-03-31T00:52:15.687Z",
+      "error": null
+    }
+  },
+  {
+    "id": "ch_mndrtg20t6yym",
+    "text": "Quick test post from Content Hub.\n\nThis is a single delivery test so we can confirm exactly where the current workflow lands inside Buffer.\n\nBook a 15 min chat with me\nhttps://calendly.com/csacco-lccassoc/30min",
+    "platform": "linkedin",
+    "scheduledAt": "2026-03-30T22:44:47.592Z",
+    "status": "draft",
+    "source": "make",
+    "personaId": null,
+    "createdAt": "2026-03-30T22:39:47.592Z",
+    "updatedAt": "2026-03-30T22:39:47.833Z",
+    "publishedAt": null,
+    "metrics": {
+      "likes": 0,
+      "comments": 0,
+      "impressions": 0
+    },
+    "sync": {
+      "bufferUpdateId": null,
+      "bufferProfileHandle": null,
+      "makeWebhookUsed": true,
+      "downstreamStatus": "draft",
+      "lastSyncedAt": "2026-03-30T22:39:47.833Z",
+      "lastAttemptAt": "2026-03-30T22:39:47.833Z",
+      "error": null
+    }
+  },
+  {
+    "id": "ch_mndrodwu9wthv",
+    "text": "TEST DRAFT from repaired Content Hub route. Please ignore.",
+    "platform": "linkedin",
+    "scheduledAt": "2026-03-30T22:40:51.534Z",
+    "status": "draft",
+    "source": "make",
+    "personaId": null,
+    "createdAt": "2026-03-30T22:35:51.534Z",
+    "updatedAt": "2026-03-30T22:35:51.775Z",
+    "publishedAt": null,
+    "metrics": {
+      "likes": 0,
+      "comments": 0,
+      "impressions": 0
+    },
+    "sync": {
+      "bufferUpdateId": null,
+      "bufferProfileHandle": null,
+      "makeWebhookUsed": true,
+      "downstreamStatus": "draft",
+      "lastSyncedAt": "2026-03-30T22:35:51.775Z",
+      "lastAttemptAt": "2026-03-30T22:35:51.775Z",
+      "error": null
+    }
+  },
+  {
+    "id": "ch_mndqkdko66klp",
+    "text": "March Madness is here—but I’m looking at a different kind of bracket this year 🏀🎓\n\nI’m sharing this “financial bracket” from Columbia Threadneedle that breaks down the real cost of a 4-year college degree, including tuition, room, board and the numbers might surprise you.\n\n🏆 Vanderbilt takes the championship at $376,568\n🥈 Miami follows closely at $375,568\n🥉 Duke comes in at $362,784\n\nNow imagine what these costs could look like in 18 years if you have a newborn today…\n\nAs college costs continue to climb, the takeaway is simple: the earlier you start planning, the better positioned you’ll be.\n\nIf paying for education is part of your financial goals, now is a great time to put a strategy in place. Let’s connect and start building a college savings plan that works for your family.\n\n#MarchMadness #CollegeCosts #FinancialPlanning #529Plan #EducationSavings",
+    "firstComment": "",
+    "platform": "linkedin",
+    "scheduledAt": "2026-03-25T21:33:17.000Z",
+    "status": "published",
+    "source": "buffer",
+    "personaId": null,
+    "createdAt": "2026-03-30T22:04:44.856Z",
+    "updatedAt": "2026-03-31T00:52:53.199Z",
+    "publishedAt": "2026-03-25T21:33:17.000Z",
+    "metrics": {
+      "likes": 0,
+      "comments": 0,
+      "impressions": 0
+    },
+    "sync": {
+      "bufferUpdateId": "69c45487df8be7bb00062498",
+      "bufferProfileHandle": "charles-sacco-cfp®-63258766",
+      "makeWebhookUsed": false,
+      "downstreamStatus": "sent",
+      "lastSyncedAt": "2026-03-31T00:52:53.199Z",
+      "lastAttemptAt": "2026-03-30T22:04:44.856Z",
+      "error": null
+    },
+    "mediaUrl": "https://buffer-media-uploads.s3.amazonaws.com/69c45487df8be7bb00062498/2e0cc26ea4b31bc16720ca99508b03481627cc76_dc339f728bc755e80d78e320aeab32af319552ab_linkedin"
+  },
+  {
+    "id": "ch_mndqkdkoruqwr",
+    "text": "come work with me i can save you money on your 401k \n\nHere's what most people get wrong about market volatility:\n\nThey focus on the short-term noise instead of the long-term signal.\n\nThe data is clear. The math doesn't lie. And yet emotion wins every time.\n\nHere's how I help clients cut through it:\n\n1. Anchor to your plan, not the market\n2. Automate decisions before emotion can interfere\n3. Review quarterly — not daily\n\nWhat's your biggest challenge with market volatility?",
+    "firstComment": "",
+    "platform": "linkedin",
+    "scheduledAt": "2026-03-22T12:54:40.000Z",
+    "status": "published",
+    "source": "buffer",
+    "personaId": null,
+    "createdAt": "2026-03-30T22:04:44.856Z",
+    "updatedAt": "2026-03-31T00:52:53.199Z",
+    "publishedAt": "2026-03-22T12:54:40.000Z",
+    "metrics": {
+      "likes": 0,
+      "comments": 0,
+      "impressions": 0
+    },
+    "sync": {
+      "bufferUpdateId": "69bfe565e5e4734f790fad30",
+      "bufferProfileHandle": "charles-sacco-cfp®-63258766",
+      "makeWebhookUsed": false,
+      "downstreamStatus": "sent",
+      "lastSyncedAt": "2026-03-31T00:52:53.199Z",
+      "lastAttemptAt": "2026-03-30T22:04:44.856Z",
+      "error": null
+    }
+  },
+  {
+    "id": "ch_mndqkdkoijrh6",
+    "text": "Investment Discipline\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\nA quick observation:\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\nThe biggest risk to most portfolios… isn’t the market.\t\t\t\t\t\t\t\t\t\t\t\t\nIt’s behavior.\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\nReacting to headlines, chasing performance, or trying to time the market can quietly derail long-term plans.\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\nA disciplined strategy focuses on:\t\t\t\t\t\t\t\t\t\t\t\t\n• Staying aligned with your goals\t\t\t\t\t\t\t\t\t\t\t\t\n• Managing risk—not eliminating it\t\t\t\t\t\t\t\t\t\t\t\t\n• Making adjustments intentionally—not emotionally\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\nBottom line:\t\t\t\t\t\t\t\t\t\t\t\t\nA good plan isn’t built for perfect markets—it’s built for real ones.\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n📚 https://lnkd.in/eST_kVch\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n#Investing #WealthManagement #CFP #FinancialPlanning\t\t\t\t\t\t\t\t\t\t\t\t\nDisclosure: For informational purposes only.",
+    "firstComment": "",
+    "platform": "linkedin",
+    "scheduledAt": "2026-03-21T22:46:00.000Z",
+    "status": "published",
+    "source": "buffer",
+    "personaId": null,
+    "createdAt": "2026-03-30T22:04:44.856Z",
+    "updatedAt": "2026-03-31T00:52:53.199Z",
+    "publishedAt": "2026-03-21T22:46:00.000Z",
+    "metrics": {
+      "likes": 0,
+      "comments": 0,
+      "impressions": 0
+    },
+    "sync": {
+      "bufferUpdateId": "69bf02a2f271258c040394ef",
+      "bufferProfileHandle": "charles-sacco-cfp®-63258766",
+      "makeWebhookUsed": false,
+      "downstreamStatus": "sent",
+      "lastSyncedAt": "2026-03-31T00:52:53.199Z",
+      "lastAttemptAt": "2026-03-30T22:04:44.856Z",
+      "error": null
+    }
+  },
+  {
+    "id": "ch_mndqkdko1afdb",
+    "text": "Did you know that starting in 2026, if you're 50 or older with prior year wages over $150k, you must place catch-up contributions to a Roth IRA account?\n\nThat’s a big change, and here are 5 things you need to know:\n\n1️⃣ This applies to 401(k), 403(b), 457(b) plans.\n2️⃣ When catch-up contributions are put into a Roth account, you pay taxes on that money today, but qualified withdrawals and earnings can be tax-free later if requirements are met.\n3️⃣ The 2026 catch-up limit is $8,000 for 50+, and a “super catch-up” limit of $11,250 may apply for ages 60 to 63 if the plan allows.\n4️⃣ Regular contributions can still be elected as traditional pre-tax or Roth when a plan offers both options, while catch-up contributions may be Roth-only for those who meet the wage threshold.\n5️⃣ The threshold is based on wages from the year before, specifically prior year FICA wages, so 2025 wages determine 2026 treatment.\n\nThe change eliminates what used to be a choice. For people with higher taxable income approaching retirement, this affects the approach to contribution timing and broader Roth conversion strategies.\n\nLet’s talk if you have questions about how this could impact you. Your tax, legal, or accounting professional may also have insights.\n\nRemember, with most retirement accounts, once you reach age 73, you must begin taking required minimum distributions. Roth accounts are the exception. Withdrawal penalties may apply if you take the money before age 59½. Roth IRA distributions must meet a 5-year holding requirement and occur after the account holder reaches age 59½.\n\n#Retirement #401K #Roth401K #WorkplaceBenefits #PersonalFinance #WealthManagement",
+    "firstComment": "",
+    "platform": "linkedin",
+    "scheduledAt": "2026-03-16T20:19:41.000Z",
+    "status": "published",
+    "source": "buffer",
+    "personaId": null,
+    "createdAt": "2026-03-30T22:04:44.856Z",
+    "updatedAt": "2026-03-31T00:52:53.199Z",
+    "publishedAt": "2026-03-16T20:19:41.000Z",
+    "metrics": {
+      "likes": 0,
+      "comments": 0,
+      "impressions": 0
+    },
+    "sync": {
+      "bufferUpdateId": "69b954b1bbc471cd99f9ebbb",
+      "bufferProfileHandle": "charles-sacco-cfp®-63258766",
+      "makeWebhookUsed": false,
+      "downstreamStatus": "sent",
+      "lastSyncedAt": "2026-03-31T00:52:53.199Z",
+      "lastAttemptAt": "2026-03-30T22:04:44.856Z",
+      "error": null
+    },
+    "mediaUrl": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/69b7382ce4bc4b63e1f6d28a/69b73c057be9f8b1715d3beb/69b954b1bbc471cd99f9ebbb_thumbnail.jpg"
+  },
+  {
+    "id": "ch_mndqkdkptzqjr",
+    "text": "If you’re planning to take advantage of the new TRUMP Accounts for your children when they become available later this year, then here’s a quick update.\n\nThese accounts are designed to help families invest on behalf of children with tax advantages, encouraging long-term wealth building from an early age.\n\nKey highlights:\n• $1,000 government seed contribution for eligible children born between 2025–2028\n• Up to $5,000 per year in contributions from families, employers, or others\n• Investments limited to low-cost U.S. index funds\n• Funds generally accessible starting at age 18\n\nIf you or someone that you know is interested in setting one up for a newborn once they become available, let me know and they will be added to our contact list for updates.\n\n#FinancialPlanning #WealthBuilding #Investing #TRUMPAccounts",
+    "firstComment": "",
+    "platform": "linkedin",
+    "scheduledAt": "2026-03-09T20:58:55.000Z",
+    "status": "published",
+    "source": "buffer",
+    "personaId": null,
+    "createdAt": "2026-03-30T22:04:44.856Z",
+    "updatedAt": "2026-03-31T00:52:53.199Z",
+    "publishedAt": "2026-03-09T20:58:55.000Z",
+    "metrics": {
+      "likes": 0,
+      "comments": 2,
+      "impressions": 0
+    },
+    "sync": {
+      "bufferUpdateId": "69b73c131dc988d31e3b4ae6",
+      "bufferProfileHandle": "charles-sacco-cfp®-63258766",
+      "makeWebhookUsed": false,
+      "downstreamStatus": "sent",
+      "lastSyncedAt": "2026-03-31T00:52:53.199Z",
+      "lastAttemptAt": "2026-03-30T22:04:44.856Z",
+      "error": null
+    }
+  },
+  {
+    "id": "ch_mndqkdkpx2gfd",
+    "text": "I’m happy to share that I’m starting a new position as Financial Advisor at @Louis C. Ciliberti & Associates, LTD.!",
+    "firstComment": "",
+    "platform": "linkedin",
+    "scheduledAt": "2026-01-13T17:19:49.000Z",
+    "status": "published",
+    "source": "buffer",
+    "personaId": null,
+    "createdAt": "2026-03-30T22:04:44.856Z",
+    "updatedAt": "2026-03-31T00:52:53.199Z",
+    "publishedAt": "2026-01-13T17:19:49.000Z",
+    "metrics": {
+      "likes": 0,
+      "comments": 11,
+      "impressions": 0
+    },
+    "sync": {
+      "bufferUpdateId": "69b73c131dc988d31e3b4afe",
+      "bufferProfileHandle": "charles-sacco-cfp®-63258766",
+      "makeWebhookUsed": false,
+      "downstreamStatus": "sent",
+      "lastSyncedAt": "2026-03-31T00:52:53.199Z",
+      "lastAttemptAt": "2026-03-30T22:04:44.856Z",
+      "error": null
+    }
+  },
+  {
+    "id": "ch_mndqkdkpq4gzt",
+    "text": "Don’t forget to register for our exclusive presentation to hear Janney’s Investment Strategy Group’s insights on what’s next for the economy and markets in the coming year. \n\nRegister Here: https://bit.ly/4qCOryE",
+    "firstComment": "",
+    "platform": "linkedin",
+    "scheduledAt": "2026-01-01T18:52:08.000Z",
+    "status": "published",
+    "source": "buffer",
+    "personaId": null,
+    "createdAt": "2026-03-30T22:04:44.856Z",
+    "updatedAt": "2026-03-31T00:52:53.199Z",
+    "publishedAt": "2026-01-01T18:52:08.000Z",
+    "metrics": {
+      "likes": 0,
+      "comments": 0,
+      "impressions": 0
+    },
+    "sync": {
+      "bufferUpdateId": "69b73c131dc988d31e3b4b06",
+      "bufferProfileHandle": "charles-sacco-cfp®-63258766",
+      "makeWebhookUsed": false,
+      "downstreamStatus": "sent",
+      "lastSyncedAt": "2026-03-31T00:52:53.199Z",
+      "lastAttemptAt": "2026-03-30T22:04:44.856Z",
+      "error": null
+    },
+    "mediaUrl": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/69b7382ce4bc4b63e1f6d28a/69b73c057be9f8b1715d3beb/69b73c131dc988d31e3b4b06_thumbnail.jpg"
+  },
+  {
+    "id": "ch_mndqkdkpxvzqf",
+    "text": "Cheers to a fresh start in 2026! Wishing you a year ahead filled with happiness, growth, and prosperity.",
+    "firstComment": "",
+    "platform": "linkedin",
+    "scheduledAt": "2026-01-01T16:08:35.000Z",
+    "status": "published",
+    "source": "buffer",
+    "personaId": null,
+    "createdAt": "2026-03-30T22:04:44.856Z",
+    "updatedAt": "2026-03-31T00:52:53.199Z",
+    "publishedAt": "2026-01-01T16:08:35.000Z",
+    "metrics": {
+      "likes": 0,
+      "comments": 0,
+      "impressions": 0
+    },
+    "sync": {
+      "bufferUpdateId": "69b73c131dc988d31e3b4b1e",
+      "bufferProfileHandle": "charles-sacco-cfp®-63258766",
+      "makeWebhookUsed": false,
+      "downstreamStatus": "sent",
+      "lastSyncedAt": "2026-03-31T00:52:53.199Z",
+      "lastAttemptAt": "2026-03-30T22:04:44.856Z",
+      "error": null
+    },
+    "mediaUrl": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/69b7382ce4bc4b63e1f6d28a/69b73c057be9f8b1715d3beb/69b73c131dc988d31e3b4b1e_thumbnail.jpg"
+  },
+  {
+    "id": "ch_mndqkdkpwracx",
+    "text": "May your Christmas be filled with joy, love, and cherished moments.",
+    "firstComment": "",
+    "platform": "linkedin",
+    "scheduledAt": "2025-12-25T14:10:22.000Z",
+    "status": "published",
+    "source": "buffer",
+    "personaId": null,
+    "createdAt": "2026-03-30T22:04:44.856Z",
+    "updatedAt": "2026-03-31T00:52:53.199Z",
+    "publishedAt": "2025-12-25T14:10:22.000Z",
+    "metrics": {
+      "likes": 0,
+      "comments": 0,
+      "impressions": 0
+    },
+    "sync": {
+      "bufferUpdateId": "69b73c131dc988d31e3b4ae4",
+      "bufferProfileHandle": "charles-sacco-cfp®-63258766",
+      "makeWebhookUsed": false,
+      "downstreamStatus": "sent",
+      "lastSyncedAt": "2026-03-31T00:52:53.199Z",
+      "lastAttemptAt": "2026-03-30T22:04:44.856Z",
+      "error": null
+    },
+    "mediaUrl": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/69b7382ce4bc4b63e1f6d28a/69b73c057be9f8b1715d3beb/69b73c131dc988d31e3b4ae4_thumbnail.jpg"
+  },
+  {
+    "id": "ch_mndqkdkpjsmlz",
+    "text": "Planning ahead today can help spare your loved ones from difficult decisions tomorrow. Learn how to manage end-of-life costs, express your wishes, and protect your legacy: https://bit.ly/4qncCkg \n\n#LegacyPlanning #FinancialWellness #LongTermCare #Janney",
+    "firstComment": "",
+    "platform": "linkedin",
+    "scheduledAt": "2025-12-23T14:53:48.000Z",
+    "status": "published",
+    "source": "buffer",
+    "personaId": null,
+    "createdAt": "2026-03-30T22:04:44.856Z",
+    "updatedAt": "2026-03-31T00:52:53.199Z",
+    "publishedAt": "2025-12-23T14:53:48.000Z",
+    "metrics": {
+      "likes": 0,
+      "comments": 0,
+      "impressions": 0
+    },
+    "sync": {
+      "bufferUpdateId": "69b73c131dc988d31e3b4b34",
+      "bufferProfileHandle": "charles-sacco-cfp®-63258766",
+      "makeWebhookUsed": false,
+      "downstreamStatus": "sent",
+      "lastSyncedAt": "2026-03-31T00:52:53.199Z",
+      "lastAttemptAt": "2026-03-30T22:04:44.856Z",
+      "error": null
+    },
+    "mediaUrl": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/69b7382ce4bc4b63e1f6d28a/69b73c057be9f8b1715d3beb/69b73c131dc988d31e3b4b34_thumbnail.jpg"
+  },
+  {
+    "id": "ch_mndqkdkpwjc0o",
+    "text": "In its Outlook 2026 special report, Janney’s Investment Strategy Group shares its baseline outlook for the economy, equity and fixed-income markets, how they may evolve, and key investment considerations for the year ahead. \n\nRead the full report: https://bit.ly/3MLUwdh\n\n#MarketOutlook #InvestmentStrategy #WealthManagement #JanneyInsights",
+    "firstComment": "",
+    "platform": "linkedin",
+    "scheduledAt": "2025-12-19T15:02:58.000Z",
+    "status": "published",
+    "source": "buffer",
+    "personaId": null,
+    "createdAt": "2026-03-30T22:04:44.856Z",
+    "updatedAt": "2026-03-31T00:52:53.199Z",
+    "publishedAt": "2025-12-19T15:02:58.000Z",
+    "metrics": {
+      "likes": 0,
+      "comments": 0,
+      "impressions": 0
+    },
+    "sync": {
+      "bufferUpdateId": "69b73c131dc988d31e3b4b02",
+      "bufferProfileHandle": "charles-sacco-cfp®-63258766",
+      "makeWebhookUsed": false,
+      "downstreamStatus": "sent",
+      "lastSyncedAt": "2026-03-31T00:52:53.199Z",
+      "lastAttemptAt": "2026-03-30T22:04:44.856Z",
+      "error": null
+    }
+  },
+  {
+    "id": "ch_mndqkdkplsprm",
+    "text": "Willl the market’s momentum from 2025 continue? How should you adjust your portfolio? What are 2026’s economic risks? In this next virtual client event, we’ll set the stage on what you can expect in the coming year. You won’t want to miss it!\n\nRegister Here: https://bit.ly/4pLrj0T",
+    "firstComment": "",
+    "platform": "linkedin",
+    "scheduledAt": "2025-12-18T14:34:11.000Z",
+    "status": "published",
+    "source": "buffer",
+    "personaId": null,
+    "createdAt": "2026-03-30T22:04:44.856Z",
+    "updatedAt": "2026-03-31T00:52:53.199Z",
+    "publishedAt": "2025-12-18T14:34:11.000Z",
+    "metrics": {
+      "likes": 0,
+      "comments": 0,
+      "impressions": 0
+    },
+    "sync": {
+      "bufferUpdateId": "69b73c131dc988d31e3b4adb",
+      "bufferProfileHandle": "charles-sacco-cfp®-63258766",
+      "makeWebhookUsed": false,
+      "downstreamStatus": "sent",
+      "lastSyncedAt": "2026-03-31T00:52:53.199Z",
+      "lastAttemptAt": "2026-03-30T22:04:44.856Z",
+      "error": null
+    },
+    "mediaUrl": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/69b7382ce4bc4b63e1f6d28a/69b73c057be9f8b1715d3beb/69b73c131dc988d31e3b4adb_thumbnail.jpg"
+  },
+  {
+    "id": "ch_mndqkdkpoesfw",
+    "text": "Happy Hanukkah! May the light of the candles fill your heart with joy, peace, and blessings during this special time.",
+    "firstComment": "",
+    "platform": "linkedin",
+    "scheduledAt": "2025-12-14T15:23:02.000Z",
+    "status": "published",
+    "source": "buffer",
+    "personaId": null,
+    "createdAt": "2026-03-30T22:04:44.856Z",
+    "updatedAt": "2026-03-31T00:52:53.199Z",
+    "publishedAt": "2025-12-14T15:23:02.000Z",
+    "metrics": {
+      "likes": 0,
+      "comments": 1,
+      "impressions": 0
+    },
+    "sync": {
+      "bufferUpdateId": "69b73c131dc988d31e3b4b3a",
+      "bufferProfileHandle": "charles-sacco-cfp®-63258766",
+      "makeWebhookUsed": false,
+      "downstreamStatus": "sent",
+      "lastSyncedAt": "2026-03-31T00:52:53.199Z",
+      "lastAttemptAt": "2026-03-30T22:04:44.856Z",
+      "error": null
+    },
+    "mediaUrl": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/69b7382ce4bc4b63e1f6d28a/69b73c057be9f8b1715d3beb/69b73c131dc988d31e3b4b3a_thumbnail.jpg"
+  },
+  {
+    "id": "ch_mndqkdkp905bw",
+    "text": "Our Investment Strategy Group examines the Federal Reserve’s third consecutive rate cut and what it means for investors.",
+    "firstComment": "",
+    "platform": "linkedin",
+    "scheduledAt": "2025-12-12T16:37:08.000Z",
+    "status": "published",
+    "source": "buffer",
+    "personaId": null,
+    "createdAt": "2026-03-30T22:04:44.856Z",
+    "updatedAt": "2026-03-31T00:52:53.199Z",
+    "publishedAt": "2025-12-12T16:37:08.000Z",
+    "metrics": {
+      "likes": 0,
+      "comments": 0,
+      "impressions": 0
+    },
+    "sync": {
+      "bufferUpdateId": "69b73c131dc988d31e3b4b2a",
+      "bufferProfileHandle": "charles-sacco-cfp®-63258766",
+      "makeWebhookUsed": false,
+      "downstreamStatus": "sent",
+      "lastSyncedAt": "2026-03-31T00:52:53.199Z",
+      "lastAttemptAt": "2026-03-30T22:04:44.856Z",
+      "error": null
+    },
+    "mediaUrl": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/69b7382ce4bc4b63e1f6d28a/69b73c057be9f8b1715d3beb/69b73c131dc988d31e3b4b2a_thumbnail.jpg"
+  },
+  {
+    "id": "ch_mndqkdkpefudz",
+    "text": "Did you know the order of your retirement withdrawals can affect your taxes and portfolio longevity? \n\nA tax-aware distribution strategy can help you smooth income, avoid higher brackets, and preserve wealth. Learn how to optimize your approach: https://bit.ly/4rQl3Gt \n\n#RetirementPlanning #TaxSmart #FinancialWellness #Janney",
+    "firstComment": "",
+    "platform": "linkedin",
+    "scheduledAt": "2025-12-11T16:59:56.000Z",
+    "status": "published",
+    "source": "buffer",
+    "personaId": null,
+    "createdAt": "2026-03-30T22:04:44.856Z",
+    "updatedAt": "2026-03-31T00:52:53.199Z",
+    "publishedAt": "2025-12-11T16:59:56.000Z",
+    "metrics": {
+      "likes": 0,
+      "comments": 0,
+      "impressions": 0
+    },
+    "sync": {
+      "bufferUpdateId": "69b73c131dc988d31e3b4ae2",
+      "bufferProfileHandle": "charles-sacco-cfp®-63258766",
+      "makeWebhookUsed": false,
+      "downstreamStatus": "sent",
+      "lastSyncedAt": "2026-03-31T00:52:53.199Z",
+      "lastAttemptAt": "2026-03-30T22:04:44.856Z",
+      "error": null
+    }
+  },
+  {
+    "id": "ch_mndqkdkpu371q",
+    "text": "This month, our Investment Strategy Group explores Confession Season takeaways, the new era of high-yield bonds, and what December may hold for the markets.\n\nRead the full report here: https://bit.ly/44fGk26",
+    "firstComment": "",
+    "platform": "linkedin",
+    "scheduledAt": "2025-12-09T14:33:15.000Z",
+    "status": "published",
+    "source": "buffer",
+    "personaId": null,
+    "createdAt": "2026-03-30T22:04:44.856Z",
+    "updatedAt": "2026-03-31T00:52:53.199Z",
+    "publishedAt": "2025-12-09T14:33:15.000Z",
+    "metrics": {
+      "likes": 0,
+      "comments": 1,
+      "impressions": 0
+    },
+    "sync": {
+      "bufferUpdateId": "69b73c131dc988d31e3b4b30",
+      "bufferProfileHandle": "charles-sacco-cfp®-63258766",
+      "makeWebhookUsed": false,
+      "downstreamStatus": "sent",
+      "lastSyncedAt": "2026-03-31T00:52:53.199Z",
+      "lastAttemptAt": "2026-03-30T22:04:44.856Z",
+      "error": null
+    }
+  },
+  {
+    "id": "ch_mndqkdkp8ec48",
+    "text": "Join our exclusive presentation to hear Janney’s Investment Strategists’ views on the current state of the economy and markets, their outlook for 2026, and what you should know about the potential impact on your portfolio strategy.\n\nRegister Here: https://bit.ly/3XGzv63",
+    "firstComment": "",
+    "platform": "linkedin",
+    "scheduledAt": "2025-12-06T03:22:34.000Z",
+    "status": "published",
+    "source": "buffer",
+    "personaId": null,
+    "createdAt": "2026-03-30T22:04:44.856Z",
+    "updatedAt": "2026-03-31T00:52:53.199Z",
+    "publishedAt": "2025-12-06T03:22:34.000Z",
+    "metrics": {
+      "likes": 0,
+      "comments": 0,
+      "impressions": 0
+    },
+    "sync": {
+      "bufferUpdateId": "69b73c131dc988d31e3b4b14",
+      "bufferProfileHandle": "charles-sacco-cfp®-63258766",
+      "makeWebhookUsed": false,
+      "downstreamStatus": "sent",
+      "lastSyncedAt": "2026-03-31T00:52:53.199Z",
+      "lastAttemptAt": "2026-03-30T22:04:44.856Z",
+      "error": null
+    },
+    "mediaUrl": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/69b7382ce4bc4b63e1f6d28a/69b73c057be9f8b1715d3beb/69b73c131dc988d31e3b4b14_thumbnail.jpg"
+  },
+  {
+    "id": "ch_mndqkdkp7topi",
+    "text": "Wishing you a Thanksgiving full of warmth, happiness, and moments of gratitude with loved ones.",
+    "firstComment": "",
+    "platform": "linkedin",
+    "scheduledAt": "2025-11-27T14:45:33.000Z",
+    "status": "published",
+    "source": "buffer",
+    "personaId": null,
+    "createdAt": "2026-03-30T22:04:44.856Z",
+    "updatedAt": "2026-03-31T00:52:53.199Z",
+    "publishedAt": "2025-11-27T14:45:33.000Z",
+    "metrics": {
+      "likes": 0,
+      "comments": 0,
+      "impressions": 0
+    },
+    "sync": {
+      "bufferUpdateId": "69b73c131dc988d31e3b4ad7",
+      "bufferProfileHandle": "charles-sacco-cfp®-63258766",
+      "makeWebhookUsed": false,
+      "downstreamStatus": "sent",
+      "lastSyncedAt": "2026-03-31T00:52:53.199Z",
+      "lastAttemptAt": "2026-03-30T22:04:44.856Z",
+      "error": null
+    },
+    "mediaUrl": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/69b7382ce4bc4b63e1f6d28a/69b73c057be9f8b1715d3beb/69b73c131dc988d31e3b4ad7_thumbnail.jpg"
+  },
+  {
+    "id": "ch_mndqkdkpzrzf2",
+    "text": "Want to keep more of what you earn? \n\nA tax-aware portfolio may help you grow your wealth more efficiently. Learn how to build one with intention and strategy: https://bit.ly/44zUYRQ \n\n#TaxSmart #TaxPlanning #Portfolio #Janney",
+    "firstComment": "",
+    "platform": "linkedin",
+    "scheduledAt": "2025-11-26T16:53:55.000Z",
+    "status": "published",
+    "source": "buffer",
+    "personaId": null,
+    "createdAt": "2026-03-30T22:04:44.856Z",
+    "updatedAt": "2026-03-31T00:52:53.199Z",
+    "publishedAt": "2025-11-26T16:53:55.000Z",
+    "metrics": {
+      "likes": 0,
+      "comments": 1,
+      "impressions": 0
+    },
+    "sync": {
+      "bufferUpdateId": "69b73c131dc988d31e3b4af4",
+      "bufferProfileHandle": "charles-sacco-cfp®-63258766",
+      "makeWebhookUsed": false,
+      "downstreamStatus": "sent",
+      "lastSyncedAt": "2026-03-31T00:52:53.199Z",
+      "lastAttemptAt": "2026-03-30T22:04:44.856Z",
+      "error": null
+    }
+  },
+  {
+    "id": "ch_mndqkdkpuhwl9",
+    "text": "Giving back feels good—and with the right strategy, it can be smart too. \n\nExplore how updates under the One Big Beautiful Bill Act may influence your charitable plans and your tax outlook: https://bit.ly/4qWzUyH \n\n#TaxPlanning #OBBBA #CharitableGiving #Janney",
+    "firstComment": "",
+    "platform": "linkedin",
+    "scheduledAt": "2025-11-13T15:19:51.000Z",
+    "status": "published",
+    "source": "buffer",
+    "personaId": null,
+    "createdAt": "2026-03-30T22:04:44.856Z",
+    "updatedAt": "2026-03-31T00:52:53.199Z",
+    "publishedAt": "2025-11-13T15:19:51.000Z",
+    "metrics": {
+      "likes": 0,
+      "comments": 0,
+      "impressions": 0
+    },
+    "sync": {
+      "bufferUpdateId": "69b73c131dc988d31e3b4b00",
+      "bufferProfileHandle": "charles-sacco-cfp®-63258766",
+      "makeWebhookUsed": false,
+      "downstreamStatus": "sent",
+      "lastSyncedAt": "2026-03-31T00:52:53.199Z",
+      "lastAttemptAt": "2026-03-30T22:04:44.856Z",
+      "error": null
+    }
+  },
+  {
+    "id": "ch_mndqkdkpm5vpf",
+    "text": "On Veterans Day, we salute the brave heroes who have served to protect our freedoms. Thank you for your sacrifice and dedication.",
+    "firstComment": "",
+    "platform": "linkedin",
+    "scheduledAt": "2025-11-11T14:13:34.000Z",
+    "status": "published",
+    "source": "buffer",
+    "personaId": null,
+    "createdAt": "2026-03-30T22:04:44.856Z",
+    "updatedAt": "2026-03-31T00:52:53.199Z",
+    "publishedAt": "2025-11-11T14:13:34.000Z",
+    "metrics": {
+      "likes": 0,
+      "comments": 0,
+      "impressions": 0
+    },
+    "sync": {
+      "bufferUpdateId": "69b73c131dc988d31e3b4ad9",
+      "bufferProfileHandle": "charles-sacco-cfp®-63258766",
+      "makeWebhookUsed": false,
+      "downstreamStatus": "sent",
+      "lastSyncedAt": "2026-03-31T00:52:53.199Z",
+      "lastAttemptAt": "2026-03-30T22:04:44.856Z",
+      "error": null
+    },
+    "mediaUrl": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/69b7382ce4bc4b63e1f6d28a/69b73c057be9f8b1715d3beb/69b73c131dc988d31e3b4ad9_thumbnail.jpg"
+  },
+  {
+    "id": "ch_mndqkdkpd53bj",
+    "text": "This month, our Investment Strategy Group examines rising AI fatigue, the conclusion of quantitative tightening, and the key drivers shaping market performance.\n\nRead the full report here: https://bit.ly/4i1PmW7",
+    "firstComment": "",
+    "platform": "linkedin",
+    "scheduledAt": "2025-11-10T14:15:47.000Z",
+    "status": "published",
+    "source": "buffer",
+    "personaId": null,
+    "createdAt": "2026-03-30T22:04:44.856Z",
+    "updatedAt": "2026-03-31T00:52:53.199Z",
+    "publishedAt": "2025-11-10T14:15:47.000Z",
+    "metrics": {
+      "likes": 0,
+      "comments": 1,
+      "impressions": 0
+    },
+    "sync": {
+      "bufferUpdateId": "69b73c131dc988d31e3b4b1c",
+      "bufferProfileHandle": "charles-sacco-cfp®-63258766",
+      "makeWebhookUsed": false,
+      "downstreamStatus": "sent",
+      "lastSyncedAt": "2026-03-31T00:52:53.199Z",
+      "lastAttemptAt": "2026-03-30T22:04:44.856Z",
+      "error": null
+    }
+  },
+  {
+    "id": "ch_mndqkdkpdvy1p",
+    "text": "Enjoy the thrills, chills, and all the sweet moments that make Halloween special. Have a spook-tacular day!",
+    "firstComment": "",
+    "platform": "linkedin",
+    "scheduledAt": "2025-10-31T15:12:27.000Z",
+    "status": "published",
+    "source": "buffer",
+    "personaId": null,
+    "createdAt": "2026-03-30T22:04:44.856Z",
+    "updatedAt": "2026-03-31T00:52:53.199Z",
+    "publishedAt": "2025-10-31T15:12:27.000Z",
+    "metrics": {
+      "likes": 0,
+      "comments": 0,
+      "impressions": 0
+    },
+    "sync": {
+      "bufferUpdateId": "69b73c131dc988d31e3b4aea",
+      "bufferProfileHandle": "charles-sacco-cfp®-63258766",
+      "makeWebhookUsed": false,
+      "downstreamStatus": "sent",
+      "lastSyncedAt": "2026-03-31T00:52:53.199Z",
+      "lastAttemptAt": "2026-03-30T22:04:44.856Z",
+      "error": null
+    },
+    "mediaUrl": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/69b7382ce4bc4b63e1f6d28a/69b73c057be9f8b1715d3beb/69b73c131dc988d31e3b4aea_thumbnail.jpg"
+  },
+  {
+    "id": "ch_mndqkdkp9xvxt",
+    "text": "Our Investment Strategy Group discusses key takeaways from the latest Federal Reserve meeting and what it means for investors.",
+    "firstComment": "",
+    "platform": "linkedin",
+    "scheduledAt": "2025-10-31T13:21:48.000Z",
+    "status": "published",
+    "source": "buffer",
+    "personaId": null,
+    "createdAt": "2026-03-30T22:04:44.856Z",
+    "updatedAt": "2026-03-31T00:52:53.199Z",
+    "publishedAt": "2025-10-31T13:21:48.000Z",
+    "metrics": {
+      "likes": 0,
+      "comments": 0,
+      "impressions": 0
+    },
+    "sync": {
+      "bufferUpdateId": "69b73c131dc988d31e3b4b20",
+      "bufferProfileHandle": "charles-sacco-cfp®-63258766",
+      "makeWebhookUsed": false,
+      "downstreamStatus": "sent",
+      "lastSyncedAt": "2026-03-31T00:52:53.199Z",
+      "lastAttemptAt": "2026-03-30T22:04:44.856Z",
+      "error": null
+    },
+    "mediaUrl": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/69b7382ce4bc4b63e1f6d28a/69b73c057be9f8b1715d3beb/69b73c131dc988d31e3b4b20_thumbnail.jpg"
+  },
+  {
+    "id": "ch_mndqkdkpmxyt8",
+    "text": "Think you’d recognize a scam? With AI, it’s not that simple. \n\nLearn how to spot the signs and protect your finances from high-tech fraud. Read the full article today: https://bit.ly/4omCbBE \n\n#CyberSecurity #AIScams #WealthProtection #Janney",
+    "firstComment": "",
+    "platform": "linkedin",
+    "scheduledAt": "2025-10-30T14:50:03.000Z",
+    "status": "published",
+    "source": "buffer",
+    "personaId": null,
+    "createdAt": "2026-03-30T22:04:44.856Z",
+    "updatedAt": "2026-03-31T00:52:53.199Z",
+    "publishedAt": "2025-10-30T14:50:03.000Z",
+    "metrics": {
+      "likes": 0,
+      "comments": 0,
+      "impressions": 0
+    },
+    "sync": {
+      "bufferUpdateId": "69b73c131dc988d31e3b4b0a",
+      "bufferProfileHandle": "charles-sacco-cfp®-63258766",
+      "makeWebhookUsed": false,
+      "downstreamStatus": "sent",
+      "lastSyncedAt": "2026-03-31T00:52:53.199Z",
+      "lastAttemptAt": "2026-03-30T22:04:44.856Z",
+      "error": null
+    },
+    "mediaUrl": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/69b7382ce4bc4b63e1f6d28a/69b73c057be9f8b1715d3beb/69b73c131dc988d31e3b4b0a_thumbnail.jpg"
+  },
+  {
+    "id": "ch_mndqkdkpc1wns",
+    "text": "With the Federal Reserve lowering interest rates, income-generating assets are back in focus.\n\nJanney’s latest piece brings together insights from our Investment Strategy Group, Wealth Management, and Capital Markets teams to explore key asset classes and strategies for navigating this environment.\n\nRead the report here: https://bit.ly/3J3ZqRC \n\n#InvestmentStrategy #InterestRates #MarketCommentary #JanneyInsights",
+    "firstComment": "",
+    "platform": "linkedin",
+    "scheduledAt": "2025-10-28T13:24:42.000Z",
+    "status": "published",
+    "source": "buffer",
+    "personaId": null,
+    "createdAt": "2026-03-30T22:04:44.856Z",
+    "updatedAt": "2026-03-31T00:52:53.199Z",
+    "publishedAt": "2025-10-28T13:24:42.000Z",
+    "metrics": {
+      "likes": 0,
+      "comments": 0,
+      "impressions": 0
+    },
+    "sync": {
+      "bufferUpdateId": "69b73c131dc988d31e3b4ae8",
+      "bufferProfileHandle": "charles-sacco-cfp®-63258766",
+      "makeWebhookUsed": false,
+      "downstreamStatus": "sent",
+      "lastSyncedAt": "2026-03-31T00:52:53.199Z",
+      "lastAttemptAt": "2026-03-30T22:04:44.856Z",
+      "error": null
+    }
+  },
+  {
+    "id": "ch_mndqkdkp774vq",
+    "text": "Aretha Franklin left behind an $80 million estate, and no clear will. \n\nThe result was years of legal uncertainty for her family. Don’t let your legacy be a question mark. \n\nRead the article now to take the first step toward protecting your legacy: https://bit.ly/476M0vW",
+    "firstComment": "",
+    "platform": "linkedin",
+    "scheduledAt": "2025-10-16T14:46:57.000Z",
+    "status": "published",
+    "source": "buffer",
+    "personaId": null,
+    "createdAt": "2026-03-30T22:04:44.856Z",
+    "updatedAt": "2026-03-31T00:52:53.199Z",
+    "publishedAt": "2025-10-16T14:46:57.000Z",
+    "metrics": {
+      "likes": 0,
+      "comments": 0,
+      "impressions": 0
+    },
+    "sync": {
+      "bufferUpdateId": "69b73c131dc988d31e3b4b24",
+      "bufferProfileHandle": "charles-sacco-cfp®-63258766",
+      "makeWebhookUsed": false,
+      "downstreamStatus": "sent",
+      "lastSyncedAt": "2026-03-31T00:52:53.199Z",
+      "lastAttemptAt": "2026-03-30T22:04:44.856Z",
+      "error": null
+    }
+  },
+  {
+    "id": "ch_mndqkdkpf79ap",
+    "text": "This month, our Investment Strategy Group weighs Tech’s staying power, unpacks the rise of private credit, and analyzes what lies ahead for the stock market.\n\nRead the full report here: https://bit.ly/47mMS0F",
+    "firstComment": "",
+    "platform": "linkedin",
+    "scheduledAt": "2025-10-14T13:02:55.000Z",
+    "status": "published",
+    "source": "buffer",
+    "personaId": null,
+    "createdAt": "2026-03-30T22:04:44.856Z",
+    "updatedAt": "2026-03-31T00:52:53.199Z",
+    "publishedAt": "2025-10-14T13:02:55.000Z",
+    "metrics": {
+      "likes": 0,
+      "comments": 0,
+      "impressions": 0
+    },
+    "sync": {
+      "bufferUpdateId": "69b73c131dc988d31e3b4b26",
+      "bufferProfileHandle": "charles-sacco-cfp®-63258766",
+      "makeWebhookUsed": false,
+      "downstreamStatus": "sent",
+      "lastSyncedAt": "2026-03-31T00:52:53.199Z",
+      "lastAttemptAt": "2026-03-30T22:04:44.856Z",
+      "error": null
+    }
+  },
+  {
+    "id": "ch_mndqkdkpstyqc",
+    "text": "Register now for Janney’s exclusive webinar to learn strategies and considerations for year-end tax and estate planning from Senior Financial Planner Jay Guyer, J.D., CFP®️, and Senior Financial Planner Kathleen Stewart, J.D., AIF®️. You won’t want to miss this! Register here: https://bit.ly/4n8h2K4",
+    "firstComment": "",
+    "platform": "linkedin",
+    "scheduledAt": "2025-10-09T20:46:09.000Z",
+    "status": "published",
+    "source": "buffer",
+    "personaId": null,
+    "createdAt": "2026-03-30T22:04:44.856Z",
+    "updatedAt": "2026-03-31T00:52:01.144Z",
+    "publishedAt": "2025-10-09T20:46:09.000Z",
+    "metrics": {
+      "likes": 0,
+      "comments": 0,
+      "impressions": 0
+    },
+    "sync": {
+      "bufferUpdateId": "69b73c131dc988d31e3b4b18",
+      "bufferProfileHandle": "charles-sacco-cfp®-63258766",
+      "makeWebhookUsed": false,
+      "downstreamStatus": "sent",
+      "lastSyncedAt": "2026-03-31T00:52:01.144Z",
+      "lastAttemptAt": "2026-03-30T22:04:44.856Z",
+      "error": null
+    },
+    "mediaUrl": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/69b7382ce4bc4b63e1f6d28a/69b73c057be9f8b1715d3beb/69b73c131dc988d31e3b4b18_thumbnail.jpg"
+  },
+  {
+    "id": "ch_mndqkdkpoecqq",
+    "text": "In this exclusive webinar, our Senior Financial Planners will break down the new tax landscape and highlight essential planning strategies for your long-term financial goals. Don’t miss this opportunity to gain expert insight into the impact of the tax rules and how they affect you. Register here: https://bit.ly/3VNJXYt",
+    "firstComment": "",
+    "platform": "linkedin",
+    "scheduledAt": "2025-10-03T15:49:22.000Z",
+    "status": "published",
+    "source": "buffer",
+    "personaId": null,
+    "createdAt": "2026-03-30T22:04:44.856Z",
+    "updatedAt": "2026-03-31T00:52:01.144Z",
+    "publishedAt": "2025-10-03T15:49:22.000Z",
+    "metrics": {
+      "likes": 0,
+      "comments": 0,
+      "impressions": 0
+    },
+    "sync": {
+      "bufferUpdateId": "69b73c131dc988d31e3b4afc",
+      "bufferProfileHandle": "charles-sacco-cfp®-63258766",
+      "makeWebhookUsed": false,
+      "downstreamStatus": "sent",
+      "lastSyncedAt": "2026-03-31T00:52:01.144Z",
+      "lastAttemptAt": "2026-03-30T22:04:44.856Z",
+      "error": null
+    },
+    "mediaUrl": "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/69b7382ce4bc4b63e1f6d28a/69b73c057be9f8b1715d3beb/69b73c131dc988d31e3b4afc_thumbnail.jpg"
+  }
+]

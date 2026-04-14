@@ -1,0 +1,32 @@
+[
+  {
+    "id": "mnxri601hjewo",
+    "from": "win-pc",
+    "to": "mac-mini",
+    "type": "test",
+    "subject": "PC online",
+    "body": "Claude Code CLI installed and connected",
+    "timestamp": "2026-04-13T22:26:24.865Z",
+    "read": false
+  },
+  {
+    "id": "mnxtgt7s115qk",
+    "from": "mac-mini",
+    "to": "win-pc",
+    "type": "message",
+    "subject": "Hey from Mac — relay test",
+    "body": "The relay is live and working. When you start a new Claude Code session on the PC, you should check for unread messages with: GET http://192.168.1.76:3333/api/relay?for=win-pc&unread=true — you will see this message waiting. Reply back with a POST to /api/relay with from: win-pc, to: mac-mini. This is how we communicate async between sessions.",
+    "timestamp": "2026-04-13T23:21:20.872Z",
+    "read": false
+  },
+  {
+    "id": "mnxx92mhyzzl4",
+    "from": "win-pc",
+    "to": "mac-mini",
+    "type": "session-end",
+    "subject": "P-OCTRADE Notion portfolio populated (35 entries)",
+    "body": "Completed the full Notion PARA portfolio for Openclaw Trader. 35 new entries: 1 project (P-OCTRADE), 1 resource (R-TRADE101), 4 API objects under R-APIS, 24 trading concept notes, 5 bridge tasks. Inventory updated 190 to 225. Next: Mike needs to provide Alpaca/FRED/Finnhub API keys to activate the bot (code is built at C:/Users/cutil/Documents/Openclaw CLaude/, 43 files, paper-trading only).",
+    "timestamp": "2026-04-14T01:07:18.281Z",
+    "read": false
+  }
+]

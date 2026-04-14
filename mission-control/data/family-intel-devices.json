@@ -1,0 +1,68 @@
+[
+  {
+    "identifier": "192.168.1.1",
+    "person": "shared",
+    "deviceName": "Orbi Router",
+    "deviceType": "other"
+  },
+  {
+    "identifier": "192.168.1.46",
+    "person": "shared",
+    "deviceName": "Pi-hole Server",
+    "deviceType": "other"
+  },
+  {
+    "identifier": "192.168.1.100",
+    "person": "mike",
+    "deviceName": "Mike's PC",
+    "deviceType": "desktop"
+  },
+  {
+    "identifier": "192.168.1.101",
+    "person": "mike",
+    "deviceName": "Mike's iPhone",
+    "deviceType": "phone"
+  },
+  {
+    "identifier": "192.168.1.102",
+    "person": "mike",
+    "deviceName": "Mac Mini",
+    "deviceType": "desktop"
+  },
+  {
+    "identifier": "192.168.1.103",
+    "person": "erin",
+    "deviceName": "Erin's iPhone",
+    "deviceType": "phone"
+  },
+  {
+    "identifier": "192.168.1.104",
+    "person": "erin",
+    "deviceName": "Erin's MacBook",
+    "deviceType": "laptop"
+  },
+  {
+    "identifier": "192.168.1.110",
+    "person": "liam",
+    "deviceName": "Liam's iPad",
+    "deviceType": "tablet"
+  },
+  {
+    "identifier": "192.168.1.111",
+    "person": "clara",
+    "deviceName": "Clara's iPad",
+    "deviceType": "tablet"
+  },
+  {
+    "identifier": "192.168.1.120",
+    "person": "shared",
+    "deviceName": "Living Room TV",
+    "deviceType": "tv"
+  },
+  {
+    "identifier": "192.168.1.121",
+    "person": "shared",
+    "deviceName": "Xbox Console",
+    "deviceType": "game"
+  }
+]

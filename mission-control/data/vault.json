@@ -1,0 +1,199 @@
+{
+  "updatedAt": "2026-03-25T01:36:00.000Z",
+  "apis": [
+    {
+      "id": "api-google-gemini",
+      "service": "Google Gemini API",
+      "provider": "Google",
+      "envVar": "GEMINI_API_KEY",
+      "keyMasked": "Likely configured for Gemini lane / needs confirmation",
+      "source": "Mission Control model lane + local app context",
+      "usedBy": [
+        "Models",
+        "Gemini lane",
+        "Research / second-opinion workflows"
+      ],
+      "status": "unknown",
+      "notes": "Gemini is wired conceptually in the model switcher and reports, but I have not verified a live API key from runtime here yet.",
+      "createdBy": "imported",
+      "loginUrl": "https://aistudio.google.com/app/apikey"
+    },
+    {
+      "id": "api-openclaw-gateway",
+      "service": "OpenClaw Gateway",
+      "provider": "OpenClaw",
+      "envVar": "",
+      "keyMasked": "Token configured in local OpenClaw config",
+      "source": "OpenClaw local config",
+      "usedBy": [
+        "TurboChat",
+        "Mission Control",
+        "Control UI",
+        "WebSocket runtime"
+      ],
+      "status": "connected",
+      "notes": "Gateway is actively used for the local control/chat stack; auth is token-based and should remain masked.",
+      "createdBy": "imported",
+      "loginUrl": "http://localhost:18789"
+    },
+    {
+      "id": "api-discord-bot",
+      "service": "Discord Bot API",
+      "provider": "Discord",
+      "envVar": "DISCORD_BOT_TOKEN",
+      "keyMasked": "Configured in channel auth (token masked)",
+      "source": "OpenClaw channel config + prior debugging history",
+      "usedBy": [
+        "Discord channel integration",
+        "Bot messaging",
+        "Allowlist routing"
+      ],
+      "status": "connected",
+      "notes": "Discord connectivity was previously debugged and recovered; token should stay masked and bot perms are channel/guild scoped.",
+      "createdBy": "imported",
+      "loginUrl": "https://discord.com/developers/applications"
+    },
+    {
+      "id": "api-buffer",
+      "service": "Buffer API",
+      "provider": "Buffer",
+      "envVar": "BUFFER_ACCESS_TOKEN",
+      "keyMasked": "Integration present in app flows; token not verified from runtime here",
+      "source": "Mission Control content routes",
+      "usedBy": [
+        "Content Hub",
+        "Content Queue",
+        "Content Analytics",
+        "Publishing workflows"
+      ],
+      "status": "unknown",
+      "notes": "Mission Control has live/stub Buffer logic and sync states. Needs one explicit runtime check to mark fully connected vs placeholder.",
+      "createdBy": "imported",
+      "loginUrl": "https://publish.buffer.com/account/apps"
+    },
+    {
+      "id": "api-make",
+      "service": "Make.com Webhooks",
+      "provider": "Make.com",
+      "envVar": "CHARLIE_MAKE_VIRAL_WEBHOOK / publishing webhooks",
+      "keyMasked": "Webhook endpoints partially wired",
+      "source": "Mission Control content automation routes",
+      "usedBy": [
+        "Content Studio",
+        "Viral Posts ingest",
+        "Buffer publish pipeline"
+      ],
+      "status": "unknown",
+      "notes": "Used as automation glue between Content Studio and Buffer. Some routes mention fallback/local behavior when webhook is missing.",
+      "createdBy": "imported",
+      "loginUrl": "https://www.make.com/en"
+    },
+    {
+      "id": "api-philips-hue",
+      "service": "Philips Hue API",
+      "provider": "Philips Hue",
+      "envVar": "",
+      "keyMasked": "Not entered yet",
+      "source": "HUE Lights lab placeholder",
+      "usedBy": [
+        "HUE Lights lab"
+      ],
+      "status": "needs-setup",
+      "notes": "HUE Lights page exists, but the actual bridge/app credentials have not been confirmed in the vault yet.",
+      "createdBy": "imported",
+      "loginUrl": "https://developers.meethue.com/"
+    },
+    {
+      "id": "api-elevenlabs",
+      "service": "ElevenLabs API",
+      "provider": "ElevenLabs",
+      "envVar": "ELEVENLABS_API_KEY",
+      "keyMasked": "Possible via sag skill; not verified in runtime here",
+      "source": "Installed TTS skill context",
+      "usedBy": [
+        "sag voice/TTS workflows"
+      ],
+      "status": "unknown",
+      "notes": "The ElevenLabs/sag path is available in the workspace skill set, but I have not verified whether your key is actually configured.",
+      "createdBy": "imported",
+      "loginUrl": "https://elevenlabs.io/app/settings/api-keys"
+    },
+    {
+      "id": "api-notion",
+      "service": "Notion API",
+      "provider": "Notion",
+      "envVar": "NOTION_API_KEY",
+      "keyMasked": "ntn_582949••••••••",
+      "source": ".env.local → NOTION_API_KEY",
+      "usedBy": [
+        "Notion workspace automation",
+        "Financial Ledger sync",
+        "Job Pipeline sync",
+        "notion-sync.py (unified)"
+      ],
+      "status": "connected",
+      "notes": "Integration token confirmed. Workspace: Mike's Space. Unified sync supports financial-ledger, job-pipeline, news-intel, content-hub, subscriptions. Requires NOTION_PARENT_PAGE_ID for database creation.",
+      "createdBy": "imported",
+      "loginUrl": "https://www.notion.so/profile/integrations"
+    },
+    {
+      "id": "api-x",
+      "service": "X / Twitter API",
+      "provider": "X",
+      "envVar": "X_API_KEY / X_API_SECRET",
+      "keyMasked": "Skill available; config not yet verified",
+      "source": "Installed xurl skill context",
+      "usedBy": [
+        "Posting, replies, search, DMs via X API"
+      ],
+      "status": "unknown",
+      "notes": "The xurl skill exists locally, but I have not verified whether the app credentials are configured and usable in this runtime.",
+      "createdBy": "imported",
+      "loginUrl": "https://developer.x.com/en/portal/dashboard"
+    },
+    {
+      "id": "api-openai",
+      "service": "OpenAI API",
+      "provider": "OpenAI",
+      "envVar": "OPENAI_API_KEY",
+      "keyMasked": "Configured in runtime env",
+      "source": "OpenClaw runtime",
+      "usedBy": [
+        "Models",
+        "Mission Control",
+        "OpenClaw main runtime"
+      ],
+      "status": "connected",
+      "notes": "Detected from current environment; keep masked by default.",
+      "createdBy": "imported",
+      "loginUrl": "https://platform.openai.com/api-keys"
+    },
+    {
+      "id": "api-anthropic",
+      "service": "Anthropic API",
+      "provider": "Anthropic",
+      "envVar": "ANTHROPIC_API_KEY",
+      "keyMasked": "Detected in OpenClaw config",
+      "source": "OpenClaw config",
+      "usedBy": [
+        "Models",
+        "Claude lane"
+      ],
+      "status": "connected",
+      "notes": "Config detected via OpenClaw model/auth setup; runtime env was not exposed here.",
+      "createdBy": "imported",
+      "loginUrl": "https://console.anthropic.com/settings/keys"
+    }
+  ],
+  "credentials": [],
+  "passwordRules": [
+    {
+      "id": "rule-default",
+      "label": "Default password pattern",
+      "prefix": "",
+      "suffix": "",
+      "requirements": "Fill in Mike's prefix/suffix and special rules here once confirmed.",
+      "notes": "Keep private. Use site-specific variation for anything sensitive."
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "lastPosted": {},
+  "hashes": {},
+  "note": "Tracks last-posted state per channel to prevent duplicate notifications. Managed by discord-dispatch and scheduled notification checks."
+}

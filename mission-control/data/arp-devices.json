@@ -1,0 +1,137 @@
+{
+  "devices": [
+    {
+      "mac": "C8:9E:43:C2:1C:A0",
+      "ip": "192.168.1.1",
+      "name": "Netgear",
+      "hostname": "192.168.1.1",
+      "vendor": "Netgear",
+      "type": "router",
+      "randomizedMac": false,
+      "signal": "",
+      "blocked": false
+    },
+    {
+      "mac": "00:17:88:6B:AE:F7",
+      "ip": "192.168.1.2",
+      "name": "Philips Hue",
+      "hostname": "192.168.1.2",
+      "vendor": "Philips Hue",
+      "type": "hub",
+      "randomizedMac": false,
+      "signal": "",
+      "blocked": false
+    },
+    {
+      "mac": "4A:99:AA:79:F3:DD",
+      "ip": "192.168.1.12",
+      "name": "Apple Device",
+      "hostname": "192.168.1.12",
+      "vendor": "Randomized MAC (iOS/iPad privacy mode)",
+      "type": "iphone",
+      "randomizedMac": true,
+      "signal": "",
+      "blocked": false
+    },
+    {
+      "mac": "4C:BA:D7:E0:62:42",
+      "ip": "192.168.1.17",
+      "name": "LG",
+      "hostname": "192.168.1.17",
+      "vendor": "LG",
+      "type": "other",
+      "randomizedMac": false,
+      "signal": "",
+      "blocked": false
+    },
+    {
+      "mac": "52:2A:CB:67:77:A2",
+      "ip": "192.168.1.24",
+      "name": "Apple Device",
+      "hostname": "192.168.1.24",
+      "vendor": "Randomized MAC (iOS/iPad privacy mode)",
+      "type": "iphone",
+      "randomizedMac": true,
+      "signal": "",
+      "blocked": false
+    },
+    {
+      "mac": "BC:CE:25:21:65:93",
+      "ip": "192.168.1.29",
+      "name": "Nintendo",
+      "hostname": "192.168.1.29",
+      "vendor": "Nintendo",
+      "type": "other",
+      "randomizedMac": false,
+      "signal": "",
+      "blocked": false
+    },
+    {
+      "mac": "1E:DF:F9:06:FA:EF",
+      "ip": "192.168.1.32",
+      "name": "Apple Device",
+      "hostname": "192.168.1.32",
+      "vendor": "Randomized MAC (iOS/iPad privacy mode)",
+      "type": "iphone",
+      "randomizedMac": true,
+      "signal": "",
+      "blocked": false
+    },
+    {
+      "mac": "90:09:D0:22:67:B9",
+      "ip": "192.168.1.46",
+      "name": "Synology",
+      "hostname": "192.168.1.46",
+      "vendor": "Synology",
+      "type": "nas",
+      "randomizedMac": false,
+      "signal": "",
+      "blocked": false
+    },
+    {
+      "mac": "BA:EC:0D:65:D9:FE",
+      "ip": "192.168.1.57",
+      "name": "Apple Device",
+      "hostname": "192.168.1.57",
+      "vendor": "Randomized MAC (iOS/iPad privacy mode)",
+      "type": "iphone",
+      "randomizedMac": true,
+      "signal": "",
+      "blocked": false
+    },
+    {
+      "mac": "A2:1D:00:EF:B2:35",
+      "ip": "192.168.1.67",
+      "name": "Apple Device",
+      "hostname": "192.168.1.67",
+      "vendor": "Randomized MAC (iOS/iPad privacy mode)",
+      "type": "iphone",
+      "randomizedMac": true,
+      "signal": "",
+      "blocked": false
+    },
+    {
+      "mac": "6E:1C:B6:54:E0:87",
+      "ip": "192.168.1.72",
+      "name": "Apple Device",
+      "hostname": "192.168.1.72",
+      "vendor": "Randomized MAC (iOS/iPad privacy mode)",
+      "type": "iphone",
+      "randomizedMac": true,
+      "signal": "",
+      "blocked": false
+    },
+    {
+      "mac": "1C:F6:4C:63:11:75",
+      "ip": "192.168.1.74",
+      "name": "Apple",
+      "hostname": "192.168.1.74",
+      "vendor": "Apple",
+      "type": "other",
+      "randomizedMac": false,
+      "signal": "",
+      "blocked": false
+    }
+  ],
+  "updatedAt": "2026-04-12T05:09:51.022985+00:00"
+}

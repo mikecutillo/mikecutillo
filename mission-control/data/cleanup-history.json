@@ -1,0 +1,265 @@
+{
+  "summary": {
+    "total_operations": 3,
+    "total_freed_gb": 97.583,
+    "cumulative_freed_gb": 97.583,
+    "first_cleanup": "2026-04-09",
+    "last_cleanup": "2026-04-11"
+  },
+  "operations": [
+    {
+      "id": "cleanup-2026-04-09",
+      "date": "2026-04-09T19:33:00",
+      "label": "Apr 9 Cleanup",
+      "triggered_by": "AI Assistant",
+      "archive_root": "/Volumes/ClawBotLoot/cleanup-archive-2026-04-09",
+      "total_freed_gb": 2.61,
+      "cumulative_freed_gb": 2.61,
+      "items": [
+        {
+          "name": "linkedin-auto-apply",
+          "category": "project",
+          "size_gb": 0.1,
+          "original_path": "~/.openclaw/workspace-shared/linkedin-auto-apply",
+          "status": "archived"
+        },
+        {
+          "name": "qa",
+          "category": "project",
+          "size_gb": 0.08,
+          "original_path": "~/.openclaw/workspace-shared/qa",
+          "status": "archived"
+        },
+        {
+          "name": "iba",
+          "category": "project",
+          "size_gb": 0.08,
+          "original_path": "~/.openclaw/workspace-shared/iba",
+          "status": "archived"
+        },
+        {
+          "name": "tools",
+          "category": "project",
+          "size_gb": 0.08,
+          "original_path": "~/.openclaw/workspace-shared/tools",
+          "status": "archived"
+        },
+        {
+          "name": "OneDrive Cache",
+          "category": "cloud",
+          "size_gb": 2,
+          "original_path": "~/Library/CloudStorage/OneDrive-Personal",
+          "status": "archived"
+        },
+        {
+          "name": "iCloud Documents",
+          "category": "cloud",
+          "size_gb": 0.277,
+          "original_path": "~/Library/Mobile Documents",
+          "status": "archived"
+        },
+        {
+          "name": "pip cache",
+          "category": "cache",
+          "size_gb": 0.298,
+          "original_path": "~/Library/Caches/pip",
+          "status": "archived"
+        },
+        {
+          "name": "LM Studio data",
+          "category": "app_data",
+          "size_gb": 0.003,
+          "original_path": "~/Library/Application Support/LM Studio",
+          "status": "deleted"
+        }
+      ],
+      "by_category": {
+        "project": 0.34,
+        "cloud": 2.277,
+        "cache": 0.298,
+        "app_data": 0.003
+      }
+    },
+    {
+      "id": "cleanup-2026-04-11",
+      "date": "2026-04-11T01:15:00",
+      "label": "Apr 11 Mega Cleanup",
+      "triggered_by": "AI Assistant (Disk Critical)",
+      "archive_root": "/Volumes/ClawBotLoot/cleanup-archive-2026-04-10",
+      "total_freed_gb": 93,
+      "cumulative_freed_gb": 95.61,
+      "items": [
+        {
+          "name": "To Be Purged graveyard",
+          "category": "cache",
+          "size_gb": 31,
+          "original_path": "~/.openclaw/To Be Purged",
+          "status": "deleted"
+        },
+        {
+          "name": "openclaw backup-snapshots",
+          "category": "cache",
+          "size_gb": 6.9,
+          "original_path": "~/.openclaw/backup-snapshots",
+          "status": "deleted"
+        },
+        {
+          "name": "workspace backup-snapshots",
+          "category": "cache",
+          "size_gb": 1,
+          "original_path": "~/.openclaw/workspace-shared/backup-snapshots",
+          "status": "archived"
+        },
+        {
+          "name": "npm cache",
+          "category": "cache",
+          "size_gb": 4,
+          "original_path": "~/.npm",
+          "status": "deleted"
+        },
+        {
+          "name": "Homebrew old packages",
+          "category": "cache",
+          "size_gb": 1.3,
+          "original_path": "~/Library/Caches/Homebrew",
+          "status": "deleted"
+        },
+        {
+          "name": "electron-builder cache",
+          "category": "cache",
+          "size_gb": 0.293,
+          "original_path": "~/Library/Caches/electron-builder",
+          "status": "deleted"
+        },
+        {
+          "name": "pnpm cache",
+          "category": "cache",
+          "size_gb": 0.212,
+          "original_path": "~/Library/Caches/pnpm",
+          "status": "deleted"
+        },
+        {
+          "name": "go-build cache",
+          "category": "cache",
+          "size_gb": 0.127,
+          "original_path": "~/Library/Caches/go-build",
+          "status": "deleted"
+        },
+        {
+          "name": "node-gyp cache",
+          "category": "cache",
+          "size_gb": 0.062,
+          "original_path": "~/Library/Caches/node-gyp",
+          "status": "deleted"
+        },
+        {
+          "name": "Library caches (Chrome/Xcode)",
+          "category": "cache",
+          "size_gb": 2.3,
+          "original_path": "~/Library/Caches",
+          "status": "deleted"
+        },
+        {
+          "name": "mission-control node_modules",
+          "category": "project",
+          "size_gb": 0.6,
+          "original_path": "~/.openclaw/workspace-shared/mission-control/node_modules",
+          "status": "deleted"
+        },
+        {
+          "name": "mission-control .next",
+          "category": "project",
+          "size_gb": 0.5,
+          "original_path": "~/.openclaw/workspace-shared/mission-control/.next",
+          "status": "deleted"
+        },
+        {
+          "name": "Feather OS win-unpacked",
+          "category": "project",
+          "size_gb": 0.4,
+          "original_path": "~/.openclaw/workspace-shared/exports/feather-os-windows/win-unpacked",
+          "status": "deleted"
+        },
+        {
+          "name": "m365-dashboard venv backup",
+          "category": "project",
+          "size_gb": 0.468,
+          "original_path": "~/.openclaw/workspace-shared/tmp/m365-dashboard-venv-backup",
+          "status": "deleted"
+        },
+        {
+          "name": "Claude CLI 2.1.91",
+          "category": "app_data",
+          "size_gb": 0.189,
+          "original_path": "~/.local/share/claude/versions/2.1.91",
+          "status": "deleted"
+        },
+        {
+          "name": "Claude CLI 2.1.92",
+          "category": "app_data",
+          "size_gb": 0.19,
+          "original_path": "~/.local/share/claude/versions/2.1.92",
+          "status": "deleted"
+        }
+      ],
+      "by_category": {
+        "project": 1.968,
+        "cloud": 0,
+        "cache": 47.194,
+        "app_data": 0.379
+      }
+    },
+    {
+      "id": "cleanup-1775923448000",
+      "date": "2026-04-11T16:04:08Z",
+      "label": "Apr 11 Cleanup",
+      "triggered_by": "Mission Control",
+      "archive_root": "(no archive — caches/builds only)",
+      "total_freed_gb": 1.973,
+      "cumulative_freed_gb": 97.583,
+      "items": [
+        {
+          "name": "mission-control/.next",
+          "category": "cache",
+          "size_gb": 0.056,
+          "original_path": "/Users/mikecutillo/.openclaw/workspace-shared/mission-control/.next",
+          "status": "deleted"
+        },
+        {
+          "name": "~/.npm",
+          "category": "cache",
+          "size_gb": 1.407,
+          "original_path": "/Users/mikecutillo/.npm",
+          "status": "deleted"
+        },
+        {
+          "name": "Library/Caches/electron",
+          "category": "cache",
+          "size_gb": 0.191,
+          "original_path": "/Users/mikecutillo/Library/Caches/electron",
+          "status": "deleted"
+        },
+        {
+          "name": "Library/Caches/node-gyp",
+          "category": "cache",
+          "size_gb": 0.065,
+          "original_path": "/Users/mikecutillo/Library/Caches/node-gyp",
+          "status": "deleted"
+        },
+        {
+          "name": "Library/Caches/Google/Chrome",
+          "category": "cache",
+          "size_gb": 0.254,
+          "original_path": "/Users/mikecutillo/Library/Caches/Google/Chrome",
+          "status": "deleted"
+        }
+      ],
+      "by_category": {
+        "project": 0,
+        "cloud": 0,
+        "cache": 1.973,
+        "app_data": 0
+      }
+    }
+  ]
+}

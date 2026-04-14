@@ -1,0 +1,179 @@
+[
+  {
+    "id": "mnxwxod41prkr",
+    "createdAt": "2026-04-14T00:58:26.584Z",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=GlkJMO_ufYA",
+      "title": "(38) How I Built My Own AI Trading Assistant Using Claude Cowork - YouTube"
+    },
+    "rawText": "[YouTube Description]\n176K views  2 weeks ago\n\n\n  \n  176,027 views • Mar 24, 2026\n\n\n\n\n          \n          \n          \n          In this video, I’m showing you how to turn Claude Cowork into your ultimate 24/7 trading assistant using Anthropic's brand-new Computer Use and Dispatch features. You’ll learn how to set up an AI agent that doesn't just talk, but actually controls your desktop, analyzes your local trade journals, and executes live positions on Blofin via API or automated TradingView webhooks. …...more\n...more\n\n              \n\n\nHow this was madeAuto-dubbedAudio tracks for some languages were automatically generated. Learn more\n\n  \n  \n  \n    \n      Chapters\n      \n    \n  \n  \n  \n  \n  \n  View all\n\n\n  \n  \n\n\n  \n    \n       \n    \n    \n  \n  \n    \n  \n    \n    \n  \n  \n    Intro\n    Intro\n    0:00\n  \n\n\n  \n    Intro\n  \n  0:00\n\n\n\n\n  \n    \n    \n  \n  \n    What is Claude Cowork?\n    What is Claude Cowork?\n    0:35\n  \n\n\n  \n    What is Claude Cowork?\n  \n  0:35\n\n\n\n\n  \n    \n    \n  \n  \n    Key Feature\n    Key Feature\n    1:53\n  \n\n\n  \n    Key Feature\n  \n  1:53\n\n\n\n\n  \n    \n    \n  \n  \n    Getting Claude on Your Desktop\n    Getting Claude on Your Desktop\n    3:30\n  \n\n\n  \n    Getting Claude on Your Desktop\n  \n  3:30\n\n\n\n\n  \n    \n    \n  \n  \n    Practical Use Cases\n    Practical Use Cases\n    4:30\n  \n\n\n  \n    Practical Use Cases\n  \n  4:30\n\n\n\n\n  \n    \n    \n  \n  \n    Connecting to Blofin\n    Connecting to Blofin\n    6:00\n  \n\n\n  \n    Connecting to Blofin\n  \n  6:00\n\n\n\n\n  \n    \n    \n  \n  \n    Full Trading Automation\n    Full Trading Automation\n    8:00\n  \n\n\n  \n    Full Trading Automation\n  \n  8:00\n\n\n\n\n  \n    \n    \n  \n  \n    Personal Review\n    Personal Review\n    9:30\n  \n\n\n  \n    Personal Review\n  \n  9:30\n\n\n\n\n  \n  \n    \n       \n    \n    \n  \n\n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n  \n  \n    Alex Carter\n    \n      9.9K subscribers\n    \n  \n\n\n  \n    \n       \n    \n  \n  \n    VideosAbout\n  \n  \n    \n       \n    \n  \n\n\n\n\n              \n\n\n            Show less\n\n[Page Text]\nSkip navigation\nCreate\n9+\n0:01 / 11:33\nIntro\nHow I Built My Own AI Trading Assistant Using Claude Cowork\nAlex Carter\n9.9K subscribers\nSubscribe\n6K\nShare\nSave\nClip\n176K views  2 weeks ago\nIn this video, I’m showing you how to turn Claude Cowork into your ultimate 24/7 trading assistant using Anthropic's brand-new Computer Use and Dispatch features. You’ll learn how to set up an AI agent that doesn't just talk, but actually controls your desktop, analyzes your local trade journals, and executes live positions on Blofin via API or automated TradingView webhooks. …\n...more\n\n \n \n \n \nAll\nFor you\nWatched\n12:09\n'Miraculous' Arrest in 15-Year-Old Murder of Realtor Offers More Questions Than Answers | Analysis\nDr. Todd Grande\n56K views\n•\n1 day ago\nNew\n27:14\nTransformers, the tech behind LLMs | Deep Learning Chapter 5\n3Blue1Brown\n9.8M views\n•\n2 years ago\n17:49\nYou’re not behind (yet): How to learn AI in 18 minutes\nDan Martell\n1M views\n•\n1 month ago\n12:54\nWoman Claims She’s Pregnant After Encounter with 'Bachelor' Quasi-Celebrity | Owens Analysis\nDr. Todd Grande\n73K views\n•\n5 months ago\n14:05\nHe Actually Posted This\npenguinz0\n1.3M views\n•\n6 hours ago\nNew\n19:42\nSo... What Was the Point of Artemis II?\nColdFusion\n137K views\n•\n6 hours ago\nNew\n20:33\nClaude Code + Paperclip Just Destroyed OpenClaw\nNate Herk | AI Automation\n213K views\n•\n2 weeks ago\n15:00\nDid Scientology Make 'That '70s Show' Star an Entitled and Violent Deity | Danny Masterson Analysis\nDr. Todd Grande\n195K views\n•\n2 years ago\n8:44\nShe Actually Hooked Up With a Dolphin\nRay William Johnson\n92K views\n•\n8 hours ago\nNew\n19:44\nI've Disliked This Company for Awhile and Feel Vindicated Now\npenguinz0\n2.9M views\n•\n1 month ago\n18:56\nI Gave Claude $10,000 to Trade Stocks\nNate Herk | AI Automation\n and Samin Yasar\n74K views\n•\n4 days ago\nNew\n22:02\nI Made OpenClaw 10X Cheaper\nMatthew Berman\n17K views\n•\n8 hours ago\nNew\n26:23\nFrom Zero to Your First Agentic AI Workflow in 26 Minutes (Claude Code)\nNate Herk | AI Automation\n151K views\n•\n1 month ago\n12:33\nU.S. / Iran Ceasefire Talks FALL APART\nThe Young Turks\n3.5K views\n•\n28 minutes ago\nNew\n15:24\nWhite House ‘Security Expert’ Shoots Lover Through Wall and Avoids Murder Charge | Wood Analysis\nDr. Todd Grande\n34K views\n•\n7 hours ago\nNew\n27:57\nThis is everything wrong with society..\nAsmongold TV \n235K views\n•\n3 hours ago\nNew\n16:47\nThe Linus Tech Tips Situation is Bad\nAugustTheDuck\n537K views\n•\n9 days ago\n18:25\nUnforgiven - Analysing The Greatest Western Ever Made\nThe Critical Drinker\n238K views\n•\n7 hours ago\nNew\n8:02\nThis Youtuber Killed 3 People\nRay William Johnson\n269K views\n•\n2 days ago\nNew\n24:19\nHow to Win With AI in 2026\nAlex Hormozi\n549K views\n•\n13 days ago\n \n \n \n ",
+    "plan": {
+      "summary": "This YouTube video demonstrates how to build an AI trading assistant using Claude Cowork and Anthropic's Computer Use/Dispatch features, with practical integration for desktop control, trade analysis, and automated trading. The only available actionable content is to watch the video for full instructions.",
+      "directive": "learn",
+      "steps": [
+        {
+          "capability": "open_url",
+          "params": {
+            "url": "https://www.youtube.com/watch?v=GlkJMO_ufYA"
+          },
+          "rationale": "Watching the video provides step-by-step instructions on setting up and using Claude Cowork as an AI trading assistant."
+        }
+      ]
+    },
+    "stepResults": [
+      {
+        "index": 0,
+        "status": "pending"
+      }
+    ]
+  },
+  {
+    "id": "cap_20260412_plugins_video",
+    "createdAt": "2026-04-12T17:30:00.000Z",
+    "source": {
+      "url": "https://www.mejba.me/blog/top-10-claude-code-skills-plugins-clis-2026",
+      "title": "10 Best Claude Code Plugins (YouTube Video)"
+    },
+    "rawText": "1. CodeEx Plugin — Uses OpenAI Codex CLI for adversarial code review [01:22]. 2. Obsidian & Obsidian Skills — Searchable local knowledge base, vault of subfolders + markdown = mini RAG [03:51]. 3. Auto Research — Automated ML experimenter, commits improvements, discards regressions [05:23]. 4. AwesomeDesign.md — Frontend design templates based on popular sites (Notion, Figma) [06:25]. 5. Firecrawl CLI & Skill — Advanced web scraping, bypasses anti-bot, LLM-optimized data [08:15]. 6. Playwright CLI — Browser automation via accessibility tree [10:21]. 7. NotebookLM-Pine — Connects Claude to Google NotebookLM for heavy doc analysis [11:35]. 8. Skill Creator Skill — Build and test custom skills with benchmarking [12:42]. 9. LightRAG — Lightweight GraphRAG for massive document sets [13:30]. 10. GWS CLI — Google Workspace integration with workflow recipes [15:02].",
+    "plan": {
+      "summary": "Install 10 recommended Claude Code plugins covering code review, knowledge management, design, web scraping, browser automation, document analysis, skill creation, RAG, and Google Workspace integration.",
+      "directive": "install",
+      "steps": [
+        {
+          "capability": "save_note",
+          "params": {
+            "text": "Install obsidian-pkm@3.6.2 as MCP server with vault at ~/.openclaw/vault/"
+          },
+          "rationale": "Set up Obsidian PKM vault with 20 MCP tools for knowledge management"
+        },
+        {
+          "capability": "save_note",
+          "params": {
+            "text": "Register Playwright MCP: npx @playwright/mcp@latest"
+          },
+          "rationale": "Add headless browser automation via accessibility tree"
+        },
+        {
+          "capability": "save_note",
+          "params": {
+            "text": "Register NotebookLM MCP: npx notebooklm-mcp@latest"
+          },
+          "rationale": "Connect to Google NotebookLM for document analysis offloading"
+        },
+        {
+          "capability": "save_note",
+          "params": {
+            "text": "Register Firecrawl MCP: npx -y firecrawl-mcp (needs API key)"
+          },
+          "rationale": "Add web scraping with anti-bot bypass"
+        },
+        {
+          "capability": "save_note",
+          "params": {
+            "text": "Register Notion MCP: npx -y @notionhq/notion-mcp-server"
+          },
+          "rationale": "Connect Notion workspace using existing API token"
+        },
+        {
+          "capability": "save_note",
+          "params": {
+            "text": "Install codex-cli@0.120.0 globally"
+          },
+          "rationale": "OpenAI Codex CLI for adversarial code review (already had skill)"
+        },
+        {
+          "capability": "save_note",
+          "params": {
+            "text": "Install firecrawl-cli@1.14.8 globally"
+          },
+          "rationale": "Firecrawl CLI companion to MCP server"
+        },
+        {
+          "capability": "save_note",
+          "params": {
+            "text": "Install gws@0.22.5 globally"
+          },
+          "rationale": "Google Workspace CLI with 100+ skills and workflow recipes"
+        },
+        {
+          "capability": "save_note",
+          "params": {
+            "text": "Clone awesome-design-md to ~/.openclaw/awesome-design-md/"
+          },
+          "rationale": "66 brand DESIGN.md templates for frontend work"
+        },
+        {
+          "capability": "save_note",
+          "params": {
+            "text": "Clone agent-skill-creator to ~/.claude/skills/agent-skill-creator/"
+          },
+          "rationale": "Skill creation tool with benchmarking and A/B testing"
+        },
+        {
+          "capability": "save_note",
+          "params": {
+            "text": "Skipped LightRAG — obsidian-pkm covers RAG use case"
+          },
+          "rationale": "LightRAG requires Docker + separate LLM backend; overkill for current scale"
+        }
+      ]
+    },
+    "stepResults": [
+      {
+        "index": 0,
+        "status": "done",
+        "output": "obsidian-pkm MCP connected, vault created at ~/.openclaw/vault/"
+      },
+      {
+        "index": 1,
+        "status": "done",
+        "output": "Playwright MCP connected"
+      },
+      {
+        "index": 2,
+        "status": "done",
+        "output": "NotebookLM MCP connected (needs first-time browser auth)"
+      },
+      {
+        "index": 3,
+        "status": "done",
+        "output": "Firecrawl MCP registered (needs FIRECRAWL_API_KEY)"
+      },
+      {
+        "index": 4,
+        "status": "done",
+        "output": "Notion MCP connected using existing ntn_ token"
+      },
+      {
+        "index": 5,
+        "status": "done",
+        "output": "codex-cli 0.120.0 installed at /opt/homebrew/bin/codex"
+      },
+      {
+        "index": 6,
+        "status": "done",
+        "output": "firecrawl-cli 1.14.8 installed"
+      },
+      {
+        "index": 7,
+        "status": "done",
+        "output": "gws 0.22.5 installed at /opt/homebrew/bin/gws (needs gws auth setup)"
+      },
+      {
+        "index": 8,
+        "status": "done",
+        "output": "66 brand templates cloned to ~/.openclaw/awesome-design-md/"
+      },
+      {
+        "index": 9,
+        "status": "done",
+        "output": "agent-skill-creator installed to ~/.claude/skills/"
+      },
+      {
+        "index": 10,
+        "status": "done",
+        "output": "Skipped — obsidian-pkm provides sufficient RAG"
+      }
+    ]
+  }
+]

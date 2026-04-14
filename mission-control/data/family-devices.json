@@ -1,0 +1,59 @@
+{
+  "profiles": [
+    {
+      "id": "liam",
+      "name": "Liam",
+      "emoji": "🧒",
+      "color": "#5e6ad2",
+      "devices": [],
+      "curfew": { "weekday": "21:00", "weekend": "22:00" },
+      "weekendOverride": true,
+      "bonusMinutes": 0,
+      "paused": false,
+      "pausedAt": null,
+      "homeworkMode": false,
+      "sneakyMode": false,
+      "blockedApps": [],
+      "safeSearch": true,
+      "youtubeRestricted": true,
+      "homeworkWhitelist": [
+        "google.com",
+        "khanacademy.org",
+        "docs.google.com",
+        "drive.google.com",
+        "wikipedia.org",
+        "youtube.com",
+        "classroom.google.com"
+      ]
+    },
+    {
+      "id": "clara",
+      "name": "Clara",
+      "emoji": "👧",
+      "color": "#ec4899",
+      "devices": [],
+      "curfew": { "weekday": "20:00", "weekend": "21:00" },
+      "weekendOverride": true,
+      "bonusMinutes": 0,
+      "paused": false,
+      "pausedAt": null,
+      "homeworkMode": false,
+      "sneakyMode": false,
+      "blockedApps": [],
+      "safeSearch": true,
+      "youtubeRestricted": true,
+      "homeworkWhitelist": [
+        "google.com",
+        "khanacademy.org",
+        "docs.google.com",
+        "drive.google.com",
+        "wikipedia.org",
+        "youtube.com",
+        "classroom.google.com"
+      ]
+    }
+  ],
+  "dinnerMode": false,
+  "dinnerModeStartedAt": null,
+  "screenFreeNight": { "enabled": false, "dayOfWeek": 0, "startTime": "19:00" }
+}

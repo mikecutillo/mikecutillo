@@ -1,0 +1,23 @@
+{
+  "nodes": [
+    { "id": "cutillo-cloud", "label": "Cutillo Cloud", "sub": "36TB · NAS + Cloud",     "r": 88, "parent": null, "brand": "nas",       "href": "/cloud-command",        "color": "#4da6ff" },
+    { "id": "services",      "label": "Services",      "sub": "$19.99/mo confirmed",     "r": 78, "parent": null, "brand": "openai",    "href": "/cloud-accounts",       "color": "#8b5cf6" },
+
+    { "id": "google",    "label": "Google One",    "sub": "253 GB / 2TB · 4 ppl", "r": 58, "parent": "cutillo-cloud", "brand": "google",    "href": "/cloud-command", "color": "#4285F4", "used_pct": 12 },
+    { "id": "icloud",    "label": "iCloud+",       "sub": "2TB · $9.99/mo",       "r": 58, "parent": "cutillo-cloud", "brand": "icloud",    "href": "/cloud-command", "color": "#A2AAAD", "used_pct": null },
+    { "id": "microsoft", "label": "Microsoft 365", "sub": "163 GB / 1TB",         "r": 58, "parent": "cutillo-cloud", "brand": "microsoft", "href": "/cloud-command", "color": "#0078D4", "used_pct": 16 },
+    { "id": "nas",       "label": "NAS Core",      "sub": "10TB local",           "r": 58, "parent": "cutillo-cloud", "brand": "nas",       "href": "/cloud-storage", "color": "#00ff88", "used_pct": 42 },
+
+    { "id": "mike-google",  "label": "Mike",  "sub": "253 GB / 5.5TB",  "r": 34, "parent": "google",    "brand": "gmail",     "href": "/cloud-person/mike",  "color": "#f0a500", "used_pct": 5  },
+    { "id": "eirin-google", "label": "Eirin", "sub": "13.9 GB / 16 GB", "r": 34, "parent": "google",    "brand": "gmail",     "href": "/cloud-person/eirin", "color": "#ef4444", "used_pct": 87 },
+    { "id": "mike-ms",      "label": "Mike",  "sub": "163 GB / 1TB",    "r": 34, "parent": "microsoft", "brand": "onedrive",  "href": "/cloud-person/mike",  "color": "#f0a500", "used_pct": 16 },
+    { "id": "mike-icloud",  "label": "Mike",  "sub": "2TB · $9.99/mo",  "r": 34, "parent": "icloud",    "brand": "icloud",    "href": "/cloud-person/mike",  "color": "#f0a500", "used_pct": null },
+
+    { "id": "chatgpt",  "label": "ChatGPT Plus", "sub": "$19.99/mo",  "r": 48, "parent": "services", "brand": "openai",   "href": "/cloud-accounts", "color": "#10b981" },
+    { "id": "netflix",  "label": "Netflix",      "sub": "TBD",        "r": 44, "parent": "services", "brand": "netflix",  "href": "/cloud-accounts", "color": "#E50914" },
+    { "id": "spotify",  "label": "Spotify",      "sub": "TBD",        "r": 44, "parent": "services", "brand": "spotify",  "href": "/cloud-accounts", "color": "#1DB954" },
+    { "id": "nintendo", "label": "Nintendo",     "sub": "Online TBD", "r": 40, "parent": "services", "brand": "nintendo", "href": "/cloud-accounts", "color": "#f59e0b" },
+    { "id": "ubereats", "label": "Uber Eats",    "sub": "TBD",        "r": 40, "parent": "services", "brand": "ubereats", "href": "/cloud-accounts", "color": "#06C167" },
+    { "id": "disney",   "label": "Disney+",      "sub": "TBD",        "r": 40, "parent": "services", "brand": "disney",   "href": "/cloud-accounts", "color": "#ec4899" }
+  ]
+}

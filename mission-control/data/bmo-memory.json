@@ -1,0 +1,153 @@
+{
+  "version": "1.0",
+  "totalInteractions": 9,
+  "firstInteraction": "2026-04-12T19:36:35.772Z",
+  "interactions": [
+    {
+      "timestamp": "2026-04-12T19:36:35.772Z",
+      "userId": "338165373172187137",
+      "username": "akuma1153",
+      "channelId": "1492789210137104456",
+      "channelName": "general",
+      "question": "hi who is in here?",
+      "response": "Hey hey! BMO is here! What can I help with? 🎮",
+      "intent": "greeting",
+      "dataSourcesUsed": [],
+      "responseTimeMs": 3,
+      "id": "bmo_1776022595800_5s16i"
+    },
+    {
+      "timestamp": "2026-04-12T21:14:37.117Z",
+      "userId": "1045919714385350716",
+      "username": "rainbowvacuum",
+      "channelId": "1492795354104725627",
+      "channelName": "bills-due",
+      "question": "hello",
+      "response": "Hey hey! BMO is here! What can I help with? 🎮",
+      "intent": "greeting",
+      "dataSourcesUsed": [],
+      "responseTimeMs": 1,
+      "id": "bmo_1776028477129_5q251"
+    },
+    {
+      "timestamp": "2026-04-12T21:15:19.906Z",
+      "userId": "1045919714385350716",
+      "username": "rainbowvacuum",
+      "channelId": "1492795031579394199",
+      "channelName": "calendar",
+      "question": "hello",
+      "response": "Hi there! What does BMO need to look up?",
+      "intent": "greeting",
+      "dataSourcesUsed": [],
+      "responseTimeMs": 1,
+      "id": "bmo_1776028519908_i5wea"
+    },
+    {
+      "timestamp": "2026-04-12T21:15:57.757Z",
+      "userId": "1045919714385350716",
+      "username": "rainbowvacuum",
+      "channelId": "1492795354104725627",
+      "channelName": "bills-due",
+      "question": "what bills are due this week",
+      "response": "No bills on file.",
+      "intent": "bills",
+      "dataSourcesUsed": [
+        "accounts-bills-normalized.json"
+      ],
+      "responseTimeMs": 1,
+      "id": "bmo_1776028557759_lig17"
+    },
+    {
+      "timestamp": "2026-04-12T21:16:31.310Z",
+      "userId": "1045919714385350716",
+      "username": "rainbowvacuum",
+      "channelId": "1492795354104725627",
+      "channelName": "bills-due",
+      "question": "you check Mission Control for me and tell me the answer",
+      "response": "BMO heard you but isn't sure how to answer that one yet. Try asking about screen time, device status, or what someone's been up to!",
+      "intent": "general",
+      "dataSourcesUsed": [],
+      "responseTimeMs": 0,
+      "id": "bmo_1776028591312_mvlom"
+    },
+    {
+      "timestamp": "2026-04-13T00:56:01.221Z",
+      "userId": "338165373172187137",
+      "username": "akuma1153",
+      "channelId": "1492795536615669841",
+      "channelName": "subscriptions",
+      "question": "@b",
+      "response": "Reply with 1 (keep both), 2 (cancel Nintendo), 3 (cancel Uber Eats), or 4 (cancel both).",
+      "intent": "survey-response:subscription-audit",
+      "dataSourcesUsed": [],
+      "responseTimeMs": 668,
+      "id": "bmo_1776041761224_snusz"
+    },
+    {
+      "timestamp": "2026-04-13T00:56:31.744Z",
+      "userId": "338165373172187137",
+      "username": "akuma1153",
+      "channelId": "1492795536615669841",
+      "channelName": "subscriptions",
+      "question": "door dash isnt a subscription - is there a feedback loop?",
+      "response": "BMO heard you but isn't sure how to answer that one yet. Try asking about screen time, device status, or what someone's been up to!",
+      "intent": "general",
+      "dataSourcesUsed": [],
+      "responseTimeMs": 4,
+      "id": "bmo_1776041791753_ob9ob"
+    },
+    {
+      "timestamp": "2026-04-13T00:58:04.007Z",
+      "userId": "338165373172187137",
+      "username": "akuma1153",
+      "channelId": "1492795536615669841",
+      "channelName": "subscriptions",
+      "question": "I'm wondering if you can remove DoorDash from this channel moving forward and learn and if not, what mechanism do we need to put into place for that to happen?",
+      "response": "BMO heard you but isn't sure how to answer that one yet. Try asking about screen time, device status, or what someone's been up to!",
+      "intent": "general",
+      "dataSourcesUsed": [],
+      "responseTimeMs": 1,
+      "id": "bmo_1776041884012_xlj94"
+    },
+    {
+      "timestamp": "2026-04-13T02:09:46.863Z",
+      "userId": "338165373172187137",
+      "username": "akuma1153",
+      "channelId": "1492796861051043840",
+      "channelName": "misc-updates",
+      "question": "is there a way we can give you a command and you executed on Claude at home",
+      "response": "BMO heard you but isn't sure how to answer that one yet. Try asking about screen time, device status, or what someone's been up to!",
+      "intent": "general",
+      "dataSourcesUsed": [],
+      "responseTimeMs": 0,
+      "id": "bmo_1776046186878_4zqv4"
+    }
+  ],
+  "frequentTopics": {
+    "greeting": 3,
+    "bills": 1,
+    "general": 4,
+    "survey-response:subscription-audit": 1
+  },
+  "userPreferences": {
+    "338165373172187137": {
+      "favoriteQuestions": [
+        "hi who is in here?",
+        "@b",
+        "door dash isnt a subscription - is there a feedback loop?",
+        "I'm wondering if you can remove DoorDash from this channel moving forward and learn and if not, what mechanism do we need to put into place for that to happen?",
+        "is there a way we can give you a command and you executed on Claude at home"
+      ],
+      "lastSeen": "2026-04-13T02:09:46.863Z"
+    },
+    "1045919714385350716": {
+      "favoriteQuestions": [
+        "hello",
+        "hello",
+        "what bills are due this week",
+        "you check Mission Control for me and tell me the answer"
+      ],
+      "lastSeen": "2026-04-12T21:16:31.310Z"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "lastScheduleRun": null,
+  "members": {
+    "mike": { "checkins": [], "currentStreak": 0, "lastCheckinDate": null, "lastCategory": null, "categoryHistory": [] },
+    "erin": { "checkins": [], "currentStreak": 0, "lastCheckinDate": null, "lastCategory": null, "categoryHistory": [] },
+    "liam": { "checkins": [], "currentStreak": 0, "lastCheckinDate": null, "lastCategory": null, "categoryHistory": [] },
+    "clara": { "checkins": [], "currentStreak": 0, "lastCheckinDate": null, "lastCategory": null, "categoryHistory": [] }
+  },
+  "alerts": []
+}

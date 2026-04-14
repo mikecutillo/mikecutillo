@@ -1,0 +1,255 @@
+{
+  "version": "1.0",
+  "pending": [
+    {
+      "userId": "338165373172187137",
+      "memberId": "mike",
+      "channelId": "1492789210137104456",
+      "type": "freeform",
+      "questionText": "Survey in #general",
+      "options": {},
+      "actionPayload": {
+        "context": "excited-about",
+        "channelName": "general"
+      },
+      "bmoMessageId": "1493051203079377028",
+      "id": "conv_1776041546439_mq9j",
+      "askedAt": "2026-04-13T00:52:26.439Z",
+      "expiresAt": "2026-04-14T00:52:26.440Z"
+    },
+    {
+      "userId": "338165373172187137",
+      "memberId": "mike",
+      "channelId": "1492794841942200330",
+      "type": "goal-approval",
+      "questionText": "Survey in #announcements",
+      "options": {
+        "1": "Activate all",
+        "2": "Pick individually",
+        "3": "Discuss first",
+        "4": "Suggest different goals"
+      },
+      "actionPayload": {
+        "goalIds": [
+          "goal_cc_paydown",
+          "goal_checking_buffer",
+          "goal_sub_audit",
+          "goal_screen_time_weekday",
+          "goal_family_dinner",
+          "goal_new_dentist",
+          "goal_class_placement"
+        ]
+      },
+      "bmoMessageId": "1493051210234724556",
+      "id": "conv_1776041548231_xxt8",
+      "askedAt": "2026-04-13T00:52:28.231Z",
+      "expiresAt": "2026-04-14T00:52:28.231Z"
+    },
+    {
+      "userId": "338165373172187137",
+      "memberId": "mike",
+      "channelId": "1492794941384953916",
+      "type": "freeform",
+      "questionText": "Survey in #general-chat",
+      "options": {},
+      "actionPayload": {
+        "context": "excited-about",
+        "channelName": "general-chat"
+      },
+      "bmoMessageId": "1493051217725624340",
+      "id": "conv_1776041550040_0jkt",
+      "askedAt": "2026-04-13T00:52:30.040Z",
+      "expiresAt": "2026-04-14T00:52:30.040Z"
+    },
+    {
+      "userId": "338165373172187137",
+      "memberId": "mike",
+      "channelId": "1492795193995563058",
+      "type": "curfew",
+      "questionText": "Survey in #screen-time",
+      "options": {
+        "1": "Enforce curfews now",
+        "2": "Adjust times",
+        "3": "Discuss first",
+        "4": "Reminders only"
+      },
+      "actionPayload": {
+        "goalId": "goal_screen_time_weekday"
+      },
+      "bmoMessageId": "1493051239682805880",
+      "id": "conv_1776041555145_2h05",
+      "askedAt": "2026-04-13T00:52:35.145Z",
+      "expiresAt": "2026-04-14T00:52:35.145Z"
+    },
+    {
+      "userId": "338165373172187137",
+      "memberId": "mike",
+      "channelId": "1492795354104725627",
+      "type": "survey",
+      "questionText": "Survey in #bills-due",
+      "options": {
+        "1": "Activate both goals",
+        "2": "CC paydown only",
+        "3": "Checking buffer only",
+        "4": "Show full ledger"
+      },
+      "actionPayload": {
+        "surveyType": "goal-activation",
+        "channelName": "bills-due"
+      },
+      "bmoMessageId": "1493051246955855912",
+      "id": "conv_1776041556905_c2gp",
+      "askedAt": "2026-04-13T00:52:36.905Z",
+      "expiresAt": "2026-04-14T00:52:36.905Z"
+    },
+    {
+      "userId": "338165373172187137",
+      "memberId": "mike",
+      "channelId": "1492795438049398934",
+      "type": "survey",
+      "questionText": "Survey in #cash-flow",
+      "options": {
+        "1": "Weekly breakdown",
+        "2": "Low balance alerts",
+        "3": "Overspending analysis",
+        "4": "Savings progress"
+      },
+      "actionPayload": {
+        "surveyType": "cashflow-preference",
+        "channelName": "cash-flow"
+      },
+      "bmoMessageId": "1493051253717205155",
+      "id": "conv_1776041558674_e0xg",
+      "askedAt": "2026-04-13T00:52:38.674Z",
+      "expiresAt": "2026-04-14T00:52:38.674Z"
+    },
+    {
+      "userId": "338165373172187137",
+      "memberId": "mike",
+      "channelId": "1492795625455095959",
+      "type": "survey",
+      "questionText": "Survey in #financial-digest",
+      "options": {
+        "1": "Monday morning digest",
+        "2": "Bi-weekly",
+        "3": "Only alerts",
+        "4": "On demand only"
+      },
+      "actionPayload": {
+        "surveyType": "digest-frequency",
+        "channelName": "financial-digest"
+      },
+      "bmoMessageId": "1493051268581556348",
+      "id": "conv_1776041562080_4m5r",
+      "askedAt": "2026-04-13T00:52:42.080Z",
+      "expiresAt": "2026-04-14T00:52:42.080Z"
+    },
+    {
+      "userId": "338165373172187137",
+      "memberId": "mike",
+      "channelId": "1492795782657478729",
+      "type": "survey",
+      "questionText": "Survey in #job-pipeline",
+      "options": {
+        "1": "Actively applying",
+        "2": "Clear and restart",
+        "3": "Surface better roles",
+        "4": "Got a lead"
+      },
+      "actionPayload": {
+        "surveyType": "job-status",
+        "channelName": "job-pipeline"
+      },
+      "bmoMessageId": "1493051275804283011",
+      "id": "conv_1776041563748_fdi0",
+      "askedAt": "2026-04-13T00:52:43.748Z",
+      "expiresAt": "2026-04-14T00:52:43.748Z"
+    },
+    {
+      "userId": "338165373172187137",
+      "memberId": "mike",
+      "channelId": "1492795976161689600",
+      "type": "survey",
+      "questionText": "Survey in #resume-workshop",
+      "options": {
+        "1": "LinkedIn optimization",
+        "2": "Portfolio site",
+        "3": "Tailor for a role",
+        "4": "Focus on applications"
+      },
+      "actionPayload": {
+        "surveyType": "resume-priority",
+        "channelName": "resume-workshop"
+      },
+      "bmoMessageId": "1493051293093073037",
+      "id": "conv_1776041567955_07ki",
+      "askedAt": "2026-04-13T00:52:47.955Z",
+      "expiresAt": "2026-04-14T00:52:47.955Z"
+    },
+    {
+      "userId": "338165373172187137",
+      "memberId": "mike",
+      "channelId": "1492796320149274806",
+      "type": "survey",
+      "questionText": "Survey in #smart-home",
+      "options": {
+        "1": "Know every device",
+        "2": "Mostly",
+        "3": "Show me everything",
+        "4": "Worried about unknown devices"
+      },
+      "actionPayload": {
+        "surveyType": "network-audit",
+        "channelName": "smart-home"
+      },
+      "bmoMessageId": "1493051314664640525",
+      "id": "conv_1776041573116_5dw5",
+      "askedAt": "2026-04-13T00:52:53.116Z",
+      "expiresAt": "2026-04-14T00:52:53.116Z"
+    },
+    {
+      "userId": "338165373172187137",
+      "memberId": "mike",
+      "channelId": "1492796650949972049",
+      "type": "survey",
+      "questionText": "Survey in #news-feed",
+      "options": {
+        "1": "AI & ML",
+        "2": "EdTech",
+        "3": "Job market",
+        "4": "Local NJ",
+        "5": "All of the above",
+        "6": "Custom topics"
+      },
+      "actionPayload": {
+        "surveyType": "news-topics",
+        "channelName": "news-feed"
+      },
+      "bmoMessageId": "1493051329747091557",
+      "id": "conv_1776041576636_nozx",
+      "askedAt": "2026-04-13T00:52:56.636Z",
+      "expiresAt": "2026-04-14T00:52:56.636Z"
+    },
+    {
+      "userId": "338165373172187137",
+      "memberId": "mike",
+      "channelId": "1492796761511563314",
+      "type": "survey",
+      "questionText": "Survey in #content-studi",
+      "options": {
+        "1": "LinkedIn posts",
+        "2": "Technical blog",
+        "3": "Family newsletter",
+        "4": "Nothing right now"
+      },
+      "actionPayload": {
+        "surveyType": "content-priority",
+        "channelName": "content-studi"
+      },
+      "bmoMessageId": "1493051337284386919",
+      "id": "conv_1776041578582_2tsn",
+      "askedAt": "2026-04-13T00:52:58.582Z",
+      "expiresAt": "2026-04-14T00:52:58.582Z"
+    }
+  ]
+}

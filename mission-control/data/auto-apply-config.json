@@ -1,0 +1,33 @@
+{
+  "autoSubmit": true,
+  "defaultHeadless": false,
+  "maxApplicationsPerDay": 25,
+  "cooldownMinutes": 6,
+  "minFitScore": 0,
+  "pdfCacheDir": "resumes/generated-pdf",
+  "persistentProfileDir": ".playwright-profile",
+  "sensitiveKeywordsPause": [
+    "salary expectation",
+    "compensation",
+    "desired salary",
+    "sponsorship",
+    "visa",
+    "relocate",
+    "relocation",
+    "start date",
+    "notice period",
+    "earliest start"
+  ],
+  "notifyOn": ["success", "unknown-question", "failure"],
+  "fuzzyMatchThreshold": 0.55,
+  "jitterMinMs": 800,
+  "jitterMaxMs": 2400,
+  "_comments": {
+    "autoSubmit": "Happy-path auto-submit is the whole point of Phase 2. Only unknown questions or sensitive keywords can pause the worker.",
+    "sensitiveKeywordsPause": "If a question contains any of these substrings, the worker pauses for confirmation even when a fuzzy-match answer exists. Protects against wrong salary/visa/start-date answers being auto-submitted.",
+    "fuzzyMatchThreshold": "string-similarity threshold (0–1). Below this, the question is treated as unknown and surfaces the pause flow.",
+    "minFitScore": "0 means the apply click itself is the gate. Raise to e.g. 70 to add a fit threshold.",
+    "maxApplicationsPerDay": "Safety cap — single-user should never hit this organically.",
+    "cooldownMinutes": "Minimum delay between applies — anti-bot hygiene."
+  }
+}

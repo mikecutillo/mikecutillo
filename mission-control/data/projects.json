@@ -1,0 +1,252 @@
+[
+  {
+    "id": "proj-mission-control",
+    "name": "Mission Control",
+    "description": "turbodot's personal dashboard — a Linear-inspired control center. Full Next.js 14 app with Kanban tasks, Calendar, Projects, Memory, Docs, Team, Office/City nav, and Activity Feed. Running on port 3333.",
+    "emoji": "🚀",
+    "status": "active",
+    "owner": "turbodot",
+    "tags": [
+      "frontend",
+      "dashboard",
+      "nextjs"
+    ],
+    "createdAt": "2026-03-18T00:00:00.000Z",
+    "updatedAt": "2026-03-23T13:00:00.000Z"
+  },
+  {
+    "id": "proj-resumebot",
+    "name": "ResumeBot",
+    "description": "AI-powered job search automation system. Resume Workshop (4 lanes A/B/C/D), Job Pipeline (Deal Desk cards), Approval Queue, Scout Config, and outreach modal. Integrated with Make.com webhook.",
+    "emoji": "💼",
+    "status": "active",
+    "owner": "turbodot",
+    "tags": [
+      "automation",
+      "job-pipeline",
+      "resumebot"
+    ],
+    "createdAt": "2026-03-22T00:00:00.000Z",
+    "updatedAt": "2026-03-23T13:00:00.000Z"
+  },
+  {
+    "id": "proj-contentbot",
+    "name": "ContentBot",
+    "description": "LinkedIn content machine for Charles Sacco CFP. Content Hub (split-screen queue + composer), Viral Posts (Taplio-style), Analytics (Buffer live stats), Art Director agent (QuickChart auto-graphs), Make.com → Buffer pipeline.",
+    "emoji": "✍️",
+    "status": "active",
+    "owner": "turbodot",
+    "tags": [
+      "content",
+      "linkedin",
+      "automation",
+      "contentbot"
+    ],
+    "createdAt": "2026-03-22T00:00:00.000Z",
+    "updatedAt": "2026-03-23T13:00:00.000Z"
+  },
+  {
+    "id": "proj-infra",
+    "name": "Infrastructure & Memory",
+    "description": "OpenClaw gateway config, lossless-claw DAG memory plugin, SSH remote access setup, LAN/PC access, Discord bot pairing, and agent memory system (daily logs + MEMORY.md).",
+    "emoji": "🧠",
+    "status": "active",
+    "owner": "turbodot",
+    "tags": [
+      "infra",
+      "memory",
+      "plugins",
+      "gateway"
+    ],
+    "createdAt": "2026-03-18T00:00:00.000Z",
+    "updatedAt": "2026-03-23T13:00:00.000Z"
+  },
+  {
+    "id": "proj-gateway-audit",
+    "name": "Gateway & API Housekeeping",
+    "description": "Audit OpenClaw gateway config, API keys, rate limits, and deprecated code paths after repeated re-onboards.",
+    "emoji": "🧹",
+    "status": "active",
+    "owner": "turbodot",
+    "tags": [
+      "infrastructure",
+      "api",
+      "cleanup"
+    ],
+    "createdAt": "2026-03-24T01:48:26.378202Z",
+    "updatedAt": "2026-03-24T01:48:26.378202Z"
+  },
+  {
+    "id": "mn4lu9d31sjys",
+    "name": "Layout + ContentBot responsive refinement",
+    "description": "Update global layout and ContentBot UI to improve hierarchy, reduce density, and add responsive resizing features: collapsible sidebar, resizable Content Studio composer, and lighter timeline density with per-day overflow handling.",
+    "emoji": "🧩",
+    "status": "active",
+    "owner": "turbodot",
+    "tags": [
+      "mission-control",
+      "contentbot",
+      "ui",
+      "responsive"
+    ],
+    "createdAt": "2026-03-24T12:42:32.295Z",
+    "updatedAt": "2026-03-24T12:42:32.295Z"
+  },
+  {
+    "id": "mn4pnvxpng12n",
+    "name": "Model Value Watch",
+    "description": "Weekly model value reporting from Artificial Analysis plus first-run workspace report generation and unemployment reports section setup.",
+    "emoji": "📊",
+    "status": "active",
+    "owner": "turbodot",
+    "tags": [
+      "models",
+      "reporting",
+      "automation"
+    ],
+    "createdAt": "2026-03-24T14:29:33.421Z",
+    "updatedAt": "2026-03-24T14:29:33.421Z"
+  },
+  {
+    "id": "mn541ur9w9tup",
+    "name": "Secrets Vault",
+    "description": "Build a private Mission Control vault for APIs, credentials, and password rules with add-more flows and safe masked display.",
+    "emoji": "🔐",
+    "status": "active",
+    "owner": "turbodot",
+    "tags": [
+      "security",
+      "vault",
+      "mission-control"
+    ],
+    "createdAt": "2026-03-24T21:12:19.701Z",
+    "updatedAt": "2026-03-24T21:12:19.701Z"
+  },
+  {
+    "id": "227dc387-48f5-44c4-afa5-2e8f5d386643",
+    "name": "Integrated Business Architecture Pack",
+    "description": "Generate an 11-document business architecture pack for Mike spanning manifesto, resume, tech spec, SaaS autopsy, migration logic, pitch, adoption, system instructions, agreement, training playbook, and onboarding kit.",
+    "emoji": "🧠",
+    "status": "active",
+    "owner": "turbodot",
+    "tags": [
+      "augment",
+      "openclaw",
+      "sovereign-node",
+      "sales",
+      "docs"
+    ],
+    "createdAt": "2026-03-25T09:28:43Z",
+    "updatedAt": "2026-03-25T09:28:43Z"
+  },
+  {
+    "id": "0463bb2f-74c7-4764-ba6f-9d7868d759c3",
+    "name": "IBA Dashboard Live Build",
+    "description": "Transform the /iba directory into a live Mission Control dashboard with interactive tabs, calculators, script generation, and persistent operational behavior.",
+    "emoji": "🛠️",
+    "status": "active",
+    "owner": "turbodot",
+    "tags": [
+      "iba",
+      "mission-control",
+      "dashboard",
+      "autonomy"
+    ],
+    "createdAt": "2026-03-25T09:42:11Z",
+    "updatedAt": "2026-03-25T09:42:11Z"
+  },
+  {
+    "id": "eb1e246d-7104-45b2-a3d1-1618cd5b0024",
+    "name": "Mission Control reality audit and plumbing repair",
+    "description": "Audit live Mission Control sections against real connected data/services, repair broken plumbing where possible, and report status section-by-section.",
+    "emoji": "🧪",
+    "status": "active",
+    "owner": "turbodot",
+    "tags": [
+      "mission-control",
+      "audit",
+      "vault",
+      "content-hub",
+      "data-plumbing"
+    ],
+    "createdAt": "2026-03-25T19:38:18Z",
+    "updatedAt": "2026-03-25T19:38:18Z"
+  },
+  {
+    "id": "mnde8shz018c9",
+    "name": "GitHub Profile & Portfolio Setup",
+    "description": "Create and populate Mike's GitHub profile, profile README, repo descriptions, and visible portfolio context from existing workspace projects and resume-aligned positioning.",
+    "emoji": "🐙",
+    "status": "active",
+    "owner": "turbodot",
+    "tags": [
+      "github",
+      "portfolio",
+      "profile"
+    ],
+    "createdAt": "2026-03-30T16:19:48.935Z",
+    "updatedAt": "2026-03-30T16:19:48.935Z"
+  },
+  {
+    "id": "mnkeaou2r19ys",
+    "name": "Identify recurring subscriptions across 3 Gmail accounts",
+    "description": "Scan the three authorized Gmail accounts over the last 3-5 months, infer recurring subscription vendors from recurring billing/receipt emails, and add the findings into the workspace for follow-up/use.",
+    "emoji": "📬",
+    "status": "active",
+    "owner": "turbodot",
+    "tags": [
+      "mission-control",
+      "gmail",
+      "subscriptions",
+      "finance"
+    ],
+    "createdAt": "2026-04-04T13:55:40.730Z",
+    "updatedAt": "2026-04-04T13:55:40.730Z"
+  },
+  {
+    "id": "mnq682t57e86m",
+    "name": "Editable Mission Control navigation",
+    "description": "Make the sidebar/menu editable so items can be renamed and moved between sections in the control UI.",
+    "emoji": "🧭",
+    "status": "active",
+    "owner": "turbodot",
+    "tags": [
+      "mission-control",
+      "navigation",
+      "ui"
+    ],
+    "createdAt": "2026-04-08T14:56:19.001Z",
+    "updatedAt": "2026-04-08T14:56:19.001Z"
+  },
+  {
+    "id": "mnq9g2e3vwngs",
+    "name": "Control UI menu customization",
+    "description": "Add drag-and-drop menu organization, renaming controls, and richer visual styling to the OpenClaw control UI sidebar menu.",
+    "emoji": "🎛️",
+    "status": "active",
+    "owner": "turbodot",
+    "tags": [
+      "control-ui",
+      "menu",
+      "ux"
+    ],
+    "createdAt": "2026-04-08T16:26:30.555Z",
+    "updatedAt": "2026-04-08T16:26:30.555Z"
+  },
+  {
+    "id": "mnxw0at0yqlid",
+    "name": "Openclaw Trader - Notion Portfolio Population",
+    "description": "Create 34 Notion entries for P-OCTRADE: project page, R-TRADE101 educational knowledge base with 24 trading concept notes, 4 API object notes (Alpaca, FRED, Finnhub, Polymarket), and 5 bridge tasks. PARA schema compliant.",
+    "emoji": "??",
+    "status": "active",
+    "owner": "turbodot-pc",
+    "tags": [
+      "pc",
+      "notion",
+      "octrade",
+      "documentation"
+    ],
+    "createdAt": "2026-04-14T00:32:29.364Z",
+    "updatedAt": "2026-04-14T00:32:29.364Z"
+  }
+]

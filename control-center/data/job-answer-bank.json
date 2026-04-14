@@ -1,0 +1,526 @@
+{
+  "savedAt": "2026-04-11T21:59:56.704Z",
+  "schemaVersion": 2,
+  "notes": "Schema v2: question/aliases/answer/confidence/category/useCount/lastUsedAt/sourceJobId. The apply-worker reads this via lib/apply-worker/answer-bank-client.ts which performs fuzzy matching with a 0.55 similarity threshold. When the worker encounters an unknown question, a new entry is written here with sourceJobId set to the job that triggered it.",
+  "questions": [
+    {
+      "id": "full-name",
+      "category": "contact",
+      "question": "Full name",
+      "aliases": [
+        "Name",
+        "Legal name",
+        "Full legal name",
+        "First and last name",
+        "Your name"
+      ],
+      "answer": "Michael Cutillo",
+      "confidence": 1,
+      "useCount": 0,
+      "lastUsedAt": null,
+      "sourceJobId": null,
+      "type": "text",
+      "sensitive": false
+    },
+    {
+      "id": "first-name",
+      "category": "contact",
+      "question": "First name",
+      "aliases": [
+        "Given name",
+        "Forename"
+      ],
+      "answer": "Michael",
+      "confidence": 1,
+      "useCount": 0,
+      "lastUsedAt": null,
+      "sourceJobId": null,
+      "type": "text",
+      "sensitive": false
+    },
+    {
+      "id": "last-name",
+      "category": "contact",
+      "question": "Last name",
+      "aliases": [
+        "Family name",
+        "Surname"
+      ],
+      "answer": "Cutillo",
+      "confidence": 1,
+      "useCount": 0,
+      "lastUsedAt": null,
+      "sourceJobId": null,
+      "type": "text",
+      "sensitive": false
+    },
+    {
+      "id": "email",
+      "category": "contact",
+      "question": "Email address",
+      "aliases": [
+        "Email",
+        "Contact email",
+        "Primary email",
+        "Personal email"
+      ],
+      "answer": "cutillo@gmail.com",
+      "confidence": 1,
+      "useCount": 0,
+      "lastUsedAt": null,
+      "sourceJobId": null,
+      "type": "text",
+      "sensitive": false
+    },
+    {
+      "id": "phone",
+      "category": "contact",
+      "question": "Phone number",
+      "aliases": [
+        "Phone",
+        "Mobile",
+        "Cell phone",
+        "Contact number",
+        "Telephone"
+      ],
+      "answer": "(732) 687-0188",
+      "confidence": 1,
+      "useCount": 0,
+      "lastUsedAt": null,
+      "sourceJobId": null,
+      "type": "text",
+      "sensitive": false
+    },
+    {
+      "id": "linkedin",
+      "category": "contact",
+      "question": "LinkedIn profile URL",
+      "aliases": [
+        "LinkedIn",
+        "LinkedIn URL",
+        "LinkedIn profile",
+        "Social profile"
+      ],
+      "answer": "https://www.linkedin.com/in/michael-cutillo-aa616a55/",
+      "confidence": 1,
+      "useCount": 0,
+      "lastUsedAt": null,
+      "sourceJobId": null,
+      "type": "text",
+      "sensitive": false
+    },
+    {
+      "id": "city",
+      "category": "contact",
+      "question": "City",
+      "aliases": [
+        "City of residence",
+        "Current city"
+      ],
+      "answer": "Holmdel",
+      "confidence": 1,
+      "useCount": 0,
+      "lastUsedAt": null,
+      "sourceJobId": null,
+      "type": "text",
+      "sensitive": false
+    },
+    {
+      "id": "state",
+      "category": "contact",
+      "question": "State",
+      "aliases": [
+        "State of residence",
+        "State / Province",
+        "Province"
+      ],
+      "answer": "NJ",
+      "confidence": 1,
+      "useCount": 0,
+      "lastUsedAt": null,
+      "sourceJobId": null,
+      "type": "text",
+      "sensitive": false
+    },
+    {
+      "id": "postal-code",
+      "category": "contact",
+      "question": "Postal code",
+      "aliases": [
+        "Zip code",
+        "ZIP",
+        "Postcode"
+      ],
+      "answer": "07733",
+      "confidence": 1,
+      "useCount": 0,
+      "lastUsedAt": null,
+      "sourceJobId": null,
+      "type": "text",
+      "sensitive": false
+    },
+    {
+      "id": "country",
+      "category": "contact",
+      "question": "Country",
+      "aliases": [
+        "Country of residence"
+      ],
+      "answer": "United States",
+      "confidence": 1,
+      "useCount": 0,
+      "lastUsedAt": null,
+      "sourceJobId": null,
+      "type": "text",
+      "sensitive": false
+    },
+    {
+      "id": "work-auth-us",
+      "category": "auth",
+      "question": "Are you authorized to work in the United States?",
+      "aliases": [
+        "US work authorization",
+        "Eligible to work in the US",
+        "Legally authorized to work",
+        "Work permit status",
+        "Authorized to work"
+      ],
+      "answer": "Yes",
+      "confidence": 1,
+      "useCount": 0,
+      "lastUsedAt": null,
+      "sourceJobId": null,
+      "type": "text",
+      "sensitive": false
+    },
+    {
+      "id": "sponsorship-now",
+      "category": "auth",
+      "question": "Do you now or in the future require sponsorship for employment?",
+      "aliases": [
+        "Will you require sponsorship",
+        "Need visa sponsorship",
+        "Require sponsorship",
+        "Require work visa",
+        "H-1B sponsorship"
+      ],
+      "answer": "No",
+      "confidence": 1,
+      "useCount": 0,
+      "lastUsedAt": null,
+      "sourceJobId": null,
+      "type": "text",
+      "sensitive": false
+    },
+    {
+      "id": "security-clearance",
+      "category": "auth",
+      "question": "Do you have an active security clearance?",
+      "aliases": [
+        "Security clearance",
+        "Clearance level",
+        "Active clearance"
+      ],
+      "answer": "No",
+      "confidence": 0.9,
+      "useCount": 0,
+      "lastUsedAt": null,
+      "sourceJobId": null,
+      "type": "text",
+      "sensitive": false
+    },
+    {
+      "id": "remote-preference",
+      "category": "preference",
+      "question": "Are you open to remote work?",
+      "aliases": [
+        "Remote preference",
+        "Willing to work remotely",
+        "Remote work",
+        "Open to remote"
+      ],
+      "answer": "Yes — remote is my first preference, hybrid is my second. Onsite only if local to NYC / Manhattan.",
+      "confidence": 1,
+      "useCount": 0,
+      "lastUsedAt": null,
+      "sourceJobId": null,
+      "type": "text",
+      "sensitive": false
+    },
+    {
+      "id": "relocation",
+      "category": "sensitive",
+      "question": "Are you willing to relocate?",
+      "aliases": [
+        "Willing to relocate",
+        "Relocation",
+        "Open to relocation"
+      ],
+      "answer": "Open to discussing relocation for the right role.",
+      "confidence": 0.7,
+      "useCount": 0,
+      "lastUsedAt": null,
+      "sourceJobId": null,
+      "type": "text",
+      "sensitive": true
+    },
+    {
+      "id": "salary-expectation",
+      "category": "sensitive",
+      "question": "What are your salary expectations?",
+      "aliases": [
+        "Salary expectation",
+        "Compensation expectations",
+        "Desired salary",
+        "Expected compensation",
+        "Salary requirement",
+        "Base salary"
+      ],
+      "answer": "Open to discussing based on the full scope, level, and total compensation.",
+      "confidence": 0.6,
+      "useCount": 0,
+      "lastUsedAt": null,
+      "sourceJobId": null,
+      "type": "text",
+      "sensitive": true
+    },
+    {
+      "id": "start-date",
+      "category": "sensitive",
+      "question": "When can you start?",
+      "aliases": [
+        "Earliest start date",
+        "Available start date",
+        "Notice period",
+        "When can you begin",
+        "Availability"
+      ],
+      "answer": "Two weeks from accepted offer.",
+      "confidence": 0.8,
+      "useCount": 0,
+      "lastUsedAt": null,
+      "sourceJobId": null,
+      "type": "text",
+      "sensitive": true
+    },
+    {
+      "id": "years-experience",
+      "category": "qualitative",
+      "question": "How many years of relevant experience do you have?",
+      "aliases": [
+        "Years of experience",
+        "Total experience",
+        "Years in industry"
+      ],
+      "answer": "15+",
+      "confidence": 0.9,
+      "useCount": 0,
+      "lastUsedAt": null,
+      "sourceJobId": null,
+      "type": "text",
+      "sensitive": false
+    },
+    {
+      "id": "why-company",
+      "category": "qualitative",
+      "question": "Why are you interested in this company?",
+      "aliases": [
+        "Why this company",
+        "Why do you want to work here",
+        "Interest in the company"
+      ],
+      "answer": "I'm most interested in organizations where the product has clear customer value and where innovation is practical, not just aspirational. Companies that are meaningfully investing in AI, workflow improvement, and customer outcomes are especially compelling to me because that's where I think I can contribute most.",
+      "confidence": 0.9,
+      "useCount": 0,
+      "lastUsedAt": null,
+      "sourceJobId": null,
+      "type": "text",
+      "sensitive": false
+    },
+    {
+      "id": "why-role",
+      "category": "qualitative",
+      "question": "Why are you interested in this role?",
+      "aliases": [
+        "Why this role",
+        "Interest in the position",
+        "Why this position"
+      ],
+      "answer": "I'm looking for roles where I can combine customer-facing work, technical problem solving, and real business impact. I'm especially interested in positions that involve solutioning, implementation, enablement, or customer adoption — where success is measured by how effectively customers can use the product and achieve outcomes.",
+      "confidence": 0.9,
+      "useCount": 0,
+      "lastUsedAt": null,
+      "sourceJobId": null,
+      "type": "text",
+      "sensitive": false
+    },
+    {
+      "id": "why-fit",
+      "category": "qualitative",
+      "question": "Why are you a good fit for this role?",
+      "aliases": [
+        "Why are you a fit",
+        "Why should we hire you",
+        "What makes you qualified",
+        "Your fit for this role"
+      ],
+      "answer": "My fit is strongest in roles that require a blend of technical fluency, customer communication, structured problem solving, and execution. I'm particularly drawn to positions where I can translate complex capabilities into clear value for customers through discovery, implementation, demos, enablement, or advisory work.",
+      "confidence": 0.9,
+      "useCount": 0,
+      "lastUsedAt": null,
+      "sourceJobId": null,
+      "type": "text",
+      "sensitive": false
+    },
+    {
+      "id": "looking-for-next",
+      "category": "qualitative",
+      "question": "What are you looking for in your next role?",
+      "aliases": [
+        "Looking for next",
+        "What's next for you",
+        "Career goals"
+      ],
+      "answer": "A customer-facing role in a strong technology organization where I can help customers adopt and succeed with impactful products. Ideally that means solutions, implementation, consulting, or AI-focused customer engagement with room to grow and contribute strategically.",
+      "confidence": 0.9,
+      "useCount": 0,
+      "lastUsedAt": null,
+      "sourceJobId": null,
+      "type": "text",
+      "sensitive": false
+    },
+    {
+      "id": "ai-interest",
+      "category": "qualitative",
+      "question": "Why are you interested in working on AI?",
+      "aliases": [
+        "AI interest",
+        "Why AI",
+        "Interest in AI-focused organizations"
+      ],
+      "answer": "AI is becoming part of nearly everything, but I'm most interested in organizations where it is being used in a meaningful way to improve products, workflows, and customer outcomes. I want to be part of teams that help customers understand how to apply AI effectively — not just talk about it.",
+      "confidence": 0.9,
+      "useCount": 0,
+      "lastUsedAt": null,
+      "sourceJobId": null,
+      "type": "text",
+      "sensitive": false
+    },
+    {
+      "id": "professional-summary",
+      "category": "qualitative",
+      "question": "Professional summary",
+      "aliases": [
+        "Short bio",
+        "Elevator pitch",
+        "About you",
+        "Tell us about yourself"
+      ],
+      "answer": "Customer-facing technology professional oriented toward solutions, implementation, consulting, and customer outcomes. Best-fit roles combine technical fluency, client interaction, solution design, implementation/adoption work, and practical business value.",
+      "confidence": 0.9,
+      "useCount": 0,
+      "lastUsedAt": null,
+      "sourceJobId": null,
+      "type": "text",
+      "sensitive": false
+    },
+    {
+      "id": "employment-type",
+      "category": "preference",
+      "question": "What employment type are you seeking?",
+      "aliases": [
+        "Employment type",
+        "Full-time or contract",
+        "Full-time"
+      ],
+      "answer": "Full-time",
+      "confidence": 1,
+      "useCount": 0,
+      "lastUsedAt": null,
+      "sourceJobId": null,
+      "type": "text",
+      "sensitive": false
+    },
+    {
+      "id": "travel-tolerance",
+      "category": "preference",
+      "question": "How much travel are you willing to do?",
+      "aliases": [
+        "Travel tolerance",
+        "Willing to travel",
+        "Travel percentage"
+      ],
+      "answer": "Flexible for the right role.",
+      "confidence": 0.9,
+      "useCount": 0,
+      "lastUsedAt": null,
+      "sourceJobId": null,
+      "type": "text",
+      "sensitive": false
+    },
+    {
+      "id": "gender",
+      "category": "sensitive",
+      "question": "Gender",
+      "aliases": [
+        "Gender identity"
+      ],
+      "answer": "Decline to self-identify",
+      "confidence": 0.5,
+      "useCount": 0,
+      "lastUsedAt": null,
+      "sourceJobId": null,
+      "type": "text",
+      "sensitive": true
+    },
+    {
+      "id": "ethnicity",
+      "category": "sensitive",
+      "question": "Race / Ethnicity",
+      "aliases": [
+        "Race",
+        "Ethnicity",
+        "Racial identification"
+      ],
+      "answer": "Decline to self-identify",
+      "confidence": 0.5,
+      "useCount": 0,
+      "lastUsedAt": null,
+      "sourceJobId": null,
+      "type": "text",
+      "sensitive": true
+    },
+    {
+      "id": "veteran-status",
+      "category": "sensitive",
+      "question": "Veteran status",
+      "aliases": [
+        "Veteran",
+        "Protected veteran"
+      ],
+      "answer": "I am not a protected veteran",
+      "confidence": 0.7,
+      "useCount": 0,
+      "lastUsedAt": null,
+      "sourceJobId": null,
+      "type": "text",
+      "sensitive": true
+    },
+    {
+      "id": "disability",
+      "category": "sensitive",
+      "question": "Disability status",
+      "aliases": [
+        "Disability",
+        "Are you disabled"
+      ],
+      "answer": "I do not wish to answer",
+      "confidence": 0.5,
+      "useCount": 0,
+      "lastUsedAt": null,
+      "sourceJobId": null,
+      "type": "text",
+      "sensitive": true
+    }
+  ]
+}

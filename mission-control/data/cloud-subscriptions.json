@@ -1,0 +1,45 @@
+{
+  "subscriptions": [
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT Plus",
+      "brand": "openai",
+      "category": "AI",
+      "cost_monthly": 19.99,
+      "billing_day": 9,
+      "status": "active",
+      "notes": "Billed via App Store"
+    },
+    {
+      "id": "nintendo",
+      "name": "Nintendo Online",
+      "brand": "nintendo",
+      "category": "Gaming",
+      "cost_monthly": null,
+      "billing_day": null,
+      "status": "unknown",
+      "notes": ""
+    },
+    {
+      "id": "ubereats",
+      "name": "Uber Eats Pass",
+      "brand": "ubereats",
+      "category": "Food",
+      "cost_monthly": null,
+      "billing_day": null,
+      "status": "unknown",
+      "notes": ""
+    },
+    {
+      "name": "DoorDash",
+      "brand": "doordash",
+      "category": "Other",
+      "cost_monthly": 58.87,
+      "billing_day": null,
+      "status": "active",
+      "notes": "from no-reply@doordash.com",
+      "id": "doordash-1775369606942"
+    }
+  ],
+  "last_scanned": "2026-04-04"
+}

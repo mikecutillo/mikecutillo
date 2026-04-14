@@ -1,0 +1,261 @@
+[
+  {
+    "id": "section-city",
+    "label": "City",
+    "color": "#7c8cff",
+    "items": [
+      {
+        "id": "nav-office",
+        "href": "/office",
+        "icon": "Building2",
+        "label": "Control Center"
+      },
+      {
+        "id": "nav-team",
+        "href": "/team",
+        "icon": "Users",
+        "label": "People"
+      },
+      {
+        "id": "nav-projects",
+        "href": "/projects",
+        "icon": "FolderKanban",
+        "label": "Projects"
+      },
+      {
+        "id": "nav-tasks",
+        "href": "/tasks",
+        "icon": "CheckSquare",
+        "label": "Tasks"
+      },
+      {
+        "id": "nav-models",
+        "href": "/models",
+        "icon": "Bot",
+        "label": "Models"
+      },
+      {
+        "id": "nav-vault",
+        "href": "/vault",
+        "icon": "LockKeyhole",
+        "label": "Vault"
+      },
+      {
+        "id": "nav-memory",
+        "href": "/memory",
+        "icon": "Brain",
+        "label": "Memory"
+      },
+      {
+        "id": "nav-docs",
+        "href": "/docs",
+        "icon": "FileText",
+        "label": "Docs"
+      }
+    ]
+  },
+  {
+    "id": "section-social-ai",
+    "label": "SOCIAL.AI",
+    "color": "#ec4899",
+    "items": [
+      {
+        "id": "nav-content-hub",
+        "href": "/content-hub",
+        "icon": "Sparkles",
+        "label": "Content Hub"
+      },
+      {
+        "id": "nav-news-feed",
+        "href": "/news-feed-v2",
+        "icon": "Newspaper",
+        "label": "News Feed"
+      },
+      {
+        "id": "nav-viral-posts",
+        "href": "/viral-posts",
+        "icon": "Zap",
+        "label": "Viral Posts"
+      },
+      {
+        "id": "nav-content-settings",
+        "href": "/contentbot-settings",
+        "icon": "SlidersHorizontal",
+        "label": "Settings & Profiles"
+      }
+    ]
+  },
+  {
+    "id": "section-control-center",
+    "label": "Cutillo Cloud",
+    "color": "#5eead4",
+    "items": [
+      {
+        "id": "nav-cloud-storage",
+        "href": "/cloud-storage",
+        "icon": "HardDrive",
+        "label": "Storage Core"
+      },
+      {
+        "id": "nav-cloud-command",
+        "href": "/cloud-command",
+        "icon": "LayoutGrid",
+        "label": "Cloud Command"
+      },
+      {
+        "id": "nav-cloud-map",
+        "href": "/cutillo-cloud",
+        "icon": "Globe",
+        "label": "Galaxy Map"
+      },
+      {
+        "id": "nav-router",
+        "href": "/router",
+        "icon": "Router",
+        "label": "Router"
+      },
+      {
+        "id": "nav-calendar",
+        "href": "/household-calendar",
+        "icon": "CalendarDays",
+        "label": "Household Calendar"
+      },
+      {
+        "id": "nav-cloud-accounts",
+        "href": "/cloud-accounts",
+        "icon": "Settings2",
+        "label": "Accounts & Subs"
+      },
+      {
+        "id": "nav-financial-ledger",
+        "href": "/financial-ledger",
+        "icon": "Wallet",
+        "label": "Financial Ledger"
+      },
+      {
+        "id": "nav-email-digest",
+        "href": "/email-digest",
+        "icon": "Mail",
+        "label": "Email Digest"
+      },
+      {
+        "id": "nav-family-intel",
+        "href": "/family-intel",
+        "icon": "Radar",
+        "label": "Family Intel"
+      }
+    ]
+  },
+  {
+    "id": "section-utilities",
+    "label": "Utilities",
+    "color": "#f59e0b",
+    "items": [
+      {
+        "id": "nav-capability-matrix",
+        "href": "/utilities/capability-matrix",
+        "icon": "Bot",
+        "label": "AI Capability Guide"
+      },
+      {
+        "id": "nav-sandbox",
+        "href": "/sandbox",
+        "icon": "Code2",
+        "label": "HTML Sandbox"
+      }
+    ]
+  },
+  {
+    "id": "section-unemployment",
+    "label": "Unemployment",
+    "color": "#22c55e",
+    "items": [
+      {
+        "id": "nav-job-pipeline",
+        "href": "/job-pipeline",
+        "icon": "Briefcase",
+        "label": "Job Pipeline"
+      },
+      {
+        "id": "nav-answer-bank",
+        "href": "/answer-bank",
+        "icon": "BookOpen",
+        "label": "Answer Bank"
+      },
+      {
+        "id": "nav-resumes",
+        "href": "/resume-workshop",
+        "icon": "FileSignature",
+        "label": "Resumes"
+      },
+      {
+        "id": "nav-approvals",
+        "href": "/approval-queue",
+        "icon": "ShieldCheck",
+        "label": "Approvals"
+      },
+      {
+        "id": "nav-scout",
+        "href": "/scout-config",
+        "icon": "Radar",
+        "label": "Scout"
+      },
+      {
+        "id": "nav-reports",
+        "href": "/unemployment-reports",
+        "icon": "TrendingUp",
+        "label": "Reports"
+      }
+    ]
+  },
+  {
+    "id": "section-labs",
+    "label": "Labs",
+    "color": "#a78bfa",
+    "items": [
+      {
+        "id": "nav-ai-tasks",
+        "href": "/ai-capability-matrix",
+        "icon": "Bot",
+        "label": "AI Tasks"
+      },
+      {
+        "id": "nav-iba",
+        "href": "/iba",
+        "icon": "Sparkles",
+        "label": "IBA"
+      },
+      {
+        "id": "nav-hue-lights",
+        "href": "/hue-lights",
+        "icon": "Lightbulb",
+        "label": "HUE Lights"
+      }
+    ]
+  },
+  {
+    "id": "section-graveyard",
+    "label": "Graveyard",
+    "color": "#f87171",
+    "items": [
+      {
+        "id": "nav-social-news",
+        "href": "/social-news",
+        "icon": "Skull",
+        "label": "Social News"
+      },
+      {
+        "id": "nav-branding",
+        "href": "/branding",
+        "icon": "Palette",
+        "label": "Branding"
+      },
+      {
+        "id": "nav-cloud-subscriptions",
+        "href": "/cloud-subscriptions",
+        "icon": "CreditCard",
+        "label": "Cloud Subscriptions"
+      }
+    ]
+  }
+]

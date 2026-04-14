@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+bun.lock
+package-lock.json
+
+# Next.js build output
+.next/
+.next.bad*/
+*.tsbuildinfo
+next-env.d.ts
+
+# Environment / secrets
+.env.local
+.env*.local
+
+# OS / editor
+.DS_Store
+*.log
+tmp/
+tmp_*/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Claude internal
+.claude/
+
+# Large binary build output
+exports/feather-os-windows/win-unpacked/
+
+# Apply worker (Phase 2 — Playwright persistent context + generated resume artifacts)
+mission-control/.playwright-profile/
+resumes/generated/
+resumes/generated-pdf/
+
+# Misc temp
+LIVE-CLEANUP-STATUS.txt
+vault-password-rules.json
+
+# Directories that should not be tracked
+To Be Purged/
+main/
+.openclaw/
+tmp_*
+*.tmp
+apply-assistant-extension/
+mission-control/data/archived-make-credentials.md

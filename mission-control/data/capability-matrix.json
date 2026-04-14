@@ -1,0 +1,1155 @@
+{
+  "lastUpdated": "2026-04-11T17:12:25.752Z",
+  "localModel": {
+    "label": "Ollama (gemma4:e2b)",
+    "source": "MODELS_UPDATE.md"
+  },
+  "rows": [
+    {
+      "id": "script-classroom-login-py",
+      "kind": "script",
+      "name": "Classroom Login",
+      "description": "classroom-login.py — One-time interactive login to save school account session.",
+      "category": "google",
+      "tier": "local",
+      "safety": "safe",
+      "action": {
+        "type": "run",
+        "bin": "python3",
+        "args": [
+          "/Users/mikecutillo/.openclaw/scripts/classroom-login.py"
+        ]
+      },
+      "alt": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.openclaw/scripts/classroom-login.py"
+      },
+      "exists": true,
+      "sourcePath": "/Users/mikecutillo/.openclaw/scripts/classroom-login.py"
+    },
+    {
+      "id": "script-classroom-scrape-py",
+      "kind": "script",
+      "name": "Classroom Scrape",
+      "description": "classroom-scrape.py — Headless Google Classroom scraper.",
+      "category": "google",
+      "tier": "local",
+      "safety": "safe",
+      "action": {
+        "type": "run",
+        "bin": "python3",
+        "args": [
+          "/Users/mikecutillo/.openclaw/scripts/classroom-scrape.py"
+        ]
+      },
+      "alt": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.openclaw/scripts/classroom-scrape.py"
+      },
+      "exists": true,
+      "sourcePath": "/Users/mikecutillo/.openclaw/scripts/classroom-scrape.py"
+    },
+    {
+      "id": "script-classroom-scrape-sh",
+      "kind": "script",
+      "name": "Classroom Scrape",
+      "description": "classroom-scrape.sh — cron wrapper for classroom scraper",
+      "category": "google",
+      "tier": "local",
+      "safety": "safe",
+      "action": {
+        "type": "run",
+        "bin": "/bin/bash",
+        "args": [
+          "/Users/mikecutillo/.openclaw/scripts/classroom-scrape.sh"
+        ]
+      },
+      "alt": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.openclaw/scripts/classroom-scrape.sh"
+      },
+      "exists": true,
+      "sourcePath": "/Users/mikecutillo/.openclaw/scripts/classroom-scrape.sh"
+    },
+    {
+      "id": "script-gmail-auth-py",
+      "kind": "script",
+      "name": "Gmail Auth",
+      "description": "gmail-auth.py — One-time OAuth setup for Gmail/Drive/Calendar/Classroom API access.",
+      "category": "google",
+      "tier": "local",
+      "safety": "safe",
+      "action": {
+        "type": "run",
+        "bin": "python3",
+        "args": [
+          "/Users/mikecutillo/.openclaw/scripts/gmail-auth.py"
+        ]
+      },
+      "alt": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.openclaw/scripts/gmail-auth.py"
+      },
+      "exists": true,
+      "sourcePath": "/Users/mikecutillo/.openclaw/scripts/gmail-auth.py"
+    },
+    {
+      "id": "script-gmail-wipe-run-py",
+      "kind": "script",
+      "name": "Gmail Wipe Run",
+      "description": "gmail-wipe-run.py — Monthly purge of Gmail junk via Gmail API.",
+      "category": "google",
+      "tier": "local",
+      "safety": "risky",
+      "action": {
+        "type": "run",
+        "bin": "python3",
+        "args": [
+          "/Users/mikecutillo/.openclaw/scripts/gmail-wipe-run.py"
+        ]
+      },
+      "alt": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.openclaw/scripts/gmail-wipe-run.py"
+      },
+      "exists": true,
+      "sourcePath": "/Users/mikecutillo/.openclaw/scripts/gmail-wipe-run.py"
+    },
+    {
+      "id": "script-gmail-wipe-sh",
+      "kind": "script",
+      "name": "Gmail Wipe",
+      "description": "gmail-wipe.sh — Monthly purge of junk Gmail categories (all 3 accounts)",
+      "category": "google",
+      "tier": "local",
+      "safety": "risky",
+      "action": {
+        "type": "run",
+        "bin": "/bin/bash",
+        "args": [
+          "/Users/mikecutillo/.openclaw/scripts/gmail-wipe.sh"
+        ]
+      },
+      "alt": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.openclaw/scripts/gmail-wipe.sh"
+      },
+      "exists": true,
+      "sourcePath": "/Users/mikecutillo/.openclaw/scripts/gmail-wipe.sh"
+    },
+    {
+      "id": "script-mission-control-dev-sh",
+      "kind": "script",
+      "name": "Mission Control Dev",
+      "description": "Script at .openclaw/scripts/mission-control-dev.sh",
+      "category": "utility",
+      "tier": "local",
+      "safety": "safe",
+      "action": {
+        "type": "run",
+        "bin": "/bin/zsh",
+        "args": [
+          "/Users/mikecutillo/.openclaw/scripts/mission-control-dev.sh"
+        ]
+      },
+      "alt": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.openclaw/scripts/mission-control-dev.sh"
+      },
+      "exists": true,
+      "sourcePath": "/Users/mikecutillo/.openclaw/scripts/mission-control-dev.sh"
+    },
+    {
+      "id": "script-backup-openclaw-sh",
+      "kind": "script",
+      "name": "Backup Openclaw",
+      "description": "Script at .openclaw/workspace-shared/scripts/backup-openclaw.sh",
+      "category": "backup",
+      "tier": "local",
+      "safety": "confirm",
+      "action": {
+        "type": "run",
+        "bin": "/bin/zsh",
+        "args": [
+          "/Users/mikecutillo/.openclaw/workspace-shared/scripts/backup-openclaw.sh"
+        ]
+      },
+      "alt": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.openclaw/workspace-shared/scripts/backup-openclaw.sh"
+      },
+      "exists": true,
+      "sourcePath": "/Users/mikecutillo/.openclaw/workspace-shared/scripts/backup-openclaw.sh"
+    },
+    {
+      "id": "script-cleanup-disk-sh",
+      "kind": "script",
+      "name": "Cleanup Disk",
+      "description": "cleanup-disk.sh — reclaim disk space from known-safe targets",
+      "category": "maintenance",
+      "tier": "local",
+      "safety": "confirm",
+      "action": {
+        "type": "run",
+        "bin": "/bin/zsh",
+        "args": [
+          "/Users/mikecutillo/.openclaw/workspace-shared/scripts/cleanup-disk.sh"
+        ]
+      },
+      "alt": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.openclaw/workspace-shared/scripts/cleanup-disk.sh"
+      },
+      "exists": true,
+      "sourcePath": "/Users/mikecutillo/.openclaw/workspace-shared/scripts/cleanup-disk.sh"
+    },
+    {
+      "id": "script-cloud-subscription-scan-py",
+      "kind": "script",
+      "name": "Cloud Subscription Scan",
+      "description": "cloud-subscription-scan.py",
+      "category": "utility",
+      "tier": "local",
+      "safety": "safe",
+      "action": {
+        "type": "run",
+        "bin": "python3",
+        "args": [
+          "/Users/mikecutillo/.openclaw/workspace-shared/scripts/cloud-subscription-scan.py"
+        ]
+      },
+      "alt": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.openclaw/workspace-shared/scripts/cloud-subscription-scan.py"
+      },
+      "exists": true,
+      "sourcePath": "/Users/mikecutillo/.openclaw/workspace-shared/scripts/cloud-subscription-scan.py"
+    },
+    {
+      "id": "script-export-contacts-local-py",
+      "kind": "script",
+      "name": "Export Contacts Local",
+      "description": "export-contacts-local.py — Read all contacts directly from macOS Contacts.app",
+      "category": "google",
+      "tier": "local",
+      "safety": "safe",
+      "action": {
+        "type": "run",
+        "bin": "python3",
+        "args": [
+          "/Users/mikecutillo/.openclaw/workspace-shared/scripts/export-contacts-local.py"
+        ]
+      },
+      "alt": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.openclaw/workspace-shared/scripts/export-contacts-local.py"
+      },
+      "exists": true,
+      "sourcePath": "/Users/mikecutillo/.openclaw/workspace-shared/scripts/export-contacts-local.py"
+    },
+    {
+      "id": "script-export-contacts-py",
+      "kind": "script",
+      "name": "Export Contacts",
+      "description": "export-contacts.py — Pull contacts from Google + Microsoft, merge into CSV for review.",
+      "category": "google",
+      "tier": "local",
+      "safety": "safe",
+      "action": {
+        "type": "run",
+        "bin": "python3",
+        "args": [
+          "/Users/mikecutillo/.openclaw/workspace-shared/scripts/export-contacts.py"
+        ]
+      },
+      "alt": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.openclaw/workspace-shared/scripts/export-contacts.py"
+      },
+      "exists": true,
+      "sourcePath": "/Users/mikecutillo/.openclaw/workspace-shared/scripts/export-contacts.py"
+    },
+    {
+      "id": "script-screenshot-share-sh",
+      "kind": "script",
+      "name": "Screenshot Share",
+      "description": "Take interactive screenshot, save to /tmp/ai-screenshots (auto-cleaned by macOS)",
+      "category": "utility",
+      "tier": "local",
+      "safety": "safe",
+      "action": {
+        "type": "run",
+        "bin": "/bin/zsh",
+        "args": [
+          "/Users/mikecutillo/.openclaw/workspace-shared/scripts/screenshot-share.sh"
+        ]
+      },
+      "alt": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.openclaw/workspace-shared/scripts/screenshot-share.sh"
+      },
+      "exists": true,
+      "sourcePath": "/Users/mikecutillo/.openclaw/workspace-shared/scripts/screenshot-share.sh"
+    },
+    {
+      "id": "script-update-claude-digest-sh",
+      "kind": "script",
+      "name": "Update Claude Digest",
+      "description": "Regenerates ~/.claude/CLAUDE.md — the global Claude context digest.",
+      "category": "claude",
+      "tier": "local",
+      "safety": "safe",
+      "action": {
+        "type": "run",
+        "bin": "/bin/bash",
+        "args": [
+          "/Users/mikecutillo/.openclaw/workspace-shared/scripts/update-claude-digest.sh"
+        ]
+      },
+      "alt": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.openclaw/workspace-shared/scripts/update-claude-digest.sh"
+      },
+      "exists": true,
+      "sourcePath": "/Users/mikecutillo/.openclaw/workspace-shared/scripts/update-claude-digest.sh"
+    },
+    {
+      "id": "script-app-py",
+      "kind": "script",
+      "name": "App",
+      "description": "Storage Command Center — ClawBotLoot Hub",
+      "category": "photos",
+      "tier": "local",
+      "safety": "safe",
+      "action": {
+        "type": "run",
+        "bin": "python3",
+        "args": [
+          "/Users/mikecutillo/.openclaw/workspace-shared/photo-library/app.py"
+        ]
+      },
+      "alt": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.openclaw/workspace-shared/photo-library/app.py"
+      },
+      "exists": true,
+      "sourcePath": "/Users/mikecutillo/.openclaw/workspace-shared/photo-library/app.py"
+    },
+    {
+      "id": "script-hasher-py",
+      "kind": "script",
+      "name": "Hasher",
+      "description": "hasher.py — background hash/dedup worker for Storage Command Center.",
+      "category": "photos",
+      "tier": "local",
+      "safety": "safe",
+      "action": {
+        "type": "run",
+        "bin": "python3",
+        "args": [
+          "/Users/mikecutillo/.openclaw/workspace-shared/photo-library/hasher.py"
+        ]
+      },
+      "alt": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.openclaw/workspace-shared/photo-library/hasher.py"
+      },
+      "exists": true,
+      "sourcePath": "/Users/mikecutillo/.openclaw/workspace-shared/photo-library/hasher.py"
+    },
+    {
+      "id": "script-run-delete-shared-dupes-py",
+      "kind": "script",
+      "name": "Run Delete Shared Dupes",
+      "description": "run_delete_shared_dupes.py",
+      "category": "photos",
+      "tier": "local",
+      "safety": "risky",
+      "action": {
+        "type": "run",
+        "bin": "python3",
+        "args": [
+          "/Users/mikecutillo/.openclaw/workspace-shared/photo-library/run_delete_shared_dupes.py"
+        ]
+      },
+      "alt": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.openclaw/workspace-shared/photo-library/run_delete_shared_dupes.py"
+      },
+      "exists": true,
+      "sourcePath": "/Users/mikecutillo/.openclaw/workspace-shared/photo-library/run_delete_shared_dupes.py"
+    },
+    {
+      "id": "script-scanner-py",
+      "kind": "script",
+      "name": "Scanner",
+      "description": "Photo Library Scanner",
+      "category": "photos",
+      "tier": "local",
+      "safety": "safe",
+      "action": {
+        "type": "run",
+        "bin": "python3",
+        "args": [
+          "/Users/mikecutillo/.openclaw/workspace-shared/photo-library/scanner.py"
+        ]
+      },
+      "alt": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.openclaw/workspace-shared/photo-library/scanner.py"
+      },
+      "exists": true,
+      "sourcePath": "/Users/mikecutillo/.openclaw/workspace-shared/photo-library/scanner.py"
+    },
+    {
+      "id": "script-run-schedule-py",
+      "kind": "script",
+      "name": "Run Schedule",
+      "description": "GWS Schedule Runner",
+      "category": "google",
+      "tier": "local",
+      "safety": "safe",
+      "action": {
+        "type": "run",
+        "bin": "python3",
+        "args": [
+          "/Users/mikecutillo/.openclaw/workspace-shared/google-command-center/run_schedule.py"
+        ]
+      },
+      "alt": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.openclaw/workspace-shared/google-command-center/run_schedule.py"
+      },
+      "exists": true,
+      "sourcePath": "/Users/mikecutillo/.openclaw/workspace-shared/google-command-center/run_schedule.py"
+    },
+    {
+      "id": "proj-proj-mission-control",
+      "kind": "project",
+      "name": "🚀 Mission Control",
+      "description": "turbodot's personal dashboard — a Linear-inspired control center. Full Next.js 14 app with Kanban tasks, Calendar, Projects, Memory, Docs, Team, Office/City nav, and Activity Feed. Running on port 3333.",
+      "category": "frontend",
+      "tier": "local",
+      "safety": "safe",
+      "action": {
+        "type": "open",
+        "url": "http://localhost:3333"
+      }
+    },
+    {
+      "id": "proj-proj-resumebot",
+      "kind": "project",
+      "name": "💼 ResumeBot",
+      "description": "AI-powered job search automation system. Resume Workshop (4 lanes A/B/C/D), Job Pipeline (Deal Desk cards), Approval Queue, Scout Config, and outreach modal. Integrated with Make.com webhook.",
+      "category": "automation",
+      "tier": "local",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.openclaw/workspace-shared/resumebot"
+      }
+    },
+    {
+      "id": "proj-proj-contentbot",
+      "kind": "project",
+      "name": "✍️ ContentBot",
+      "description": "LinkedIn content machine for Charles Sacco CFP. Content Hub (split-screen queue + composer), Viral Posts (Taplio-style), Analytics (Buffer live stats), Art Director agent (QuickChart auto-graphs), Make.com → Buffer pipeline.",
+      "category": "content",
+      "tier": "local",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.openclaw/workspace-shared/contentbot"
+      }
+    },
+    {
+      "id": "proj-proj-infra",
+      "kind": "project",
+      "name": "🧠 Infrastructure & Memory",
+      "description": "OpenClaw gateway config, lossless-claw DAG memory plugin, SSH remote access setup, LAN/PC access, Discord bot pairing, and agent memory system (daily logs + MEMORY.md).",
+      "category": "infra",
+      "tier": "local",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.openclaw/workspace-shared/infrastructure-memory"
+      }
+    },
+    {
+      "id": "proj-proj-gateway-audit",
+      "kind": "project",
+      "name": "🧹 Gateway & API Housekeeping",
+      "description": "Audit OpenClaw gateway config, API keys, rate limits, and deprecated code paths after repeated re-onboards.",
+      "category": "infrastructure",
+      "tier": "local",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.openclaw/workspace-shared/gateway-api-housekeeping"
+      }
+    },
+    {
+      "id": "proj-mn4lu9d31sjys",
+      "kind": "project",
+      "name": "🧩 Layout + ContentBot responsive refinement",
+      "description": "Update global layout and ContentBot UI to improve hierarchy, reduce density, and add responsive resizing features: collapsible sidebar, resizable Content Studio composer, and lighter timeline density with per-day overflow handling.",
+      "category": "mission-control",
+      "tier": "local",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.openclaw/workspace-shared/layout-contentbot-responsive-refinement"
+      }
+    },
+    {
+      "id": "proj-mn4pnvxpng12n",
+      "kind": "project",
+      "name": "📊 Model Value Watch",
+      "description": "Weekly model value reporting from Artificial Analysis plus first-run workspace report generation and unemployment reports section setup.",
+      "category": "models",
+      "tier": "local",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.openclaw/workspace-shared/model-value-watch"
+      }
+    },
+    {
+      "id": "proj-mn541ur9w9tup",
+      "kind": "project",
+      "name": "🔐 Secrets Vault",
+      "description": "Build a private Mission Control vault for APIs, credentials, and password rules with add-more flows and safe masked display.",
+      "category": "security",
+      "tier": "local",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.openclaw/workspace-shared/secrets-vault"
+      }
+    },
+    {
+      "id": "proj-227dc387-48f5-44c4-afa5-2e8f5d386643",
+      "kind": "project",
+      "name": "🧠 Integrated Business Architecture Pack",
+      "description": "Generate an 11-document business architecture pack for Mike spanning manifesto, resume, tech spec, SaaS autopsy, migration logic, pitch, adoption, system instructions, agreement, training playbook, and onboarding kit.",
+      "category": "augment",
+      "tier": "local",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.openclaw/workspace-shared/integrated-business-architecture-pack"
+      }
+    },
+    {
+      "id": "proj-0463bb2f-74c7-4764-ba6f-9d7868d759c3",
+      "kind": "project",
+      "name": "🛠️ IBA Dashboard Live Build",
+      "description": "Transform the /iba directory into a live Mission Control dashboard with interactive tabs, calculators, script generation, and persistent operational behavior.",
+      "category": "iba",
+      "tier": "local",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.openclaw/workspace-shared/iba-dashboard-live-build"
+      }
+    },
+    {
+      "id": "proj-eb1e246d-7104-45b2-a3d1-1618cd5b0024",
+      "kind": "project",
+      "name": "🧪 Mission Control reality audit and plumbing repair",
+      "description": "Audit live Mission Control sections against real connected data/services, repair broken plumbing where possible, and report status section-by-section.",
+      "category": "mission-control",
+      "tier": "local",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.openclaw/workspace-shared/mission-control-reality-audit-and-plumbing-repair"
+      }
+    },
+    {
+      "id": "proj-mnde8shz018c9",
+      "kind": "project",
+      "name": "🐙 GitHub Profile & Portfolio Setup",
+      "description": "Create and populate Mike's GitHub profile, profile README, repo descriptions, and visible portfolio context from existing workspace projects and resume-aligned positioning.",
+      "category": "github",
+      "tier": "local",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.openclaw/workspace-shared/github-profile-portfolio-setup"
+      }
+    },
+    {
+      "id": "proj-mnkeaou2r19ys",
+      "kind": "project",
+      "name": "📬 Identify recurring subscriptions across 3 Gmail accounts",
+      "description": "Scan the three authorized Gmail accounts over the last 3-5 months, infer recurring subscription vendors from recurring billing/receipt emails, and add the findings into the workspace for follow-up/use.",
+      "category": "mission-control",
+      "tier": "local",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.openclaw/workspace-shared/identify-recurring-subscriptions-across-3-gmail-accounts"
+      }
+    },
+    {
+      "id": "proj-mnq682t57e86m",
+      "kind": "project",
+      "name": "🧭 Editable Mission Control navigation",
+      "description": "Make the sidebar/menu editable so items can be renamed and moved between sections in the control UI.",
+      "category": "mission-control",
+      "tier": "local",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.openclaw/workspace-shared/editable-mission-control-navigation"
+      }
+    },
+    {
+      "id": "proj-mnq9g2e3vwngs",
+      "kind": "project",
+      "name": "🎛️ Control UI menu customization",
+      "description": "Add drag-and-drop menu organization, renaming controls, and richer visual styling to the OpenClaw control UI sidebar menu.",
+      "category": "control-ui",
+      "tier": "local",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.openclaw/workspace-shared/control-ui-menu-customization"
+      }
+    },
+    {
+      "id": "plan-blazing-unified-clawdrive-dashboard-md",
+      "kind": "project",
+      "name": "Plan: Unified ClawDrive Data Dashboard",
+      "description": "_Created: 2026-04-04_",
+      "category": "plan",
+      "tier": "claude",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.claude/plans/blazing-unified-clawdrive-dashboard.md"
+      },
+      "sourcePath": "/Users/mikecutillo/.claude/plans/blazing-unified-clawdrive-dashboard.md"
+    },
+    {
+      "id": "plan-cozy-churning-hamming-md",
+      "kind": "project",
+      "name": "Google Command Center — UX Redesign Plan",
+      "description": "The current app.py has a \"developer form\" UX: raw inputs asking for File IDs and Message IDs the user doesn't know. The analytics are hidden below the fold and ",
+      "category": "plan",
+      "tier": "claude",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.claude/plans/cozy-churning-hamming.md"
+      },
+      "sourcePath": "/Users/mikecutillo/.claude/plans/cozy-churning-hamming.md"
+    },
+    {
+      "id": "plan-delightful-rolling-marshmallow-md",
+      "kind": "project",
+      "name": "Plan: Wolverine Hand Tools Section for Holmdel Nurseries Website",
+      "description": "Mike is an authorized distributor of Wolverine Hand Tools running Holmdel Nurseries. The existing site already has a minimal Wolverine mention in the `#equipmen",
+      "category": "plan",
+      "tier": "claude",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.claude/plans/delightful-rolling-marshmallow.md"
+      },
+      "sourcePath": "/Users/mikecutillo/.claude/plans/delightful-rolling-marshmallow.md"
+    },
+    {
+      "id": "plan-encapsulated-nibbling-seahorse-md",
+      "kind": "project",
+      "name": "Settings & Profiles Page Redesign",
+      "description": "The Settings & Profiles page (`app/contentbot-settings/page.tsx`, ~17,500 lines) is a single long scrolling form that manages persona data stored in `data/conte",
+      "category": "plan",
+      "tier": "claude",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.claude/plans/encapsulated-nibbling-seahorse.md"
+      },
+      "sourcePath": "/Users/mikecutillo/.claude/plans/encapsulated-nibbling-seahorse.md"
+    },
+    {
+      "id": "plan-expressive-gliding-nest-md",
+      "kind": "project",
+      "name": "News Feed V2 — Topics Dropdown with Live Persona Sync",
+      "description": "The topic chips in the filter bar should become a dropdown, be 1:1 with the \"Main Topics\" field in the contentbot settings page, and allow adding new topics on ",
+      "category": "plan",
+      "tier": "claude",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.claude/plans/expressive-gliding-nest.md"
+      },
+      "sourcePath": "/Users/mikecutillo/.claude/plans/expressive-gliding-nest.md"
+    },
+    {
+      "id": "plan-happy-crafting-stream-md",
+      "kind": "project",
+      "name": "Plan: Capability Matrix → Cost-Aware Control Panel",
+      "description": "The page at `/utilities/capability-matrix` (Mission Control, port 3333) exists to answer one question every time Mike starts a task: *\"Can I do this with free/c",
+      "category": "plan",
+      "tier": "claude",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.claude/plans/happy-crafting-stream.md"
+      },
+      "sourcePath": "/Users/mikecutillo/.claude/plans/happy-crafting-stream.md"
+    },
+    {
+      "id": "plan-iterative-roaming-kite-md",
+      "kind": "project",
+      "name": "Plan: Resume Workshop — Drag-Drop + Cloud Share-Link Sync + Layout Cleanup",
+      "description": "Mike's Resume Workshop at `/resume-workshop` has 4 hardcoded lanes (A/B/C/D) stored as markdown files. He wants to:",
+      "category": "plan",
+      "tier": "claude",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.claude/plans/iterative-roaming-kite.md"
+      },
+      "sourcePath": "/Users/mikecutillo/.claude/plans/iterative-roaming-kite.md"
+    },
+    {
+      "id": "plan-lovely-hatching-goose-md",
+      "kind": "project",
+      "name": "Plan: Parameterized Template Library",
+      "description": "The Custom Request Builder lets users type plain English → Claude generates gws commands. But users want to reuse commands at scale by swapping variables — e.g.",
+      "category": "plan",
+      "tier": "claude",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.claude/plans/lovely-hatching-goose.md"
+      },
+      "sourcePath": "/Users/mikecutillo/.claude/plans/lovely-hatching-goose.md"
+    },
+    {
+      "id": "plan-lovely-painting-fiddle-md",
+      "kind": "project",
+      "name": "Unified AI Context Pipeline",
+      "description": "Mike has memory and context scattered across Claude Code, LM Studio (Qwen), and external AIs (ChatGPT/OpenAI). The `.md` files in `~/.openclaw/workspace-shared/",
+      "category": "plan",
+      "tier": "claude",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.claude/plans/lovely-painting-fiddle.md"
+      },
+      "sourcePath": "/Users/mikecutillo/.claude/plans/lovely-painting-fiddle.md"
+    },
+    {
+      "id": "plan-lovely-puzzling-eich-md",
+      "kind": "project",
+      "name": "Plan: Storage Core — Visual Overhaul + Fleet Hierarchy + Draggable Panels",
+      "description": "The Storage Core page was built but has 3 problems the user identified:",
+      "category": "plan",
+      "tier": "claude",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.claude/plans/lovely-puzzling-eich.md"
+      },
+      "sourcePath": "/Users/mikecutillo/.claude/plans/lovely-puzzling-eich.md"
+    },
+    {
+      "id": "plan-melodic-plotting-teapot-md",
+      "kind": "project",
+      "name": "Plan: Workspace Hygiene Pass",
+      "description": "The workspace has grown organically and is showing signs of clutter: stale git branches, ~37K uncommitted deletions sitting unstaged, orphaned sub-projects (m36",
+      "category": "plan",
+      "tier": "claude",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.claude/plans/melodic-plotting-teapot.md"
+      },
+      "sourcePath": "/Users/mikecutillo/.claude/plans/melodic-plotting-teapot.md"
+    },
+    {
+      "id": "plan-memoized-sleeping-tulip-md",
+      "kind": "project",
+      "name": "Plan: Capability Matrix V2 — 3-AI Columns, Hacks, Cards, Mission Control Page",
+      "description": "8 improvements to the Capability Matrix HTML + add it to Mission Control as a Utilities page.",
+      "category": "plan",
+      "tier": "claude",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.claude/plans/memoized-sleeping-tulip.md"
+      },
+      "sourcePath": "/Users/mikecutillo/.claude/plans/memoized-sleeping-tulip.md"
+    },
+    {
+      "id": "plan-merry-greeting-kettle-md",
+      "kind": "project",
+      "name": "Plan: Charles Sacco Communication & Time Investment Report",
+      "description": "Mike wants a factual, honest report documenting communication patterns with Charles Sacco (March 1 – April 5, 2026) across all channels — text, phone, FaceTime,",
+      "category": "plan",
+      "tier": "claude",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.claude/plans/merry-greeting-kettle.md"
+      },
+      "sourcePath": "/Users/mikecutillo/.claude/plans/merry-greeting-kettle.md"
+    },
+    {
+      "id": "plan-moonlit-twirling-seal-md",
+      "kind": "project",
+      "name": "Plan: SpellBook — Voice-to-Workflow Chrome Extension + Mission Control Module",
+      "description": "Mike is building a personal AI OS on his Mac Mini (OpenClaw workspace + Mission Control at `:3333`). He wants a simple, elegant gesture: **one button in Chrome ",
+      "category": "plan",
+      "tier": "claude",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.claude/plans/moonlit-twirling-seal.md"
+      },
+      "sourcePath": "/Users/mikecutillo/.claude/plans/moonlit-twirling-seal.md"
+    },
+    {
+      "id": "plan-partitioned-kindling-sun-md",
+      "kind": "project",
+      "name": "Plan: Remove LM Studio / Qwen from Model Registry",
+      "description": "LM Studio is not running and the user doesn't want it in the fallback chain. Removing it keeps the registry clean — only active, confirmed providers remain.",
+      "category": "plan",
+      "tier": "claude",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.claude/plans/partitioned-kindling-sun.md"
+      },
+      "sourcePath": "/Users/mikecutillo/.claude/plans/partitioned-kindling-sun.md"
+    },
+    {
+      "id": "plan-quizzical-conjuring-rivest-md",
+      "kind": "project",
+      "name": "Plan: Unified Top Nav (TopNav Component)",
+      "description": "Mission Control currently has two separate navigation elements on each page:",
+      "category": "plan",
+      "tier": "claude",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.claude/plans/quizzical-conjuring-rivest.md"
+      },
+      "sourcePath": "/Users/mikecutillo/.claude/plans/quizzical-conjuring-rivest.md"
+    },
+    {
+      "id": "plan-radiant-herding-whistle-md",
+      "kind": "project",
+      "name": "Plan: Vault — Full System Source of Truth",
+      "description": "The Vault page in Mission Control (Next.js, port 3333) is the living inventory of the entire OpenClaw stack — every API, CLI, runtime, service, credential, and ",
+      "category": "plan",
+      "tier": "claude",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.claude/plans/radiant-herding-whistle.md"
+      },
+      "sourcePath": "/Users/mikecutillo/.claude/plans/radiant-herding-whistle.md"
+    },
+    {
+      "id": "plan-refactored-spinning-rainbow-md",
+      "kind": "project",
+      "name": "Plan: Mike Cutillo Walking Deck (Career Portfolio)",
+      "description": "Mike needs a walking deck — a personal career portfolio presentation primarily targeting Microsoft roles, but flexible enough for external use with other compan",
+      "category": "plan",
+      "tier": "claude",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.claude/plans/refactored-spinning-rainbow.md"
+      },
+      "sourcePath": "/Users/mikecutillo/.claude/plans/refactored-spinning-rainbow.md"
+    },
+    {
+      "id": "plan-replicated-wandering-bear-md",
+      "kind": "project",
+      "name": "Plan: Job Pipeline Overhaul",
+      "description": "The job pipeline page currently functions as a generic status-based kanban (Found → Applied → Phone Screen → Interview → Offer → Rejected). Mike wants it rebuil",
+      "category": "plan",
+      "tier": "claude",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.claude/plans/replicated-wandering-bear.md"
+      },
+      "sourcePath": "/Users/mikecutillo/.claude/plans/replicated-wandering-bear.md"
+    },
+    {
+      "id": "plan-rosy-gathering-mitten-md",
+      "kind": "project",
+      "name": "GitHub Profile Build Plan — Michael Cutillo",
+      "description": "Mike has a GitHub account (z2akuma) with essentially nothing on it — one profile README repo with a basic, third-person write-up that uses outdated internal pro",
+      "category": "plan",
+      "tier": "claude",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.claude/plans/rosy-gathering-mitten.md"
+      },
+      "sourcePath": "/Users/mikecutillo/.claude/plans/rosy-gathering-mitten.md"
+    },
+    {
+      "id": "plan-snazzy-greeting-pinwheel-md",
+      "kind": "project",
+      "name": "Plan: Process Page — Storage Command Center",
+      "description": "The Storage Command Center (`photo-library/app.py`) has a live hub-and-spoke dashboard",
+      "category": "plan",
+      "tier": "claude",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.claude/plans/snazzy-greeting-pinwheel.md"
+      },
+      "sourcePath": "/Users/mikecutillo/.claude/plans/snazzy-greeting-pinwheel.md"
+    },
+    {
+      "id": "plan-starry-growing-crab-md",
+      "kind": "project",
+      "name": "Plan: Cutillo Cloud — Full Dashboard System",
+      "description": "Building a complete cloud/services BI dashboard inside TurboDot (mission-control, Next.js, port 3333).",
+      "category": "plan",
+      "tier": "claude",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.claude/plans/starry-growing-crab.md"
+      },
+      "sourcePath": "/Users/mikecutillo/.claude/plans/starry-growing-crab.md"
+    },
+    {
+      "id": "plan-steady-chasing-rabin-md",
+      "kind": "project",
+      "name": "Plan: Merge Subscriptions + Bills → Unified \"Payments\" Surface",
+      "description": "The Cloud Accounts page currently has three tabs: Cloud Accounts / Subscriptions / Bills. The split is too literal — subscriptions and bills are the same family",
+      "category": "plan",
+      "tier": "claude",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.claude/plans/steady-chasing-rabin.md"
+      },
+      "sourcePath": "/Users/mikecutillo/.claude/plans/steady-chasing-rabin.md"
+    },
+    {
+      "id": "plan-storage-core-dnd-resume-md",
+      "kind": "project",
+      "name": "Storage Core Visual Overhaul — Resume",
+      "description": "name: Storage Core Visual Overhaul — Resume DnD Refactor",
+      "category": "plan",
+      "tier": "claude",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.claude/plans/storage-core-dnd-resume.md"
+      },
+      "sourcePath": "/Users/mikecutillo/.claude/plans/storage-core-dnd-resume.md"
+    },
+    {
+      "id": "plan-swirling-drifting-charm-md",
+      "kind": "project",
+      "name": "Control Center Dashboard Task-Card Density Pass",
+      "description": "The Control Center dashboard redesign is midway through. Previous work tightened the sidebar rail and header. The next high-impact target is task-card internals",
+      "category": "plan",
+      "tier": "claude",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.claude/plans/swirling-drifting-charm.md"
+      },
+      "sourcePath": "/Users/mikecutillo/.claude/plans/swirling-drifting-charm.md"
+    },
+    {
+      "id": "plan-vivid-wandering-rabin-md",
+      "kind": "project",
+      "name": "Plan: One-Click Job Apply Assistant",
+      "description": "The Job Pipeline page in Mission Control (`mission-control/app/job-pipeline/page.tsx`) is already a well-built 4-lane kanban with scout ingestion, a Claude-base",
+      "category": "plan",
+      "tier": "claude",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.claude/plans/vivid-wandering-rabin.md"
+      },
+      "sourcePath": "/Users/mikecutillo/.claude/plans/vivid-wandering-rabin.md"
+    },
+    {
+      "id": "plan-wise-popping-dahl-md",
+      "kind": "project",
+      "name": "Plan: CreatePostModal AI Workflow Redesign",
+      "description": "The AI Assistant button in Create Post is currently triggerable at any time regardless of state, causing incomplete context issues and freezing. The header nav ",
+      "category": "plan",
+      "tier": "claude",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.claude/plans/wise-popping-dahl.md"
+      },
+      "sourcePath": "/Users/mikecutillo/.claude/plans/wise-popping-dahl.md"
+    },
+    {
+      "id": "plan-wobbly-giggling-dusk-md",
+      "kind": "project",
+      "name": "Plan: Fix AI Assistant + Enhance Content Generation in Create Post",
+      "description": "The Create Post modal in Content Hub has a working architecture for AI-generated LinkedIn content for Charlie Sacco. Voice Inspirations and Main Topics are alre",
+      "category": "plan",
+      "tier": "claude",
+      "safety": "safe",
+      "action": {
+        "type": "reveal",
+        "path": "/Users/mikecutillo/.claude/plans/wobbly-giggling-dusk.md"
+      },
+      "sourcePath": "/Users/mikecutillo/.claude/plans/wobbly-giggling-dusk.md"
+    },
+    {
+      "id": "api-gmail",
+      "kind": "api",
+      "name": "Gmail API",
+      "description": "Google Workspace Gmail read/search/label across all connected accounts.",
+      "category": "google",
+      "tier": "local",
+      "safety": "safe",
+      "action": {
+        "type": "test",
+        "testScript": "/Users/mikecutillo/.openclaw/scripts/gmail-auth.py",
+        "testArgs": [
+          "--status"
+        ]
+      }
+    },
+    {
+      "id": "api-google-drive",
+      "kind": "api",
+      "name": "Google Drive API",
+      "description": "Drive file search, read, upload across connected accounts.",
+      "category": "google",
+      "tier": "local",
+      "safety": "safe",
+      "action": {
+        "type": "test"
+      }
+    },
+    {
+      "id": "api-google-calendar",
+      "kind": "api",
+      "name": "Google Calendar API",
+      "description": "Calendar read/write for event monitoring and scheduling.",
+      "category": "google",
+      "tier": "local",
+      "safety": "safe",
+      "action": {
+        "type": "test"
+      }
+    },
+    {
+      "id": "api-microsoft-graph",
+      "kind": "api",
+      "name": "Microsoft Graph",
+      "description": "M365 Outlook, Teams, OneDrive, SharePoint via Graph.",
+      "category": "microsoft",
+      "tier": "local",
+      "safety": "safe",
+      "action": {
+        "type": "test"
+      }
+    },
+    {
+      "id": "api-ollama",
+      "kind": "api",
+      "name": "Ollama (local LLM)",
+      "description": "Local LLM API on port 11434. Zero-cost inference with gemma4:e2b.",
+      "category": "ai",
+      "tier": "local",
+      "safety": "safe",
+      "action": {
+        "type": "open",
+        "url": "http://localhost:11434/api/tags"
+      }
+    },
+    {
+      "id": "api-openai",
+      "kind": "api",
+      "name": "OpenAI API",
+      "description": "gpt-4o-mini (default) and gpt-5.4 (hard decisions). Paid, billed per token.",
+      "category": "ai",
+      "tier": "claude",
+      "safety": "safe",
+      "action": {
+        "type": "test"
+      }
+    },
+    {
+      "id": "api-anthropic",
+      "kind": "api",
+      "name": "Anthropic API",
+      "description": "Claude Sonnet/Opus via API. Paid. Used by Claude Code itself.",
+      "category": "ai",
+      "tier": "claude",
+      "safety": "safe",
+      "action": {
+        "type": "test"
+      }
+    },
+    {
+      "id": "wf-resume-variant",
+      "kind": "workflow",
+      "name": "Tailor resume to a job spec",
+      "description": "Paste into Claude.ai with a job description; returns a tailored variant.",
+      "category": "content",
+      "tier": "bridge",
+      "safety": "safe",
+      "action": {
+        "type": "copy",
+        "prompt": "You are Mike Cutillo's resume coach. I'll paste a job description below. Return a single-page resume variant tailored to it, keeping every bullet truthful to my background. Emphasize the most relevant experience and skills, and trim anything that doesn't land.\n\nJOB DESCRIPTION:\n<paste job here>"
+      }
+    },
+    {
+      "id": "wf-linkedin-post",
+      "kind": "workflow",
+      "name": "Generate a LinkedIn post from a raw idea",
+      "description": "Paste into Claude.ai with a one-line idea; returns a polished post with hook.",
+      "category": "content",
+      "tier": "bridge",
+      "safety": "safe",
+      "action": {
+        "type": "copy",
+        "prompt": "You are ContentBot for Charles Sacco CFP. I will paste a raw idea. Return a LinkedIn post: strong hook, 3-4 short paragraphs, a takeaway, no emoji spam. Match Charles's practical-advisor tone.\n\nRAW IDEA:\n<paste idea here>"
+      }
+    },
+    {
+      "id": "wf-code-review",
+      "kind": "workflow",
+      "name": "Quick code review (non-critical)",
+      "description": "Paste a diff or file into Gemini/ChatGPT for a free second opinion before Claude Code.",
+      "category": "engineering",
+      "tier": "bridge",
+      "safety": "safe",
+      "action": {
+        "type": "copy",
+        "prompt": "Review the following code. Identify bugs, missing error handling, and style issues. Be specific and brief. If the code is fine, say so in one sentence.\n\n<paste code here>"
+      }
+    },
+    {
+      "id": "wf-summarize-doc",
+      "kind": "workflow",
+      "name": "Summarize a long doc",
+      "description": "Drop a PDF or long text into Claude.ai (free tier) to get a structured summary.",
+      "category": "research",
+      "tier": "bridge",
+      "safety": "safe",
+      "action": {
+        "type": "copy",
+        "prompt": "Summarize the attached document in this format:\n1. **Core thesis** (1 sentence)\n2. **Key claims** (bullets)\n3. **Evidence / sources cited** (bullets)\n4. **What it misses or glosses over** (bullets)\n5. **My next action** (1 line)"
+      }
+    }
+  ]
+}

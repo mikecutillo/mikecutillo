@@ -1,0 +1,166 @@
+{
+  "devices": {
+    "LIAM-GAMING-PC": {
+      "profileId": "liam",
+      "displayName": "Liam's Gaming PC",
+      "lastSeen": "2026-04-12T07:13:57Z",
+      "lastUser": "Liam",
+      "lastForeground": "RobloxPlayerBeta.exe",
+      "idleSeconds": 12
+    },
+    "CLARA-PC": {
+      "profileId": null,
+      "displayName": "CLARA-PC",
+      "lastSeen": "2026-04-12T07:14:08Z",
+      "lastUser": "Clara",
+      "lastForeground": "chrome.exe",
+      "idleSeconds": 3
+    },
+    "BASEMENT-PC": {
+      "profileId": null,
+      "displayName": "BASEMENT-PC",
+      "lastSeen": "2026-04-12T07:14:08Z",
+      "lastUser": "Liam",
+      "lastForeground": "Fortnite.exe",
+      "idleSeconds": 0
+    }
+  },
+  "reports": [
+    {
+      "hostname": "LIAM-GAMING-PC",
+      "timestamp": "2026-04-12T07:13:57Z",
+      "windowsUser": "Liam",
+      "foreground": {
+        "processName": "RobloxPlayerBeta.exe",
+        "windowTitle": "Roblox"
+      },
+      "idleSeconds": 12,
+      "uptime": 36000,
+      "processes": [
+        {
+          "name": "RobloxPlayerBeta",
+          "pid": 1234,
+          "cpu": 45.2,
+          "memMb": 1200
+        },
+        {
+          "name": "chrome",
+          "pid": 5678,
+          "cpu": 12.1,
+          "memMb": 800
+        },
+        {
+          "name": "discord",
+          "pid": 9012,
+          "cpu": 3.4,
+          "memMb": 350
+        }
+      ],
+      "connections": [
+        {
+          "localPort": 49152,
+          "remoteAddress": "128.116.0.5",
+          "remotePort": 443,
+          "owningProcess": "RobloxPlayerBeta"
+        },
+        {
+          "localPort": 49200,
+          "remoteAddress": "162.159.128.233",
+          "remotePort": 443,
+          "owningProcess": "discord"
+        }
+      ],
+      "browserHistory": [
+        {
+          "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "title": "Rick Astley - Never Gonna Give You Up",
+          "visitTime": "2026-04-12T07:13:57Z",
+          "browser": "chrome"
+        },
+        {
+          "url": "https://www.roblox.com/games/123456",
+          "title": "Roblox - Tower Defense",
+          "visitTime": "2026-04-12T07:13:57Z",
+          "browser": "chrome"
+        }
+      ],
+      "loginEvents": [
+        {
+          "type": "logon",
+          "user": "Liam",
+          "time": "2026-04-12T05:13:57Z"
+        }
+      ]
+    },
+    {
+      "hostname": "CLARA-PC",
+      "timestamp": "2026-04-12T07:14:08Z",
+      "windowsUser": "Clara",
+      "foreground": {
+        "processName": "chrome.exe",
+        "windowTitle": "TikTok - Google Chrome"
+      },
+      "idleSeconds": 3,
+      "uptime": 28000,
+      "processes": [
+        {
+          "name": "chrome",
+          "pid": 2345,
+          "cpu": 22,
+          "memMb": 1500
+        },
+        {
+          "name": "Spotify",
+          "pid": 3456,
+          "cpu": 2.1,
+          "memMb": 200
+        }
+      ],
+      "connections": [],
+      "browserHistory": [
+        {
+          "url": "https://www.tiktok.com/@user/video/123",
+          "title": "TikTok",
+          "visitTime": "2026-04-12T07:14:08Z",
+          "browser": "chrome"
+        }
+      ],
+      "loginEvents": []
+    },
+    {
+      "hostname": "BASEMENT-PC",
+      "timestamp": "2026-04-12T07:14:08Z",
+      "windowsUser": "Liam",
+      "foreground": {
+        "processName": "Fortnite.exe",
+        "windowTitle": "Fortnite"
+      },
+      "idleSeconds": 0,
+      "uptime": 14400,
+      "processes": [
+        {
+          "name": "FortniteClient-Win64-Shipping",
+          "pid": 4567,
+          "cpu": 80.5,
+          "memMb": 4200
+        },
+        {
+          "name": "EpicGamesLauncher",
+          "pid": 4568,
+          "cpu": 1.2,
+          "memMb": 300
+        }
+      ],
+      "connections": [
+        {
+          "localPort": 50100,
+          "remoteAddress": "34.120.195.249",
+          "remotePort": 443,
+          "owningProcess": "FortniteClient-Win64-Shipping"
+        }
+      ],
+      "browserHistory": [],
+      "loginEvents": []
+    }
+  ]
+}

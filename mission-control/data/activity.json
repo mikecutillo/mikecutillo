@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "mnfe4cxptri6r",
+    "timestamp": "2026-04-01T01:51:54.493Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnfe5n8fyjnp7",
+    "timestamp": "2026-04-01T01:52:54.495Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnfe6xj4yk825",
+    "timestamp": "2026-04-01T01:53:54.496Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnfe87tnmeqnc",
+    "timestamp": "2026-04-01T01:54:54.491Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnfe9i4d2sln5",
+    "timestamp": "2026-04-01T01:55:54.493Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnfeasf3dfh6o",
+    "timestamp": "2026-04-01T01:56:54.495Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnfec2pdyhngp",
+    "timestamp": "2026-04-01T01:57:54.481Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnfedd0fyf1z1",
+    "timestamp": "2026-04-01T01:58:54.495Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnfeenb486jy0",
+    "timestamp": "2026-04-01T01:59:54.496Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnfefxlrv3zzj",
+    "timestamp": "2026-04-01T02:00:54.495Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnfeh7w853jef",
+    "timestamp": "2026-04-01T02:01:54.488Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnfeii72ig1nc",
+    "timestamp": "2026-04-01T02:02:54.494Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnfejshpj14ch",
+    "timestamp": "2026-04-01T02:03:54.493Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnfel2s3bdwrf",
+    "timestamp": "2026-04-01T02:04:54.483Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnfemd37r4nom",
+    "timestamp": "2026-04-01T02:05:54.499Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnfenndm4n6kp",
+    "timestamp": "2026-04-01T02:06:54.490Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnfeoxog4ipke",
+    "timestamp": "2026-04-01T02:07:54.496Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnfeq7z285wtv",
+    "timestamp": "2026-04-01T02:08:54.494Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnferi9mx0co1",
+    "timestamp": "2026-04-01T02:09:54.490Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnfesskkef44c",
+    "timestamp": "2026-04-01T02:10:54.500Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnfeu2usic49b",
+    "timestamp": "2026-04-01T02:11:54.484Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnfevd5pck9bm",
+    "timestamp": "2026-04-01T02:12:54.493Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnfewngeh4jsr",
+    "timestamp": "2026-04-01T02:13:54.494Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnfexxr20evnz",
+    "timestamp": "2026-04-01T02:14:54.494Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnfez81wqvds7",
+    "timestamp": "2026-04-01T02:15:54.500Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnff0ic7xzxlx",
+    "timestamp": "2026-04-01T02:16:54.487Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnff1smrxrz3d",
+    "timestamp": "2026-04-01T02:17:54.483Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnff32xmeez9o",
+    "timestamp": "2026-04-01T02:18:54.490Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnff4d84kop0j",
+    "timestamp": "2026-04-01T02:19:54.484Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnff5nipdjvsg",
+    "timestamp": "2026-04-01T02:20:54.481Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnff6xtpn4az9",
+    "timestamp": "2026-04-01T02:21:54.493Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnff88498tcz3",
+    "timestamp": "2026-04-01T02:22:54.489Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnff9if2n3rpv",
+    "timestamp": "2026-04-01T02:23:54.494Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnffasppv3mgn",
+    "timestamp": "2026-04-01T02:24:54.493Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnffc3095i2bs",
+    "timestamp": "2026-04-01T02:25:54.489Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnffddaug9vw4",
+    "timestamp": "2026-04-01T02:26:54.486Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnffenm2mi6h9",
+    "timestamp": "2026-04-01T02:27:54.506Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnfffxwyqa7ps",
+    "timestamp": "2026-04-01T02:28:54.514Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnffh875c8tm8",
+    "timestamp": "2026-04-01T02:29:54.497Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnffiihqn3j3q",
+    "timestamp": "2026-04-01T02:30:54.494Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnffjldr29ko2",
+    "timestamp": "2026-04-01T02:31:44.895Z",
+    "type": "content",
+    "icon": "📤",
+    "message": "Post published to live LinkedIn queue (minimum 7-day review buffer): \"The stock market is a device for transferring money from the…\"",
+    "color": "#2ECC71"
+  },
+  {
+    "id": "mnjxsma2uqhox",
+    "timestamp": "2026-04-04T06:13:43.754Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Trace Mission Control M365 storage page presence",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnk3sfrbkrcv6",
+    "timestamp": "2026-04-04T09:01:32.999Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Create floating draggable BI-style data point canvas",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnk4x8m143ilf",
+    "timestamp": "2026-04-04T09:33:16.633Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Reorganize Cutillo Cloud CAT section pages",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnk51glsa95qi",
+    "timestamp": "2026-04-04T09:36:33.616Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Restore Cutillo Cloud section in Mission Control",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnkdmky851fc8",
+    "timestamp": "2026-04-04T13:36:55.952Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Check available Microsoft Graph / OneNote access",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnkdoip64o1zd",
+    "timestamp": "2026-04-04T13:38:26.346Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Add OneNote support to M365 dashboard",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnkeasyrwm6ao",
+    "timestamp": "2026-04-04T13:55:46.083Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New project logged: Identify recurring subscriptions across 3 Gmail accounts",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnkf1mzqjzaqb",
+    "timestamp": "2026-04-04T14:16:38.054Z",
+    "type": "task",
+    "icon": "⚙️",
+    "message": "Acting now: switching subscription scan to Google Command Center auth path for all three Gmail accounts",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnkfw7zqv8v0b",
+    "timestamp": "2026-04-04T14:40:24.950Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Refine Gmail bill scan and add Bills tab to Accounts subscriptions UI",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnkgjwqwv8nny",
+    "timestamp": "2026-04-04T14:58:50.120Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Scale Bills UI with normalized recurring categories and summaries",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnkgrdmbtwova",
+    "timestamp": "2026-04-04T15:04:38.579Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New tasks logged: household calendar + bills surface upgrade",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnlcskkc110tn",
+    "timestamp": "2026-04-05T06:01:21.948Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Audit separate m365 workspace usage",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnldecignmcgb",
+    "timestamp": "2026-04-05T06:18:17.944Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Consolidate M365 source-of-truth into root workspace",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnlfdntqcyw3d",
+    "timestamp": "2026-04-05T07:13:45.182Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Make capability matrix task cards actionable",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnlg0qvueyi1q",
+    "timestamp": "2026-04-05T07:31:42.234Z",
+    "type": "task",
+    "icon": "🛠️",
+    "message": "New task logged: Repair Mission Control site after cleanup",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnlh5xqhgbt29",
+    "timestamp": "2026-04-05T08:03:44.009Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Fix regressed old area build and remove reintroduction history",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnlhz7ruj3gmi",
+    "timestamp": "2026-04-05T08:26:30.042Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Rewrite bad Mission Control history and fix page loading",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnlvtjzhkz0mh",
+    "timestamp": "2026-04-05T14:54:00.557Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Scan Desktop OpenClaw Main for unique files before deletion",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnlwadxo9liiq",
+    "timestamp": "2026-04-05T15:07:05.868Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Fix Mission Control blank rendered page with visual verification",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnlxmkfghg8os",
+    "timestamp": "2026-04-05T15:44:33.772Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Find NAS SSH access and stop qBittorrent",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnmajqsdle67i",
+    "timestamp": "2026-04-05T21:46:17.053Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Restore Social.AI news reader section",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnmavsscrhuz7",
+    "timestamp": "2026-04-05T21:55:39.516Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Audit and restore broken Social.AI area from latest backup",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnmayhgagczf4",
+    "timestamp": "2026-04-05T21:57:44.794Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Restore full Social.AI bundle from latest backup with News Feed V2",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnmcy15oykwdl",
+    "timestamp": "2026-04-05T22:53:22.908Z",
+    "type": "task",
+    "icon": "🛠️",
+    "message": "Queued generated build request: Test",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnmkor5l27hbt",
+    "timestamp": "2026-04-06T02:30:06.969Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Produce communications stats report",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnmvl3ex0xp4x",
+    "timestamp": "2026-04-06T07:35:12.009Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Inspect cron jobs screenshot and identify job purpose",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnmvpph2s664w",
+    "timestamp": "2026-04-06T07:38:47.222Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Remove Analytics nav item from Mission Control",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnmvtaaa6vu94",
+    "timestamp": "2026-04-06T07:41:34.162Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Resurface newer Content Hub with more templates",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnmvy8kbm6km3",
+    "timestamp": "2026-04-06T07:45:25.211Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Resurface richer News Feed version with YouTube and X sources",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnmw5712uh95m",
+    "timestamp": "2026-04-06T07:50:49.814Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Permanently remove stale Social.AI surfaces",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnmwlly3yt6vj",
+    "timestamp": "2026-04-06T08:03:35.643Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Review missing richer settings section in Mission Control",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnmx5kg4q7y1k",
+    "timestamp": "2026-04-06T08:19:06.820Z",
+    "type": "task",
+    "icon": "🎯",
+    "message": "Queued LM Studio task card: Gmail Digest",
+    "color": "#4DA6FF"
+  },
+  {
+    "id": "mnmxmpf6vxtza",
+    "timestamp": "2026-04-06T08:32:26.418Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Fix LM Studio context-length failure in OpenClaw Control UI",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnmxqkgrl21o4",
+    "timestamp": "2026-04-06T08:35:26.619Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Unzip Erin profile takeout files into correct profile location",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnn77bhjfjgwl",
+    "timestamp": "2026-04-06T13:00:24.679Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Weekly model value watch update",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mno29zh57a766",
+    "timestamp": "2026-04-07T03:30:17.177Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Run nightly golden clone backup",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mno4am5f3y02r",
+    "timestamp": "2026-04-07T04:26:45.795Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Check OneDrive file visibility",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mno4btrfhxt6n",
+    "timestamp": "2026-04-07T04:27:42.315Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Check direct Microsoft cloud access",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnolzeqk5l6bc",
+    "timestamp": "2026-04-07T12:41:56.060Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Explain hidden sessions in control UI",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnom0vcf8iufr",
+    "timestamp": "2026-04-07T12:43:04.239Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Explain 200 status code meaning",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnozo2hjbo1o3",
+    "timestamp": "2026-04-07T19:05:01.591Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Investigate stale approval duplicate queue noise",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnpaj5vs51zgj",
+    "timestamp": "2026-04-08T00:09:08.488Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Review current Mission Control UI for missing News v2 and companion pages",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnpg37h8xugbu",
+    "timestamp": "2026-04-08T02:44:41.756Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Diagnose qBittorrent NAS recheck issue",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnq682ts3bhne",
+    "timestamp": "2026-04-08T14:56:19.024Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Implement editable sidebar menu",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnq6b6lxgwasr",
+    "timestamp": "2026-04-08T14:58:43.893Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq6cglhffsb4",
+    "timestamp": "2026-04-08T14:59:43.493Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq6dqw8ydjxc",
+    "timestamp": "2026-04-08T15:00:43.496Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq6f16wc1x00",
+    "timestamp": "2026-04-08T15:01:43.496Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq6gbhmrk52i",
+    "timestamp": "2026-04-08T15:02:43.498Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq6hlsa9refi",
+    "timestamp": "2026-04-08T15:03:43.498Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq6jeluhmjfe",
+    "timestamp": "2026-04-08T15:05:07.506Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq6kowiai6k1",
+    "timestamp": "2026-04-08T15:06:07.506Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq6lz73qb94u",
+    "timestamp": "2026-04-08T15:07:07.503Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq6n9htqz6s2",
+    "timestamp": "2026-04-08T15:08:07.505Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq6ojsng13r9",
+    "timestamp": "2026-04-08T15:09:07.511Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq6pu3jxrchc",
+    "timestamp": "2026-04-08T15:10:07.521Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq6r4dp404hl",
+    "timestamp": "2026-04-08T15:11:07.501Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq6seocmoeg0",
+    "timestamp": "2026-04-08T15:12:07.500Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq6toz1r02as",
+    "timestamp": "2026-04-08T15:13:07.501Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq6uz9qq4k1e",
+    "timestamp": "2026-04-08T15:14:07.502Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq6w9kegzvym",
+    "timestamp": "2026-04-08T15:15:07.502Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq6xjv3yl3l1",
+    "timestamp": "2026-04-08T15:16:07.503Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq6yu5tiu0a9",
+    "timestamp": "2026-04-08T15:17:07.505Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq704gi9xv6y",
+    "timestamp": "2026-04-08T15:18:07.506Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq71eraryyyq",
+    "timestamp": "2026-04-08T15:19:07.510Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq72p1szwy91",
+    "timestamp": "2026-04-08T15:20:07.504Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq73zcegjva9",
+    "timestamp": "2026-04-08T15:21:07.502Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq759n8jh1pc",
+    "timestamp": "2026-04-08T15:22:07.508Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq76jxsle1lv",
+    "timestamp": "2026-04-08T15:23:07.504Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq77u8f2nxkm",
+    "timestamp": "2026-04-08T15:24:07.503Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq794j5heasv",
+    "timestamp": "2026-04-08T15:25:07.505Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq7aets69qe0",
+    "timestamp": "2026-04-08T15:26:07.504Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq7bp4c4n1sh",
+    "timestamp": "2026-04-08T15:27:07.500Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq7czfagocwu",
+    "timestamp": "2026-04-08T15:28:07.510Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq7e9pvzm76c",
+    "timestamp": "2026-04-08T15:29:07.507Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq7fk0gc6g89",
+    "timestamp": "2026-04-08T15:30:07.504Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq7gub3lysvk",
+    "timestamp": "2026-04-08T15:31:07.503Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq7i4lt4np34",
+    "timestamp": "2026-04-08T15:32:07.505Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq7jewldenhh",
+    "timestamp": "2026-04-08T15:33:07.509Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq7kp76qedpy",
+    "timestamp": "2026-04-08T15:34:07.506Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq7lzhsas60q",
+    "timestamp": "2026-04-08T15:35:07.504Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq7n9sj3tsx0",
+    "timestamp": "2026-04-08T15:36:07.507Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq7ok3569hfo",
+    "timestamp": "2026-04-08T15:37:07.505Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq7pudr3k1v7",
+    "timestamp": "2026-04-08T15:38:07.503Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq7r4of8gjdc",
+    "timestamp": "2026-04-08T15:39:07.503Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq7sez4fm8do",
+    "timestamp": "2026-04-08T15:40:07.504Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq7tp9s5oyq3",
+    "timestamp": "2026-04-08T15:41:07.504Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq7uzkh9yocw",
+    "timestamp": "2026-04-08T15:42:07.505Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq7w9v53wql7",
+    "timestamp": "2026-04-08T15:43:07.505Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq7xk628xxtv",
+    "timestamp": "2026-04-08T15:44:07.514Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq7yugpejac5",
+    "timestamp": "2026-04-08T15:45:07.513Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq804rd5dsk6",
+    "timestamp": "2026-04-08T15:46:07.513Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq81f20e3tfi",
+    "timestamp": "2026-04-08T15:47:07.512Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq82pcqozj19",
+    "timestamp": "2026-04-08T15:48:07.514Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq83znbceugo",
+    "timestamp": "2026-04-08T15:49:07.511Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq859xy7g94o",
+    "timestamp": "2026-04-08T15:50:07.510Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq86k8noza19",
+    "timestamp": "2026-04-08T15:51:07.511Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq87ujeyyqq8",
+    "timestamp": "2026-04-08T15:52:07.514Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq894u1o5bno",
+    "timestamp": "2026-04-08T15:53:07.513Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq8af4pxf11n",
+    "timestamp": "2026-04-08T15:54:07.513Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq8bpfd4x4os",
+    "timestamp": "2026-04-08T15:55:07.513Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq8czpw9vqvi",
+    "timestamp": "2026-04-08T15:56:07.508Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq8ea0pyvddq",
+    "timestamp": "2026-04-08T15:57:07.513Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq8fkbbti0ln",
+    "timestamp": "2026-04-08T15:58:07.511Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq8gum0z500v",
+    "timestamp": "2026-04-08T15:59:07.512Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq8i4wqpobou",
+    "timestamp": "2026-04-08T16:00:07.514Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq8jf79dpi4e",
+    "timestamp": "2026-04-08T16:01:07.509Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq8kphy4ix4x",
+    "timestamp": "2026-04-08T16:02:07.510Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq8lzslax5da",
+    "timestamp": "2026-04-08T16:03:07.509Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq8na3anvmwp",
+    "timestamp": "2026-04-08T16:04:07.510Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq8oke0w46gm",
+    "timestamp": "2026-04-08T16:05:07.512Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq8puooiwo9p",
+    "timestamp": "2026-04-08T16:06:07.512Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq8r4za4ynq7",
+    "timestamp": "2026-04-08T16:07:07.510Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq8sfa8ys2f8",
+    "timestamp": "2026-04-08T16:08:07.520Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq8tpks1bmg6",
+    "timestamp": "2026-04-08T16:09:07.516Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq8uq39gk74c",
+    "timestamp": "2026-04-08T16:09:54.837Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq8wsn03coc1",
+    "timestamp": "2026-04-08T16:11:31.452Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq8y2xjbgg16",
+    "timestamp": "2026-04-08T16:12:31.447Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq8zd8u9oyho",
+    "timestamp": "2026-04-08T16:13:31.470Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq90niz8f9vj",
+    "timestamp": "2026-04-08T16:14:31.451Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq91xtl530b6",
+    "timestamp": "2026-04-08T16:15:31.449Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq93847qh1mf",
+    "timestamp": "2026-04-08T16:16:31.447Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq94if1l2eiz",
+    "timestamp": "2026-04-08T16:17:31.453Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq95sply444c",
+    "timestamp": "2026-04-08T16:18:31.449Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq97309ls8wj",
+    "timestamp": "2026-04-08T16:19:31.449Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq98db3xeesp",
+    "timestamp": "2026-04-08T16:20:31.455Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq99nlh59jqx",
+    "timestamp": "2026-04-08T16:21:31.445Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq9axwaqithk",
+    "timestamp": "2026-04-08T16:22:31.450Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq9c88ubuk5v",
+    "timestamp": "2026-04-08T16:23:31.518Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq9dijfsswcw",
+    "timestamp": "2026-04-08T16:24:31.515Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq9fklxlp1lv",
+    "timestamp": "2026-04-08T16:26:07.509Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq9g2ebvxy2x",
+    "timestamp": "2026-04-08T16:26:30.563Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Control UI menu customization",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnq9guwzkhrz5",
+    "timestamp": "2026-04-08T16:27:07.523Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq9i57glmu9u",
+    "timestamp": "2026-04-08T16:28:07.516Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnq9iwzj0w856",
+    "timestamp": "2026-04-08T16:28:43.519Z",
+    "type": "heartbeat",
+    "icon": "💓",
+    "message": "Heartbeat: No backlog tasks — all clear",
+    "color": "#26C26E"
+  },
+  {
+    "id": "mnqhal1awdhqy",
+    "timestamp": "2026-04-08T20:06:11.710Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Integrate Seed Box card with NAS qBittorrent",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnqtt69z3w1b7",
+    "timestamp": "2026-04-09T01:56:34.439Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Add resume lane management to Resume Workshop",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnqx1f16txms8",
+    "timestamp": "2026-04-09T03:26:57.882Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Fix Resume Workshop blank page and add completion verification",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnqyy6d3tim29",
+    "timestamp": "2026-04-09T04:20:25.911Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Improve Mission Control sidebar resizing and avatar slot",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnr38in153s3m",
+    "timestamp": "2026-04-09T06:20:26.845Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Move LM Studio GGUF models to Desktop archive",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnr3fb3xot4eh",
+    "timestamp": "2026-04-09T06:25:43.677Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Create LM Studio uninstall shell script",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnr3fpw8gewdc",
+    "timestamp": "2026-04-09T06:26:02.840Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Create LM Studio uninstall shell script",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnr3yqnpmk78f",
+    "timestamp": "2026-04-09T06:40:50.293Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Move saved AI models into Ollama directory",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnrnv0tpbrk7m",
+    "timestamp": "2026-04-09T15:57:49.165Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Review Content Hub AI button error",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnro34qh37bwg",
+    "timestamp": "2026-04-09T16:04:07.481Z",
+    "type": "task",
+    "icon": "✅",
+    "message": "Completed task: Review Content Hub AI button error",
+    "color": "#22C55E"
+  },
+  {
+    "id": "mnruew5w8hcby",
+    "timestamp": "2026-04-09T19:01:13.940Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Add short-form controls for Content Hub AI posts",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnruhg79k6z3z",
+    "timestamp": "2026-04-09T19:03:13.221Z",
+    "type": "task",
+    "icon": "✅",
+    "message": "Completed task: Add short-form controls for Content Hub AI posts",
+    "color": "#22C55E"
+  },
+  {
+    "id": "mnrvhxpcgg34a",
+    "timestamp": "2026-04-09T19:31:35.520Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Tighten Content Hub post length presets",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mnrvjn29k6cbw",
+    "timestamp": "2026-04-09T19:32:55.041Z",
+    "type": "task",
+    "icon": "✅",
+    "message": "Completed task: Tighten Content Hub post length presets",
+    "color": "#22C55E"
+  },
+  {
+    "id": "mns0mpqdoyzxu",
+    "timestamp": "2026-04-09T21:55:16.549Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Preserve Content Hub variables under shorter length targets",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mns0o3id2dcdh",
+    "timestamp": "2026-04-09T21:56:21.061Z",
+    "type": "task",
+    "icon": "✅",
+    "message": "Completed task: Preserve Content Hub variables under shorter length targets",
+    "color": "#22C55E"
+  },
+  {
+    "id": "mns18fv55w9g9",
+    "timestamp": "2026-04-09T22:12:10.193Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Add safer template deletion flow",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mns19pmkjzk8r",
+    "timestamp": "2026-04-09T22:13:09.500Z",
+    "type": "task",
+    "icon": "✅",
+    "message": "Completed task: Add safer template deletion flow",
+    "color": "#22C55E"
+  },
+  {
+    "id": "mns23ks9g67uv",
+    "timestamp": "2026-04-09T22:36:22.905Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Fix unresolved template placeholders in Content Hub",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mns26vvn72ptx",
+    "timestamp": "2026-04-09T22:38:57.251Z",
+    "type": "task",
+    "icon": "✅",
+    "message": "Completed task: Fix unresolved template placeholders in Content Hub",
+    "color": "#22C55E"
+  },
+  {
+    "id": "mns2h23882for",
+    "timestamp": "2026-04-09T22:46:51.860Z",
+    "type": "task",
+    "icon": "📋",
+    "message": "New task logged: Verify extracted cloud photo folders",
+    "color": "#5E6AD2"
+  },
+  {
+    "id": "mns2ldtau7fvn",
+    "timestamp": "2026-04-09T22:50:13.678Z",
+    "type": "task",
+    "icon": "✅",
+    "message": "Completed task: Verify extracted cloud photo folders",
+    "color": "#22C55E"
+  },
+  {
+    "id": "mntvv1zytdxxd",
+    "timestamp": "2026-04-11T05:17:19.966Z",
+    "type": "content",
+    "icon": "📤",
+    "message": "Post published to live LinkedIn queue (minimum 7-day review buffer): \"test\"",
+    "color": "#2ECC71"
+  },
+  {
+    "id": "mnxx8lg4ytlb6",
+    "timestamp": "2026-04-14T01:06:56.020Z",
+    "type": "task",
+    "icon": "??",
+    "message": "PC: Notion portfolio populated with 35 new entries for P-OCTRADE (24 concept notes, 4 API objects, 1 project, 1 resource, 5 bridge tasks). Inventory updated.",
+    "color": "#5E6AD2"
+  }
+]

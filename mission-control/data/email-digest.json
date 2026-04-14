@@ -1,0 +1,120 @@
+{
+  "generated_at": "2026-04-13T13:50:15.818203+00:00",
+  "lookback_hours": 24,
+  "accounts": [
+    "cutillo@gmail.com",
+    "erincutillo@gmail.com",
+    "erinrameyallen@gmail.com"
+  ],
+  "stats": {
+    "total_fetched": 6,
+    "total_classified": 6
+  },
+  "financials": {
+    "bills_due": [],
+    "recent_charges": [],
+    "income": [],
+    "month_summary": {
+      "in": 0.0,
+      "out": 0.0,
+      "due_soon": 0.0
+    }
+  },
+  "categories": {
+    "action_items": [
+      {
+        "id": "19d871ae03f3fd0c",
+        "account": "cutillo@gmail.com",
+        "account_label": "Mike",
+        "from": "cutillo@gmail.com",
+        "subject": "Household Digest \u2014 2026-04-13",
+        "date": "Mon, 13 Apr 2026 06:49:38 -0700",
+        "summary": "Household Email Digest \u2014 2026-04-13 \ud83d\udcca \u2191 In: $0 | \u2193 Out: $0 | \u26a0 Due Soon: $0 \ud83c\udfe0 Family \ud83d\udfe1 [Mike] Apr 12, 2026 Digest: 2 new",
+        "urgency": "medium",
+        "categories": [
+          "action_items",
+          "bills",
+          "family"
+        ],
+        "financial": null
+      }
+    ],
+    "bills": [
+      {
+        "id": "19d86ac989316780",
+        "account": "cutillo@gmail.com",
+        "account_label": "Mike",
+        "from": "Bank of America <onlinebanking@ealerts.bankofamerica.com>",
+        "subject": "Your available account balance is low",
+        "date": "Mon, 13 Apr 2026 05:49:09 -0600",
+        "summary": "Your available account balance is low The available balance on Erin ending in 7420 has dropped below $100. See available",
+        "urgency": "medium",
+        "categories": [
+          "bills"
+        ],
+        "financial": null
+      },
+      {
+        "id": "19d86afaabf7fb1a",
+        "account": "erincutillo@gmail.com",
+        "account_label": "Erin",
+        "from": "Bank of America <onlinebanking@ealerts.bankofamerica.com>",
+        "subject": "Your available account balance is low",
+        "date": "Mon, 13 Apr 2026 05:49:54 -0600",
+        "summary": "Your available account balance is low The available balance on PERSONAL CHECKING/SAVINGS ACCOUNT ending in 7420 has drop",
+        "urgency": "medium",
+        "categories": [
+          "bills"
+        ],
+        "financial": null
+      }
+    ],
+    "family": [
+      {
+        "id": "19d83c152db1ee56",
+        "account": "cutillo@gmail.com",
+        "account_label": "Mike",
+        "from": "Holmdel Township School District via Holmdel Township School District <donotreply+8c5ed457-d3f6-562f-995d-d0853c60ebbf@parentsquare.com>",
+        "subject": "Apr 12, 2026 Digest: 2 new messages from Holmdel Township School District today",
+        "date": "Sun, 12 Apr 2026 22:12:57 +0000 (UTC)",
+        "summary": "Holmdel Township School District Daily digest created for Michael Cutillo Satz Athletics - Weight Lifting Club \u2193 Chantal",
+        "urgency": "medium",
+        "categories": [
+          "family"
+        ],
+        "financial": null
+      },
+      {
+        "id": "19d83c15335a27cf",
+        "account": "erinrameyallen@gmail.com",
+        "account_label": "Erin",
+        "from": "Holmdel Township School District via Holmdel Township School District <donotreply+8c5ed457-d3f6-562f-995d-d0853c60ebbf@parentsquare.com>",
+        "subject": "Apr 12, 2026 Digest: 2 new messages from Holmdel Township School District today",
+        "date": "Sun, 12 Apr 2026 22:12:57 +0000 (UTC)",
+        "summary": "Holmdel Township School District Daily digest created for Erin Cutillo Satz Athletics - Weight Lifting Club \u2193 Chantal Si",
+        "urgency": "medium",
+        "categories": [
+          "family"
+        ],
+        "financial": null
+      }
+    ],
+    "financial": [
+      {
+        "id": "19d83572dd867ee9",
+        "account": "erinrameyallen@gmail.com",
+        "account_label": "Erin",
+        "from": "Venmo <venmo@email.venmo.com>",
+        "subject": "Do more, get more with Venmo Stash",
+        "date": "Sun, 12 Apr 2026 20:17:00 +0000 (UTC)",
+        "summary": "Earn up to 5% cash back on your favorite brands. \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff \u034f \u200c \ufeff",
+        "urgency": "medium",
+        "categories": [
+          "financial"
+        ],
+        "financial": null
+      }
+    ],
+    "digest": []
+  }
+}

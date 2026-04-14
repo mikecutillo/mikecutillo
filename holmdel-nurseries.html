@@ -1,0 +1,691 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Holmdel Nurseries | Premium Landscape Supply</title>
+  <meta name="description" content="Holmdel Nurseries: Premium nursery items, bulk materials, and landscape supplies." />
+
+  <style>
+    :root{
+      /* --- Default Dark Theme --- */
+      --bg-body: #0d2117;      /* Very Dark Jungle Green */
+      --bg-panel: #1b4332;     /* Lighter Green for Cards */
+      --bg-header: rgba(13, 33, 23, 0.95);
+
+      --col-primary: #ffffff;  /* White Headings */
+      --col-primary-light: #e8f5ee;
+      --col-accent: #d4a373;   /* Earthy Gold */
+
+      --col-text-main: #f1f4f2; /* Off-white text */
+      --col-text-muted: #b0c4bb; /* Soft green-grey text */
+      --col-border: rgba(255,255,255,0.1);
+
+      /* --- Enhanced Shadows (Layered for Depth) --- */
+      --shadow-sm: 0 2px 4px rgba(0,0,0,0.2);
+      --shadow-md: 0 8px 16px rgba(0,0,0,0.3);
+      --shadow-hover: 0 20px 50px rgba(0,0,0,0.5);
+
+      /* Typography */
+      --font-heading: 'Georgia', 'Times New Roman', serif;
+      --font-body: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+
+      /* Spacing & UI */
+      --max-width: 1200px;
+      --radius-sm: 4px;
+      --radius-md: 12px;
+      --radius-lg: 16px;
+
+      /* Animation */
+      --transition-spring: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      --transition-smooth: all 0.3s ease;
+    }
+
+    /* Base Reset */
+    *{ box-sizing:border-box; }
+    html { scroll-behavior: smooth; }
+
+    body{
+      margin:0;
+      font-family:var(--font-body);
+      background: var(--bg-body);
+      color:var(--col-text-main);
+      line-height:1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a{ text-decoration:none; color:inherit; transition: var(--transition-smooth); cursor: pointer; }
+    ul { padding: 0; list-style: none; margin: 0; }
+    img{ display:block; max-width:100%; height: auto; }
+
+    /* Typography */
+    h1, h2, h3, h4 {
+      font-family: var(--font-heading);
+      color: var(--col-primary);
+      margin: 0 0 1rem 0;
+      line-height: 1.2;
+    }
+    h1 { font-size: clamp(2.5rem, 5vw, 3.5rem); letter-spacing: -0.02em; text-shadow: 0 2px 10px rgba(0,0,0,0.3); }
+    h2 { font-size: 2.25rem; }
+
+    p { margin-bottom: 1.5rem; }
+    .text-muted { color: var(--col-text-muted); font-size: 0.95rem; }
+    .text-center { text-align: center; }
+
+    /* Layout Utility */
+    .container{ max-width:var(--max-width); margin:0 auto; padding:0 24px; }
+    .section{ padding: 80px 0; }
+    .grid { display: grid; gap: 30px; }
+
+    /* COMPONENTS */
+
+    /* Buttons */
+    .btn {
+      display: inline-block;
+      padding: 14px 28px;
+      background: transparent;
+      border: 1px solid var(--col-primary);
+      color: var(--col-primary);
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition-spring);
+    }
+
+    .btn-primary {
+      background: var(--col-primary);
+      color: #1b4332;
+      border-color: var(--col-primary);
+    }
+
+    .btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+    }
+    .btn-primary:hover { opacity: 0.95; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4); }
+
+    /* Header / Nav */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--bg-header);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--col-border);
+      box-shadow: 0 1px 10px rgba(0,0,0,0.2);
+    }
+    .nav-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 80px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-family: var(--font-heading);
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--col-primary);
+    }
+    .brand img {
+      height: 50px;
+      width: auto;
+      border-radius: 6px;
+      border: 2px solid #ffffff;
+      padding: 2px;
+      background: rgba(255,255,255,0.05);
+      box-shadow: 0 0 15px rgba(255,255,255,0.15);
+      transition: box-shadow 0.3s ease;
+    }
+
+    .nav-links { display: flex; align-items: center; gap: 32px; }
+    .nav-links a {
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: var(--col-text-main);
+      position: relative;
+    }
+    .nav-links a::after {
+      content: ''; position: absolute; bottom: -4px; left: 0; width: 0; height: 2px;
+      background: var(--col-accent); transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .nav-links a:hover::after { width: 100%; }
+
+    /* Hero Section */
+    .hero {
+      padding: 60px 0 100px;
+      background: linear-gradient(to bottom, var(--bg-body) 0%, var(--bg-panel) 100%);
+      overflow: hidden;
+    }
+    .hero-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      gap: 60px;
+    }
+    .hero-content { max-width: 540px; }
+    .hero-lead { font-size: 1.15rem; color: var(--col-text-muted); margin-bottom: 32px; }
+
+    .animated-underline {
+      display: inline;
+      background-image: linear-gradient(to right, var(--col-accent), var(--col-accent));
+      background-position: bottom left;
+      background-repeat: no-repeat;
+      background-size: 0% 4px;
+      padding-bottom: 2px;
+      animation: drawLine 2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+      animation-delay: 0.4s;
+    }
+    @keyframes drawLine {
+      to { background-size: 100% 4px; }
+    }
+
+    .hero-image-box {
+      position: relative;
+      height: 500px;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+      transition: var(--transition-smooth);
+    }
+    .hero-image-box:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-hover);
+    }
+    .hero-image-box img { width: 100%; height: 100%; object-fit: cover; }
+
+    /* Product Grid */
+    .grid-products { grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
+
+    .card-product {
+      background: var(--bg-panel);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      border: 1px solid var(--col-border);
+      box-shadow: var(--shadow-md);
+      transition: var(--transition-spring);
+      display: flex;
+      flex-direction: column;
+    }
+    .card-product:hover {
+      transform: translateY(-8px);
+      box-shadow: var(--shadow-hover);
+      border-color: transparent;
+    }
+
+    .card-img-wrap {
+      height: 240px;
+      overflow: hidden;
+      background: #0a1a10;
+      position: relative;
+    }
+    .card-img-wrap img {
+      width: 100%; height: 100%; object-fit: cover;
+      transition: transform 0.6s ease;
+    }
+    .card-product:hover .card-img-wrap img {
+      transform: scale(1.1);
+    }
+
+    .card-body { padding: 24px; flex-grow: 1; display: flex; flex-direction: column; }
+    .badge {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--col-accent);
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .card-title { font-size: 1.1rem; margin-bottom: 8px; font-weight: 700; color: var(--col-primary); }
+
+    /* Alternating Content Sections */
+    .split-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+    }
+    .split-img {
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-md);
+      height: 450px;
+      object-fit: cover;
+      width: 100%;
+      transition: var(--transition-spring);
+    }
+    .split-img:hover {
+      transform: scale(1.02) translateY(-5px);
+      box-shadow: var(--shadow-hover);
+    }
+
+    .feature-list li {
+      padding: 12px 0;
+      border-bottom: 1px solid var(--col-border);
+      display: flex;
+      flex-direction: column;
+    }
+    .feature-list b { color: var(--col-primary); margin-bottom: 4px; }
+
+    /* Footer */
+    footer {
+      background: #0a1a10;
+      color: #fff;
+      padding: 80px 0 30px;
+      margin-top: 60px;
+      border-top: 1px solid var(--col-border);
+    }
+
+    .footer-content {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr;
+      gap: 40px;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      padding-bottom: 40px;
+      margin-bottom: 30px;
+    }
+    .footer-brand b { font-family: var(--font-heading); font-size: 1.5rem; display: block; margin-bottom: 16px; color: #fff; }
+    .footer-col h4 { color: var(--col-accent); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 20px; font-family: var(--font-body); }
+    .footer-col a { display: block; color: rgba(255,255,255,0.7); margin-bottom: 10px; cursor: pointer; transition: color 0.2s ease; }
+    .footer-col a:hover { color: #fff; transform: translateX(5px); }
+    .copyright { text-align: center; font-size: 0.85rem; color: rgba(255,255,255,0.4); }
+
+    .contact-link { color: white; text-decoration: underline; text-decoration-color: var(--col-accent); text-underline-offset: 4px; transition: all 0.2s; }
+    .contact-link:hover { color: var(--col-accent); text-decoration-color: rgba(255,255,255,0.5); }
+
+    @media (max-width: 900px) {
+      .hero-wrapper, .split-section { grid-template-columns: 1fr; gap: 40px; }
+      .hero-image-box { height: 300px; order: -1; }
+      .split-section .split-img { height: 300px; }
+      .nav-links { display: none; }
+      h1 { font-size: 2.5rem; }
+      .contact-flex { flex-direction: column; gap: 30px !important; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="nav-row">
+        <a class="brand scroll-link" href="#top">
+          <img id="logoImg" alt="Holmdel Nurseries logo">
+          <span>Holmdel Nurseries</span>
+        </a>
+
+        <div style="display:flex; align-items:center;">
+          <nav class="nav-links">
+            <a href="#bulk" class="scroll-link">Bulk & Soil</a>
+            <a href="#shop" class="scroll-link">Catalog</a>
+            <a href="#equipment" class="scroll-link">Tools & Equipment</a>
+            <a href="#wolverine-tools" class="scroll-link">Wolverine Tools</a>
+            <a href="#services" class="scroll-link">Services</a>
+            <a href="#about" class="scroll-link">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-wrapper">
+        <div class="hero-content">
+          <h1><span class="animated-underline">Cultivating beauty for your home & landscape.</span></h1>
+          <p class="hero-lead">
+            We provide premium <b>bulk materials, dear resistant, privacy plants,</b> and expert advice to help your garden thrive.
+          </p>
+          <div style="display:flex; gap:16px;">
+            <a class="btn btn-primary scroll-link" href="#shop">View Catalog</a>
+            <a class="btn scroll-link" href="#about">Contact Us</a>
+          </div>
+        </div>
+        <div class="hero-image-box">
+          <img id="heroImg" alt="Nursery Landscape" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section id="bulk" class="section" style="background:var(--bg-panel);">
+      <div class="container">
+        <div class="split-section">
+          <img id="bulkImg" class="split-img" alt="Bulk Materials" loading="lazy">
+          <div class="info">
+            <h2>Bulk Materials</h2>
+            <p class="text-muted">
+              Professional grade materials available for pickup or delivery in small or large quantities. Perfect for grading, driveways, and garden beds.
+            </p>
+            <ul class="feature-list">
+              <li><b>Hardwood Mulch</b><span>Triple shredded and is available in natural brown, dyed black, dyed red, natural cedar, and playground.</span></li>
+              <li><b>Topsoil</b><span>Clean screened soil amended with organic compost.</span></li>
+              <li><b>Decorative Stone</b><span>River rock, gravel, and crushed stone varietals.</span></li>
+            </ul>
+            <br>
+            <a href="#about" class="btn scroll-link track-click" data-action="quote_bulk">Get a Quote</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="shop" class="section">
+      <div class="container">
+        <div class="text-center" style="max-width:700px; margin:0 auto 60px;">
+          <h2>Our Collection</h2>
+          <p class="text-muted">Explore our selection of nursery staples. From decorative shrubs to professional equipment, we stock what you need to get the job done.</p>
+        </div>
+        <div class="grid grid-products" id="productGrid">
+          </div>
+      </div>
+    </section>
+
+    <section id="equipment" class="section" style="background:var(--bg-body);">
+      <div class="container">
+        <div class="text-center" style="max-width:700px; margin:0 auto 60px;">
+          <h2>Featured Brands</h2>
+          <p class="text-muted">We are proud suppliers of premium, professional-grade tools and equipment. Designed for durability and performance.</p>
+        </div>
+        <div class="split-section">
+          <div class="info" style="background: var(--bg-panel); padding: 40px; border-radius: var(--radius-md); border: 1px solid var(--col-border);">
+            <h3>Timberwolf Equipment</h3>
+            <p class="text-muted">
+              Built for the toughest jobs, Timberwolf log splitters and conveyors offer unmatched reliability and power. Ideal for commercial landscaping and heavy winter preparation.
+            </p>
+            <a href="#about" class="btn btn-primary scroll-link track-click" data-action="lead_timberwolf">Request a Demo</a>
+          </div>
+          <div class="info" style="background: var(--bg-panel); padding: 40px; border-radius: var(--radius-md); border: 1px solid var(--col-border);">
+            <h3>Wolverine Hand Tools</h3>
+            <p class="text-muted">
+              Contractor-tough wheelbarrows, spades, and rakes. Designed for daily professional use and maximum durability on the job site.
+            </p>
+            <a href="#wolverine-tools" class="btn scroll-link track-click" data-action="wolverine_explore">See Full Lineup &darr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════
+         WOLVERINE HAND TOOLS — AUTHORIZED DISTRIBUTOR SHOWCASE
+         Images: download from wolverinehandtools.com/downloads/
+         Replace IMG.wht_* values below with your hosted photo paths.
+    ════════════════════════════════════════════════════════════════ -->
+    <section id="wolverine-tools" class="section" style="background:var(--bg-panel);">
+      <div class="container">
+
+        <!-- Section Header -->
+        <div class="text-center" style="max-width:700px; margin:0 auto 16px;">
+          <span class="badge" style="font-size:0.8rem; letter-spacing:2px;">Authorized Distributor</span>
+          <h2 style="margin-top:8px;">Wolverine Hand Tools</h2>
+          <p class="text-muted">
+            Professional-grade tools for crews and contractors. All products made in West Michigan exclusively — built to outlast the job site.
+          </p>
+        </div>
+
+        <!-- Trust Bar -->
+        <div style="display:flex; flex-wrap:wrap; gap:12px; justify-content:center; margin-bottom:56px;">
+          <span style="background:rgba(255,255,255,0.07); border:1px solid var(--col-border); border-radius:50px; padding:9px 22px; font-size:0.82rem; font-weight:600; color:var(--col-accent); letter-spacing:0.5px;">&#10003; 5-Year Steel Warranty</span>
+          <span style="background:rgba(255,255,255,0.07); border:1px solid var(--col-border); border-radius:50px; padding:9px 22px; font-size:0.82rem; font-weight:600; color:var(--col-accent); letter-spacing:0.5px;">&#10003; Made in West Michigan</span>
+          <span style="background:rgba(255,255,255,0.07); border:1px solid var(--col-border); border-radius:50px; padding:9px 22px; font-size:0.82rem; font-weight:600; color:var(--col-accent); letter-spacing:0.5px;">&#10003; Contractor Grade</span>
+          <span style="background:rgba(255,255,255,0.07); border:1px solid var(--col-border); border-radius:50px; padding:9px 22px; font-size:0.82rem; font-weight:600; color:var(--col-accent); letter-spacing:0.5px;">&#10003; Wholesale Pricing Available</span>
+        </div>
+
+        <!-- Product Category Cards -->
+        <div class="grid grid-products" id="wolverineGrid"></div>
+
+        <!-- CTA Strip -->
+        <div style="margin-top:48px; padding:40px; background:var(--bg-body); border-radius:var(--radius-md); border:1px solid var(--col-border); text-align:center;">
+          <h3 style="margin-bottom:8px;">Need a specific model or bulk order?</h3>
+          <p class="text-muted" style="margin-bottom:24px; max-width:520px; margin-left:auto; margin-right:auto;">
+            We carry the full Wolverine lineup. Call or email us for pricing, availability, and crew discounts.
+          </p>
+          <div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
+            <a href="#about" class="btn btn-primary scroll-link track-click" data-action="wolverine_bulk_cta">Contact for Pricing</a>
+            <a href="https://wolverinehandtools.com/downloads/" target="_blank" class="btn track-click" data-action="wolverine_catalog_pdf">Download Full Catalog</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- ═══════════════════════════════════════════════════════════ -->
+
+    <section id="services" class="section" style="background:var(--bg-body);">
+      <div class="container">
+        <div class="split-section">
+          <div class="info">
+            <h2>Services & Support</h2>
+            <p class="text-muted">
+              We are more than just a retail yard. Our team is here to support your projects from start to finish.
+            </p>
+            <ul class="feature-list">
+              <li><b>Local Delivery</b><span>Prompt delivery for bulk orders and large specimen trees.</span></li>
+              <li><b>Project Consultation</b><span>Bring your photos and measurements for advice.</span></li>
+              <li><b>Seasonal Decor</b><span>Holiday trees, wreaths, and fall displays in season.</span></li>
+            </ul>
+          </div>
+          <img id="servicesImg" class="split-img" alt="Nursery Services" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div style="background: #153526; color: white; padding: 60px; border-radius: var(--radius-lg); text-align: center; box-shadow: var(--shadow-hover); border: 1px solid var(--col-border);">
+          <h2 style="color:white; margin-bottom: 16px;">Contact Holmdel Nurseries</h2>
+          <p style="color: rgba(255,255,255,0.8); max-width: 600px; margin: 0 auto 40px;">
+            Reach out to us for bulk orders, equipment quotes, or general questions. Visit us in person during business hours.
+          </p>
+          <div class="contact-flex" style="display: flex; gap: 60px; justify-content: center; flex-wrap: wrap;">
+
+             <div style="text-align:center;">
+               <div style="font-size:0.8rem; text-transform:uppercase; letter-spacing:1px; color:var(--col-accent); margin-bottom:8px;">Location</div>
+               <div style="font-weight:600; font-size:1.1rem; line-height: 1.4;">
+                 110 Main Street<br>
+                 <span style="font-size: 0.9rem; font-weight: 400; color: rgba(255,255,255,0.7);">(Newman Springs Road / RT. 520)</span>
+               </div>
+             </div>
+
+             <div style="text-align:center;">
+               <div style="font-size:0.8rem; text-transform:uppercase; letter-spacing:1px; color:var(--col-accent); margin-bottom:8px;">Email</div>
+               <a href="mailto:HolmdelNurseries@verizon.net" class="contact-link track-click" data-action="contact_email" style="font-weight:600; font-size:1.1rem;">
+                 HolmdelNurseries@verizon.net
+               </a>
+             </div>
+
+             <div style="text-align:center;">
+               <div style="font-size:0.8rem; text-transform:uppercase; letter-spacing:1px; color:var(--col-accent); margin-bottom:8px;">Phone</div>
+               <a href="tel:+17329464271" class="contact-link track-click" data-action="contact_phone" style="font-weight:600; font-size:1.1rem;">
+                 +1 (732) 946-4271
+               </a>
+             </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <b>Holmdel Nurseries</b>
+          <p style="font-size:0.9rem; color:rgba(255,255,255,0.6); max-width:300px; margin:0;">
+            Serving the community with quality plants and landscape supplies since 1985. Locally owned and operated.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <a href="#shop" class="scroll-link">Catalog</a>
+          <a href="#equipment" class="scroll-link">Equipment</a>
+          <a href="#wolverine-tools" class="scroll-link">Wolverine Hand Tools</a>
+          <a href="#bulk" class="scroll-link">Bulk Materials</a>
+          <a href="#services" class="scroll-link">Services</a>
+        </div>
+        <div class="footer-col">
+          <h4>Suppliers</h4>
+          <a href="https://wolverinehandtools.com/" target="_blank" class="track-click" data-action="footer_outbound_wolverine">Wolverine Hand Tools</a>
+          <a href="https://www.timberwolfequip.com/" target="_blank" class="track-click" data-action="footer_outbound_timberwolf">Timberwolf Equipment</a>
+        </div>
+        <div class="footer-col">
+          <h4>Hours</h4>
+          <a style="cursor:default; opacity:0.8;">Mon-Sat: 8am - 5pm</a>
+          <a style="cursor:default; opacity:0.8;">Sun: 9am - 3pm</a>
+        </div>
+      </div>
+      <div class="copyright">
+        &copy; <span id="year"></span> Holmdel Nurseries. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const IMG = {
+      logo: "https://image2url.com/r2/default/images/1769200691854-30425731-30eb-408d-8e8e-0693f7475d74.png",
+      hero: "https://imagur.org/i/eCLp1Shs",
+      bulk: "https://images.unsplash.com/photo-1558904541-efa843a96f01?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      services: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      mulch: "https://mobileimages.lowes.com/productimages/1a1e793e-9706-4eae-bfa2-1742cac2055a/62866801.jpg",
+      soil: "https://images.thdstatic.com/productImages/4be53330-34b6-48ab-8e43-75ceae2eeab7/svn/scotts-topsoil-71130756-64_600.jpg",
+      shrub: "https://www.thespruce.com/thmb/Jcmw_6ttee7580LpY6AVFKOc8w0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/fast-growing-shrubs-for-privacy-hedges-specimens-4767365_10_Arborvitae-038fcc2a312c4fe8a7084bb29ced3981.jpg",
+      fillDirt: "https://mobileimages.lowes.com/productimages/3843d351-b309-4d94-a789-5a990a750c84/04078839.jpg",
+      plant: "https://m.media-amazon.com/images/I/71YNYEZCQwL._AC_UF894,1000_QL80_.jpg",
+      pot: "https://shop.epicgardening.com/cdn/shop/files/FP-COLL-ESB-10002_EatYourGreensBundle_noTapestry.jpg?v=1764608774&width=1920",
+      wolverine: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      timberwolf: "https://images.unsplash.com/photo-1616880026875-5b410fb22b93?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+
+      // ── Wolverine product category placeholders ──────────────────────
+      // Replace each URL with the real photo downloaded from:
+      //   wolverinehandtools.com/downloads/
+      // Suggested local paths once you host them:
+      //   "images/wolverine/contractor-shovels.jpg"  etc.
+      wht_shovels:      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
+      wht_wheelbarrows: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+      wht_striking:     "https://images.unsplash.com/photo-1572981779307-38b8cabb2407?auto=format&fit=crop&w=800&q=80",
+      wht_forks:        "https://images.unsplash.com/photo-1592210454359-9043f067919b?auto=format&fit=crop&w=800&q=80",
+      wht_tamps:        "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=800&q=80",
+    };
+
+    const PRODUCTS = [
+      { id:1, name:"Hardwood Mulch", cat:"Bulk", img:IMG.mulch, desc:"Triple shredded and is available in natural brown, dyed black, dyed red, natural cedar, and playground." },
+      { id:2, name:"Topsoil", cat:"Bulk", img:IMG.soil, desc:"Clean screened soil amended with organic compost." },
+      { id:3, name:"Privacy Plants", cat:"Trees", img:IMG.shrub, desc:"We grow and install deer resistant privacy plants such as Schip laurel, Norway Spruce, Green Giant Arborvitae, and Eastern White Pine, in sizes large or small." },
+      { id:4, name:"Fill Dirt", cat:"Soil", img:IMG.fillDirt, desc:"Unscreened inorganic soil used to fill or level large areas." },
+      { id:5, name:"Potting Mix", cat:"Supplies", img:IMG.plant, desc:"Nutrient rich for containers." },
+      { id:6, name:"Seasonal Bundle", cat:"Seasonal", img:IMG.pot, desc:"Curated seasonal greens." },
+      { id:7, name:"Wolverine Steel Spade", cat:"Tools", img:IMG.wolverine, desc:"All-steel construction for maximum durability on the job site. Designed for professionals." },
+      { id:8, name:"Timberwolf Log Splitter", cat:"Equipment", img:IMG.timberwolf, desc:"Commercial-grade log splitter for heavy-duty firewood production and land clearing." }
+    ];
+
+    // ── Wolverine Category Cards ──────────────────────────────────────
+    const WHT_CATS = [
+      {
+        key: "wht_shovels",
+        name: "Contractor Shovels",
+        cat: "Hand Tools",
+        img: IMG.wht_shovels,
+        desc: "Round point, square, and drain spade profiles in wood & fiberglass handles. D-grip and long-handle options. 5-year warranty on all steel."
+      },
+      {
+        key: "wht_wheelbarrows",
+        name: "Wheelbarrows",
+        cat: "Job Site",
+        img: IMG.wht_wheelbarrows,
+        desc: "Poly & steel tubs from 6 to 10 cu ft. Flat-free tire and pneumatic options. Built for daily job site use on any terrain."
+      },
+      {
+        key: "wht_striking",
+        name: "Striking & Steel Tools",
+        cat: "Heavy Duty",
+        img: IMG.wht_striking,
+        desc: "Engineer & sledge hammers from 3–12 lb, single-bit axes, shot-filled dead blow hammers, and San Angelo bars. Chromoly steel construction."
+      },
+      {
+        key: "wht_forks",
+        name: "Multi-Purpose Forks",
+        cat: "Hand Tools",
+        img: IMG.wht_forks,
+        desc: "Manure, pitch, mulching, hay, and spading forks. 10-tine mulching fork ideal for landscape crews. Replaceable handle options."
+      },
+      {
+        key: "wht_tamps",
+        name: "Dirt Tamps",
+        cat: "Compaction",
+        img: IMG.wht_tamps,
+        desc: "High carbon American steel heads in 8×8 and 10×10 sizes. Wood and all-steel handle options at 44–54\". Built for trench and grade work."
+      }
+    ];
+
+    const setImg = (id, url) => {
+      const el = document.getElementById(id);
+      if(el) el.src = url;
+    };
+    setImg('logoImg', IMG.logo);
+    setImg('heroImg', IMG.hero);
+    setImg('bulkImg', IMG.bulk);
+    setImg('servicesImg', IMG.services);
+
+    const grid = document.getElementById('productGrid');
+    grid.innerHTML = PRODUCTS.map(p => `
+      <div class="card-product">
+        <div class="card-img-wrap">
+           <img src="${p.img}" alt="${p.name}" loading="lazy">
+        </div>
+        <div class="card-body">
+          <span class="badge">${p.cat}</span>
+          <div class="card-title">${p.name}</div>
+          <div class="text-muted" style="font-size:0.9rem;">${p.desc}</div>
+        </div>
+      </div>
+    `).join('');
+
+    // Render Wolverine category cards
+    const whtGrid = document.getElementById('wolverineGrid');
+    whtGrid.innerHTML = WHT_CATS.map(p => `
+      <div class="card-product">
+        <div class="card-img-wrap">
+          <img src="${p.img}" alt="${p.name}" loading="lazy">
+        </div>
+        <div class="card-body">
+          <span class="badge">${p.cat}</span>
+          <div class="card-title">${p.name}</div>
+          <div class="text-muted" style="font-size:0.9rem; flex-grow:1; margin-bottom:20px;">${p.desc}</div>
+          <a href="#about" class="btn btn-primary scroll-link track-click" data-action="wolverine_pricing_${p.key}" style="text-align:center;">Contact for Pricing</a>
+        </div>
+      </div>
+    `).join('');
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Smooth Scroll
+    const allLinks = document.querySelectorAll('a[href^="#"]');
+    allLinks.forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        if(targetId && targetId !== '#') {
+          const targetElement = document.querySelector(targetId);
+          if (targetElement) {
+            targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        }
+      });
+    });
+
+    // --- Analytics Tracking Script ---
+    // This logs clicks to the console. When deploying GA4, replace the console.log
+    // with a datalayer push or gtag() event.
+    document.querySelectorAll('.track-click').forEach(element => {
+      element.addEventListener('click', (e) => {
+        const action = e.currentTarget.getAttribute('data-action');
+        console.log(`[Event Tracked] Action: ${action}`);
+        // Example GA4 Integration:
+        // gtag('event', 'generate_lead', { 'event_label': action });
+      });
+    });
+  </script>
+</body>
+</html>
