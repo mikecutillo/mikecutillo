@@ -2,31 +2,55 @@
 
 **AI systems builder. Enterprise implementation leader. The person organizations call when they need new technology to actually get used.**
 
-I've spent my career at exactly one intersection: cutting-edge technology and the humans who need to use it. I learn things first, build with them, and then help organizations adopt them. That pattern runs from my years as a Microsoft Learning Specialist and three-time Demo Cup Champion, through co-founding an EdTech company from inside a working K–8 school, to independently building and deploying AI workflow platforms for clients today.
+I've spent my career at exactly one intersection: cutting-edge technology and the humans who need to use it. I learn things first, build with them, and then help organizations adopt them. That pattern runs from my years as a Microsoft Learning Specialist and three-time Demo Cup Champion, through co-founding an EdTech company from inside a working K-8 school, to independently building and deploying AI workflow platforms for clients today.
 
 I don't just advise on AI — I ship it. The repos here are tools I built for real use, currently running in production.
 
 ---
 
+## Currently Building
+
+I'm developing a **personal AI operating system** — a unified platform that orchestrates job search, content creation, cloud storage, home infrastructure, and family coordination through a single local dashboard. The system spans **34 active projects** across **7 responsibility areas**, all tracked through a structured PARA methodology in Notion.
+
+Active work right now:
+- **Mission Control UI** — Dense, data-rich dashboard with 16 module pages in various stages of completion
+- **One-Click Job Apply** — Playwright automation that fills applications from an AI-powered answer bank
+- **Multi-Provider AI Router** — Intelligent waterfall across Claude, OpenAI, Gemini, and OpenRouter with cost-aware fallback
+- **Cloud Migration Pipeline** — Multi-account photo deduplication and NAS consolidation across Google, iCloud, and OneDrive
+
+---
+
 ## What I Build
 
-**🧠 Mission Control — Personal AI OS**
-Full-stack Next.js platform (port 3333) that orchestrates job tracking, content pipelines, cloud storage monitoring, and AI-assisted workflows across Claude, OpenAI, and Gemini. Integrates a multi-provider model router, kanban job pipeline, answer bank, and Playwright-based automation worker — all from a single local dashboard.
+### [Mission Control](https://github.com/mikecutillo/ai-model-router) — Personal AI OS
+Full-stack Next.js platform that orchestrates job tracking, content pipelines, cloud storage monitoring, and AI-assisted workflows across Claude, OpenAI, and Gemini. Integrates a multi-provider model router, kanban job pipeline, answer bank, and Playwright-based automation worker — all from a single local dashboard.
 
-**🔌 Mission Control Apply Assistant** *(Chrome Extension)*
-Chrome MV3 extension that bridges the browser and the local pipeline. One click on any job posting scrapes structured metadata (JSON-LD → OG tags → DOM heuristics) and adds it to the kanban. On application forms (LinkedIn, Workday, Greenhouse, Lever, Ashby, iCIMS), it scans every labeled input, resolves answers from the shared AI answer bank, and fills using React-safe native setters. Every unanswered question is logged and becomes a permanent answer once resolved — the system learns.
+### [Apply Assistant](https://github.com/mikecutillo/mission-control-apply-assistant) — Chrome Extension
+Chrome MV3 extension that bridges the browser and the local pipeline. One click on any job posting scrapes structured metadata (JSON-LD, OG tags, DOM heuristics) and adds it to the kanban. On application forms (LinkedIn, Workday, Greenhouse, Lever, Ashby, iCIMS), it scans every labeled input, resolves answers from the shared AI answer bank, and fills using React-safe native setters. Every unanswered question is logged and becomes a permanent answer once resolved — the system learns.
 
-**🤖 Job Search Automation**
+### [Job Search Automation](https://github.com/mikecutillo/linkedin-job-automation)
 Playwright + Selenium automation using Chrome remote debugging session reuse — Easy Apply workflows, fit analysis via 4-lane Claude tailor pipeline, custom resume generation, and zero-interaction apply for known-answer forms.
 
-**📧 Google Workspace Automation**
+### [Google Workspace Toolkit](https://github.com/mikecutillo/Google-Workspace-Toolkit)
 Python tools for Gmail and Google Drive management across multiple accounts — AI-assisted email analysis powered by Claude, OAuth 2.0 auth, cleanup automation, and Plotly analytics dashboards.
 
-**📊 Microsoft 365 Intelligence**
+### [Microsoft 365 Dashboard](https://github.com/mikecutillo/m365-streamlit-dashboard)
 Streamlit dashboard with Microsoft MSAL authentication for mailbox analysis, OneDrive management, and unified M365 ecosystem visibility.
 
-**🔧 AI Workflow & Operations Platforms**
-Custom multi-provider model-router with intelligent waterfall fallback (Claude → OpenAI → Gemini → OpenRouter). Built for real operational use — task management, content pipelines, cloud monitoring — deployed for clients with their own tools, identity systems, and workflows.
+### [AI Model Router](https://github.com/mikecutillo/ai-model-router)
+Multi-provider LLM router with intelligent waterfall fallback (Claude -> OpenAI -> Gemini -> OpenRouter). Built for real operational use — task management, content pipelines, cloud monitoring — deployed for clients with their own tools, identity systems, and workflows.
+
+---
+
+## By the Numbers
+
+| | |
+|---|---|
+| **Active Projects** | 34 across AI, career, content, home infra, family, and finance |
+| **Technologies** | 24+ integrated services and APIs in production |
+| **AI Providers** | Claude, OpenAI, Gemini, OpenRouter — multi-provider with fallback |
+| **Cloud Integrations** | Gmail, Google Drive, Microsoft Graph, iCloud, Discord, Buffer, Notion |
+| **Automation** | Playwright, Selenium, Chrome Extensions, cron pipelines |
 
 ---
 
@@ -47,6 +71,8 @@ Custom multi-provider model-router with intelligent waterfall fallback (Claude �
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white)
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat&logo=selenium&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
+![Discord](https://img.shields.io/badge/Discord.js-5865F2?style=flat&logo=discord&logoColor=white)
+![Notion](https://img.shields.io/badge/Notion_API-000000?style=flat&logo=notion&logoColor=white)
 
 ---
 
@@ -54,4 +80,4 @@ Custom multi-provider model-router with intelligent waterfall fallback (Claude �
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/michael-cutillo-aa616a55/)
 
-📍 Holmdel, NJ &nbsp;•&nbsp; Open to AI implementation, solutions architecture, and EdTech roles
+📍 Holmdel, NJ · Open to AI implementation, solutions architecture, and EdTech roles
