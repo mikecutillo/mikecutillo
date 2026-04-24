@@ -39,10 +39,10 @@ Chrome MV3 extension that bridges the browser and the local pipeline. One click 
 ### [Job Search Automation](https://github.com/mikecutillo/linkedin-job-automation)
 Playwright + Selenium automation using Chrome remote debugging session reuse — Easy Apply workflows, fit analysis via 4-lane Claude tailor pipeline, custom resume generation, and zero-interaction apply for known-answer forms.
 
-### [Google Workspace Toolkit](https://github.com/mikecutillo/Google-Workspace-Toolkit)
+### [Google AI Toolkit](https://github.com/mikecutillo/google-ai-toolkit)
 Python tools for Gmail and Google Drive management across multiple accounts — AI-assisted email analysis powered by Claude, OAuth 2.0 auth, cleanup automation, and Plotly analytics dashboards.
 
-### [Microsoft 365 Dashboard](https://github.com/mikecutillo/m365-streamlit-dashboard)
+### [Microsoft 365 AI Toolkit](https://github.com/mikecutillo/m365-ai-toolkit)
 Streamlit dashboard with Microsoft MSAL authentication for mailbox analysis, OneDrive management, and unified M365 ecosystem visibility.
 
 ### [AI Model Router](https://github.com/mikecutillo/ai-model-router)
