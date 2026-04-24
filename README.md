@@ -50,6 +50,22 @@ Multi-provider LLM router with intelligent waterfall fallback (Claude → OpenAI
 
 ---
 
+---
+
+## More from the AIOS Portfolio
+
+Companion overview repos — public docs, private code. Each links to a deeper README explaining the architecture:
+
+| Project | What it does |
+|---|---|
+| **[AIOS](https://github.com/mikecutillo/aios)** | The Next.js shell everything else lives inside — 16+ unified modules on a Mac Mini |
+| **[BMO — Family AI Companion](https://github.com/mikecutillo/bmo-discord-agent)** | 24/7 Discord bot with a 20-capability registry (Notion-configured, no redeploy) |
+| **[Grocery Price Tracker](https://github.com/mikecutillo/grocery-price-tracker)** | Scrapes weekly flyers, normalizes SKUs, alerts on deals |
+| **[PowerSchool Scraper](https://github.com/mikecutillo/powerschool-scraper)** | K-12 gradebook extractor with rules-engine alerts |
+| **[Classroom Scraper](https://github.com/mikecutillo/classroom-scraper)** | Google Classroom aggregator across students + courses |
+| **[Household Voice Control](https://github.com/mikecutillo/household-voice-control)** | Alexa → AIOS webhook bridge with Claude-powered intent parsing |
+| **[Household Digest](https://github.com/mikecutillo/household-digest)** | AI-composed daily briefing across Gmail, Calendar, M365, news |
+
 ## By the Numbers
 
 | | |
