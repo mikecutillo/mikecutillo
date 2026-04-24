@@ -15,7 +15,7 @@ I'm developing a **personal AI operating system** — a unified platform that or
 Active work right now:
 - **BMO — Family AI Companion** — A 24/7 Discord bot for my household, running on a capability registry I can extend without redeploying. Kids can DM it for curfew checks, Pulse surveys, homework reminders, and more.
 - **OpenClaw Trader** — Python paper-trading bot. Phases 0–5 are rule-based; Phase 6 hands the final decision to Claude. Safe sandbox, no real orders.
-- **Mission Control UI** — Dense, data-rich Next.js dashboard with 16+ module pages in various stages of completion
+- **AIOS — Personal AI Operating System** — Dense, data-rich Next.js dashboard with 16+ module pages in various stages of completion
 - **One-Click Job Apply** — Playwright automation that fills applications from an AI-powered answer bank
 - **Multi-Provider AI Router** — Intelligent waterfall across Claude, OpenAI, Gemini, and OpenRouter with cost-aware fallback
 - **Cloud Migration Pipeline** — Multi-account photo deduplication and NAS consolidation across Google, iCloud, and OneDrive
@@ -30,11 +30,11 @@ My favorite thing I've ever built. BMO is a 24/7 TypeScript + Discord.js bot tha
 ### OpenClaw Trader — AI-Augmented Paper Trading
 Personal paper-trading bot written in Python. Phases 0–5 apply rule-based signal generation, position sizing, and risk checks; **Phase 6 hands the final trade decision to Claude** with full market context and journaled reasoning. Zero real orders — purely a sandbox for iterating on Claude-as-decision-maker patterns before any capital ever enters the loop. *(private repo)*
 
-### Mission Control — Personal AI OS
-Full-stack Next.js platform that orchestrates job tracking, content pipelines, cloud storage monitoring, and AI-assisted workflows across Claude, OpenAI, and Gemini. Integrates a multi-provider model router, kanban job pipeline, answer bank, Playwright-based automation worker, and the live ops surface for BMO — all from a single local dashboard. *(private repo — component pieces below)*
+### AIOS — Personal AI Operating System
+Full-stack Next.js platform that orchestrates job tracking, content pipelines, cloud storage monitoring, and AI-assisted workflows across Claude, OpenAI, and Gemini. Integrates a multi-provider model router, kanban job pipeline, answer bank, Playwright-based automation worker, and the live ops surface for BMO — all inside AIOS, from a single local dashboard. *(private repo — AIOS itself runs on my own infrastructure; the component pieces ship as public repos below.)*
 
-### [Apply Assistant](https://github.com/mikecutillo/mission-control-apply-assistant) — Chrome Extension
-Chrome MV3 extension that bridges the browser and the local pipeline. One click on any job posting scrapes structured metadata (JSON-LD, OG tags, DOM heuristics) and adds it to the kanban. On application forms (LinkedIn, Workday, Greenhouse, Lever, Ashby, iCIMS), it scans every labeled input, resolves answers from the shared AI answer bank, and fills using React-safe native setters. Every unanswered question is logged and becomes a permanent answer once resolved — the system learns.
+### [Apply Assistant](https://github.com/mikecutillo/aios-apply-assistant) — Chrome Extension
+Chrome MV3 extension that bridges the browser and the local pipeline. One click on any job posting scrapes structured metadata (JSON-LD, OG tags, DOM heuristics) and adds it to the AIOS kanban. On application forms (LinkedIn, Workday, Greenhouse, Lever, Ashby, iCIMS), it scans every labeled input, resolves answers from the shared AI answer bank, and fills using React-safe native setters. Every unanswered question is logged and becomes a permanent answer once resolved — the system learns.
 
 ### [Job Search Automation](https://github.com/mikecutillo/linkedin-job-automation)
 Playwright + Selenium automation using Chrome remote debugging session reuse — Easy Apply workflows, fit analysis via 4-lane Claude tailor pipeline, custom resume generation, and zero-interaction apply for known-answer forms.
