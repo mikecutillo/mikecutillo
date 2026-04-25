@@ -4,7 +4,7 @@
 
 I've spent my career at exactly one intersection: cutting-edge technology and the humans who need to use it. I learn things first, build with them, and then help organizations adopt them. That pattern runs from my years as a Microsoft Learning Specialist and three-time Demo Cup Champion, through co-founding an EdTech company from inside a working K-8 school, to independently building and deploying AI workflow platforms for clients today.
 
-I don't just advise on AI — I ship it. The repos here are tools I built for real use, currently running in production. Some of my best work — like **BMO** (our family's live-in Discord AI) and **OpenClaw Trader** (a Claude-augmented paper-trading bot) — runs in private repos on my own infrastructure.
+I don't just advise on AI — I ship it. The repos here are tools I built for real use, currently running in production. Flagship systems like **BMO** (our family's live-in Discord AI) and **AIOS** (a personal AI operating system) surface here as overview repos because the running code is wired into private household infrastructure.
 
 ---
 
@@ -14,8 +14,8 @@ I'm developing a **personal AI operating system** — a unified platform that or
 
 Active work right now:
 - **BMO — Family AI Companion** — A 24/7 Discord bot for my household, running on a capability registry I can extend without redeploying. Kids can DM it for curfew checks, Pulse surveys, homework reminders, and more.
-- **OpenClaw Trader** — Python paper-trading bot. Phases 0–5 are rule-based; Phase 6 hands the final decision to Claude. Safe sandbox, no real orders.
-- **AIOS — Personal AI Operating System** — Dense, data-rich Next.js dashboard with 16+ module pages in various stages of completion
+- **[Multi-Agent Paper Trader](https://github.com/mikecutillo/multi-agent-paper-trader)** — Python paper-trading bot. Phases 0–5 are rule-based signal agents; Phase 6 hands the final decision to a Claude arbiter. Safe sandbox, no real orders.
+- **[AIOS](https://github.com/mikecutillo/aios) — Personal AI Operating System** — Dense, data-rich Next.js dashboard with 16+ module pages in various stages of completion
 - **One-Click Job Apply** — Playwright automation that fills applications from an AI-powered answer bank
 - **Multi-Provider AI Router** — Intelligent waterfall across Claude, OpenAI, Gemini, and OpenRouter with cost-aware fallback
 - **Cloud Migration Pipeline** — Multi-account photo deduplication and NAS consolidation across Google, iCloud, and OneDrive
@@ -27,11 +27,11 @@ Active work right now:
 ### [BMO — Family AI Companion (Discord)](https://github.com/mikecutillo/bmo-discord-agent) 🌟
 My favorite thing I have ever built. BMO is a 24/7 TypeScript + Discord.js bot that lives in the Cutillo family server and acts as a shared household brain. Everything is driven by a **20-capability registry** with six executor types (scheduled-summary, intent-response, state-watcher, survey, external-api, static-response), so I can add new behaviors by writing a Notion row — no redeploy. Config spans **6 Notion databases** (Capabilities, Channels, People, Personality, Pulse Questions, Incidents), giving me a "One Voice" brand across **21 channels** for the whole family. Runs under `launchd` with auto-restart supervision, integrates Anthropic Claude for natural replies, and exposes a `/bmo` control surface. Kids interact with numbered-option replies for curfew, Pulse check-ins, and chore reminders. *(overview repo — running code is private because it is wired into family infrastructure)*
 
-### OpenClaw Trader — AI-Augmented Paper Trading
-Personal paper-trading bot written in Python. Phases 0–5 apply rule-based signal generation, position sizing, and risk checks; **Phase 6 hands the final trade decision to Claude** with full market context and journaled reasoning. Zero real orders — purely a sandbox for iterating on Claude-as-decision-maker patterns before any capital ever enters the loop. *(private repo)*
+### [Multi-Agent Paper Trader](https://github.com/mikecutillo/multi-agent-paper-trader) — AI-Augmented Paper Trading
+Personal paper-trading bot written in Python. Phases 0–5 apply rule-based signal generation, position sizing, and risk checks; **Phase 6 hands the final trade decision to a Claude arbiter** with full market context and journaled reasoning. Zero real orders — purely a sandbox for iterating on multi-agent decision patterns before any capital ever enters the loop.
 
-### AIOS — Personal AI Operating System
-Full-stack Next.js platform that orchestrates job tracking, content pipelines, cloud storage monitoring, and AI-assisted workflows across Claude, OpenAI, and Gemini. Integrates a multi-provider model router, kanban job pipeline, answer bank, Playwright-based automation worker, and the live ops surface for BMO — all inside AIOS, from a single local dashboard. *(private repo — AIOS itself runs on my own infrastructure; the component pieces ship as public repos below.)*
+### [AIOS](https://github.com/mikecutillo/aios) — Personal AI Operating System
+Full-stack Next.js platform that orchestrates job tracking, content pipelines, cloud storage monitoring, and AI-assisted workflows across Claude, OpenAI, and Gemini. Integrates a multi-provider model router, kanban job pipeline, answer bank, Playwright-based automation worker, and the live ops surface for BMO — all inside AIOS, from a single local dashboard. *(overview repo — AIOS itself runs on my own infrastructure; the component pieces ship as public repos below.)*
 
 ### [Apply Assistant](https://github.com/mikecutillo/aios-apply-assistant) — Chrome Extension
 Chrome MV3 extension that bridges the browser and the local pipeline. One click on any job posting scrapes structured metadata (JSON-LD, OG tags, DOM heuristics) and adds it to the AIOS kanban. On application forms (LinkedIn, Workday, Greenhouse, Lever, Ashby, iCIMS), it scans every labeled input, resolves answers from the shared AI answer bank, and fills using React-safe native setters. Every unanswered question is logged and becomes a permanent answer once resolved — the system learns.
