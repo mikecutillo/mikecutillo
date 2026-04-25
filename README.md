@@ -153,5 +153,16 @@ Companion overview repos — public docs, private code. Each links to a deeper R
 ## Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/michael-cutillo-aa616a55/)
+[![Email](https://img.shields.io/badge/Email-cutillo%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:cutillo@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-mikecutillo-181717?style=flat&logo=github&logoColor=white)](https://github.com/mikecutillo)
 
-📍 Holmdel, NJ · Open to AI implementation, solutions architecture, and EdTech roles
+📍 **Holmdel, NJ** · Open to AI implementation, solutions architecture, EdTech roles, and AI-consulting engagements
+
+**Currently:** building AIOS as a personal proving ground for production AI workflow design — every repo here was used in real life this week.
+
+---
+
+<a href="https://github.com/mikecutillo">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=mikecutillo&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mikecutillo&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+</a>
