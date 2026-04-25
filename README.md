@@ -15,10 +15,44 @@ I'm developing a **personal AI operating system** — a unified platform that or
 Active work right now:
 - **BMO — Family AI Companion** — A 24/7 Discord bot for my household, running on a capability registry I can extend without redeploying. Kids can DM it for curfew checks, Pulse surveys, homework reminders, and more.
 - **[Multi-Agent Paper Trader](https://github.com/mikecutillo/multi-agent-paper-trader)** — Python paper-trading bot. Phases 0–5 are rule-based signal agents; Phase 6 hands the final decision to a Claude arbiter. Safe sandbox, no real orders.
-- **[AIOS](https://github.com/mikecutillo/aios) — Personal AI Operating System** — Dense, data-rich Next.js dashboard with 16+ module pages in various stages of completion
-- **One-Click Job Apply** — Playwright automation that fills applications from an AI-powered answer bank
-- **Multi-Provider AI Router** — Intelligent waterfall across Claude, OpenAI, Gemini, and OpenRouter with cost-aware fallback
-- **Cloud Migration Pipeline** — Multi-account photo deduplication and NAS consolidation across Google, iCloud, and OneDrive
+- **[AIOS](https://github.com/mikecutillo/aios) — Personal AI Operating System** — Next.js dashboard with modules for job pipeline, cloud storage, household calendar, grocery deals, school tracking, content publishing, and BMO ops
+- **[One-Click Job Apply](https://github.com/mikecutillo/aios-apply-assistant)** — Playwright automation that fills applications from an AI-powered answer bank
+- **[Multi-Provider AI Router](https://github.com/mikecutillo/ai-model-router)** — Intelligent waterfall across Claude, OpenAI, Gemini, and OpenRouter with cost-aware fallback
+- **[Grocery Price Tracker](https://github.com/mikecutillo/grocery-price-tracker)** — Python pipeline that scrapes weekly flyers across chains, normalizes SKUs in SQLite, and alerts on meaningful deals
+
+---
+
+## System Architecture
+
+```mermaid
+graph TD
+    Users[Family · Clients · Voice · Chat · Browser] --> AIOS[AIOS · Next.js Dashboard]
+    AIOS --> Router[AI Model Router<br/>Claude / OpenAI / Gemini / OpenRouter]
+
+    AIOS --> BMO[BMO Discord Agent]
+    AIOS --> Trader[Multi-Agent Paper Trader]
+    AIOS --> Apply[Apply Assistant + Job Pipeline]
+    AIOS --> Grocery[Grocery Price Tracker]
+    AIOS --> School[School Dashboard]
+    AIOS --> Calendar[Household Calendar]
+    AIOS --> Digest[Daily Digest]
+    AIOS --> Voice[Voice Control]
+
+    BMO --> Discord[Discord]
+    BMO --> Notion[Notion]
+    Voice --> Alexa[Alexa]
+    Digest --> Gmail[Gmail]
+    Digest --> M365[Microsoft 365]
+    Apply --> Gmail
+    School --> Gmail
+    Calendar --> Gmail
+    Grocery --> Notion
+    Grocery --> Discord
+    Trader --> Alpaca[Alpaca / FRED / Polymarket]
+
+    AIOS --> SQLite[(SQLite)]
+    AIOS --> launchd[launchd supervision]
+```
 
 ---
 
@@ -50,6 +84,14 @@ Multi-provider LLM router with intelligent waterfall fallback (Claude → OpenAI
 
 ---
 
+## Selected Career Work
+
+| Role | Highlights |
+|---|---|
+| **Microsoft — Learning Specialist, 3× Demo Cup Champion** | Enterprise training and product evangelism for new Microsoft technology. Built adoption curricula delivered to global audiences; three-time internal Demo Cup winner for technical storytelling. |
+| **EdTech Co-Founder (K-8 school)** | Co-founded an educational technology company from inside a working K-8 school. Shipped product used daily by real students and teachers. |
+| **Independent AI Implementation — current** | Building and deploying AI workflow platforms for clients. Deliverables span multi-provider model routing, answer banks and auto-apply pipelines, cloud/data consolidation, and AI-assisted content + social publishing systems with persona management and multi-channel automation — each tailored to the client's identity and toolset. |
+
 ---
 
 ## More from the AIOS Portfolio
@@ -70,7 +112,7 @@ Companion overview repos — public docs, private code. Each links to a deeper R
 
 | | |
 |---|---|
-| **Active Projects** | 34+ across family infra, AI, career, content, home ops, and finance |
+| **Active Projects** | 50+ across family infra, AI, career, content, home ops, and finance |
 | **Flagship System** | BMO — a family-wide Discord AI with 20 extensible capabilities |
 | **Technologies** | 24+ integrated services and APIs in production |
 | **AI Providers** | Claude, OpenAI, Gemini, OpenRouter — multi-provider with fallback |
