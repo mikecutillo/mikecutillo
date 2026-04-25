@@ -107,6 +107,12 @@ Companion overview repos — public docs, private code. Each links to a deeper R
 | **[Classroom Scraper](https://github.com/mikecutillo/classroom-scraper)** | Google Classroom aggregator across students + courses |
 | **[Household Voice Control](https://github.com/mikecutillo/household-voice-control)** | Alexa → AIOS webhook bridge with Claude-powered intent parsing |
 | **[Household Digest](https://github.com/mikecutillo/household-digest)** | AI-composed daily briefing across Gmail, Calendar, M365, news |
+| **[SpellBook Extension](https://github.com/mikecutillo/spellbook-extension)** | Voice-to-workflow Chrome MV3 extension — page context + Claude adapters |
+| **[Remote Dev Stack](https://github.com/mikecutillo/remote-dev-stack)** | Tailscale + tmux + CRD for phone → Claude Code with durable sessions |
+| **[Twin Sync](https://github.com/mikecutillo/twin-sync)** | Mac ↔ PC workflow sync for Claude Code context via rsync + shared drive |
+| **[Steam Deck Emulation](https://github.com/mikecutillo/steam-deck-emulation)** | 17K+ games across 36 platforms via network-mounted library; 7 TB migration scripts |
+| **[NAS / Plex Tools](https://github.com/mikecutillo/nas-plex-tools)** | Python renamer + TMDB metadata backfill + duplicate scanner for Plex libraries |
+| **[Spotify Restore](https://github.com/mikecutillo/spotify-restore)** | Rebuilds liked songs, playlists, and follows via the Spotify Web API |
 
 ## By the Numbers
 
