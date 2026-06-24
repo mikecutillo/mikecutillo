@@ -55,17 +55,65 @@ Script (automated):  Outlook compose -> Subject + To + Bcc(95) -> Send
 If you omit `--date`, it uses the **most recent Tuesday** automatically, so a normal Wednesday
 run is just `node send-recap.js --send`.
 
+## Fully automated weekly run (unattended, on an always-on PC)
+
+This makes it hands-off: every Tuesday the script drives **Teams too** (View recap →
+Share ˅ → Send to email, which pre-loads the **recap notes text** into the body), then
+fills To + Bcc and sends — no clicks from you.
+
+**Requirements / honest caveats — read these:**
+- The PC must be **always on and logged into Windows** with the automation Edge running.
+- The Edge sign-in **expires periodically** (every few weeks, MFA). When it does, the task
+  **fails safe and sends nothing** — you just sign in once in the automation Edge and the next
+  run resumes. This is the one unavoidable manual touch without Graph access.
+- The Teams-navigation selectors are **unverified against the live UI**. The first runs may need
+  tuning — on any failure the script drops a **screenshot in `logs\`** and a log, so send me those
+  and I'll fix the selectors. It will **never send a blank email** (empty-body guard).
+
+### Setup
+
+1. Do the **one-time setup** above (Node, `npm install`, `start-edge-debug.bat`, sign in).
+2. **Get the recap URL once:** in the automation Edge, open the Office Hours recap, copy the
+   address-bar URL. Open `run-recap.bat` and paste it into the `MEETING_URL=` line.
+3. **Test the auto flow by hand first** (only to you, no Bcc):
+   ```
+   run-recap.bat test
+   ```
+   Check `logs\` for the result. When that lands in your inbox correctly, you're ready.
+4. **Schedule it:** put this folder somewhere stable (e.g. `C:\Tools\office-hours-recap`),
+   edit `OfficeHoursRecap-Task.xml` — set the `<Command>` to the full path of `run-recap.bat`
+   and `<StartBoundary>` to your next Tuesday — then in an **admin** terminal:
+   ```
+   schtasks /create /tn "Office Hours Recap" /xml "OfficeHoursRecap-Task.xml"
+   ```
+   That fires `run-recap.bat` (LIVE: To + full Bcc + send) every Tuesday 5 PM.
+
+### Manual unattended command (what the schedule runs)
+
+```
+:: test (only mcutillo, no bcc)
+node send-recap.js --auto --meeting-url "<recap url>" --test --send
+:: live (to + full bcc)
+node send-recap.js --auto --meeting-url "<recap url>" --send
+```
+
 ## Flags
 
 | Flag | Meaning |
 |------|---------|
 | `--test` | To = `mcutillo@velocityhcm.com` only, **Bcc skipped**. Use this first. |
 | `--send` | Actually click **Send**. Without it, the script fills the email and stops so you can eyeball it. |
+| `--auto` | **Unattended**: the script clicks View recap → Share → Send to email itself. |
+| `--meeting-url <u>` | Required with `--auto`. The Teams recap/meeting link to open. |
+| `--require-body` / `--no-require-body` | Refuse to send if the body is empty. **Default ON** in `--auto`. |
+| `--screenshot-dir <p>` | Where failure screenshots go. Default `./logs`. |
 | `--date MM/DD/YYYY` | Date in the subject. Default = most recent Tuesday. |
 | `--to <email>` | Override the To recipient. |
 | `--port <n>` | CDP port (default `9222`, matches the .bat). |
 | `--bcc-file <path>` | Path to the raw Bcc list (default `office-hours-bcc-raw.txt`). |
 | `--keep-open` | Stay attached after finishing. |
+
+**Exit codes:** `0` ok · `2` no Edge on the port · `3` no compose tab · `4` Teams navigation failed (see screenshot) · `5` empty body, refused to send.
 
 ## What gets produced
 
@@ -100,9 +148,14 @@ node -e "const f=require('./send-recap.js')" 2>NUL & node -e "console.log(requir
 
 ## Notes / limits
 
-- This automates *your* authenticated browser; it is not headless and not unattended. For a fully
-  hands-off weekly send you'd want Microsoft Graph (`OnlineMeetingRecording.Read`,
-  `OnlineMeetingTranscript.Read`, `Mail.Send`) + a scheduled job — that needs tenant/admin consent,
-  which is out of scope here.
+- This automates *your* authenticated browser on *your* always-on PC — it is **not** a cloud
+  service. The truly bulletproof version (no PC, no session-expiry babysitting) would be Microsoft
+  Graph (`OnlineMeetingTranscript.Read`, `Mail.Send`) + a scheduled job, which needs tenant/admin
+  consent you don't have — so this browser-driven route is the best available substitute.
+- **Session expiry is the known weak point:** the Edge login lapses every few weeks and the run
+  will fail safe (sending nothing) until you sign in once. There is no way around this without Graph.
+- The Teams-side selectors (`View recap`, `Share`, `Send to email`) are best-effort until validated
+  on a live run; failures leave a screenshot + log in `logs\`. The empty-body guard means a broken
+  run won't blast a blank email to the list.
 - The script never closes your Edge; it only detaches when done (unless `--keep-open`).
-- It does not modify the email body, so the recording link / AI recap that Teams inserts is preserved.
+- It does not modify the email body, so the recap notes text Teams inserts is preserved as-is.

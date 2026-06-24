@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<!--
+  Windows Task Scheduler definition for the weekly Office Hours recap send.
+  Fires every Tuesday at 5:00 PM (after the 4:00 PM meeting).
+
+  IMPORT (one time), from this folder in an *admin* terminal:
+    schtasks /create /tn "Office Hours Recap" /xml "OfficeHoursRecap-Task.xml"
+
+  Before importing: edit the <Command> path below to the FULL path of run-recap.bat
+  on your PC, e.g.  C:\Tools\office-hours-recap\run-recap.bat
+  Also set <StartBoundary> to the next Tuesday on your calendar.
+
+  Notes:
+   - Runs only when you are logged on (needs your desktop session + Edge).
+   - "Wake the computer to run" is enabled so a sleeping PC still fires.
+-->
+<Task version="1.4" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task">
+  <RegistrationInfo>
+    <Description>Sends the weekly iCIMS Office Hours Teams recap email (recap text) to the distribution list.</Description>
+    <URI>\Office Hours Recap</URI>
+  </RegistrationInfo>
+  <Triggers>
+    <CalendarTrigger>
+      <StartBoundary>2026-06-30T17:00:00</StartBoundary>
+      <Enabled>true</Enabled>
+      <ScheduleByWeek>
+        <DaysOfWeek>
+          <Tuesday />
+        </DaysOfWeek>
+        <WeeksInterval>1</WeeksInterval>
+      </ScheduleByWeek>
+    </CalendarTrigger>
+  </Triggers>
+  <Principals>
+    <Principal id="Author">
+      <LogonType>InteractiveToken</LogonType>
+      <RunLevel>LeastPrivilege</RunLevel>
+    </Principal>
+  </Principals>
+  <Settings>
+    <MultipleInstancesPolicy>IgnoreNew</MultipleInstancesPolicy>
+    <DisallowStartIfOnBatteries>false</DisallowStartIfOnBatteries>
+    <StopIfGoingOnBatteries>false</StopIfGoingOnBatteries>
+    <AllowHardTerminate>true</AllowHardTerminate>
+    <StartWhenAvailable>true</StartWhenAvailable>
+    <RunOnlyIfNetworkAvailable>true</RunOnlyIfNetworkAvailable>
+    <AllowStartOnDemand>true</AllowStartOnDemand>
+    <Enabled>true</Enabled>
+    <Hidden>false</Hidden>
+    <WakeToRun>true</WakeToRun>
+    <ExecutionTimeLimit>PT15M</ExecutionTimeLimit>
+    <Priority>7</Priority>
+  </Settings>
+  <Actions Context="Author">
+    <Exec>
+      <Command>C:\Tools\office-hours-recap\run-recap.bat</Command>
+    </Exec>
+  </Actions>
+</Task>
