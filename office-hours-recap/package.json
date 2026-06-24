@@ -1,0 +1,14 @@
+{
+  "name": "office-hours-recap",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Automates filling + sending the iCIMS Office Hours Teams recap email via Outlook on the web (Playwright, attaches to your already-signed-in Edge).",
+  "main": "send-recap.js",
+  "scripts": {
+    "send": "node send-recap.js",
+    "postinstall": "playwright install msedge || true"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0"
+  }
+}
